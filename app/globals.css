@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap');
 @import 'tailwindcss';
 
-:root { --ink:#27362f; --green:#2f7258; --mint:#dceee3; --cream:#f8f4e8; --orange:#f3a54a; --line:#d9dfd8; }
+:root { --ink:#27362f; --green:#2f7258; --mint:#dceee3; --cream:#f8f4e8; --orange:#f3a54a; --line:#d9dfd8; --font-sans:'Noto Sans KR',Arial,sans-serif; }
 * { box-sizing:border-box; }
 html, body { margin:0; min-height:100%; background:#f7f5ef; color:var(--ink); }
-body { font-family:Arial, 'Noto Sans KR', sans-serif; }
+body, body * { font-family:var(--font-sans) !important; }
 button { font:inherit; }
 .app-shell { min-height:100vh; overflow:hidden; background:radial-gradient(circle at 18% 18%,#fff 0 3%,transparent 22%),#f7f5ef; }
 .topbar { height:84px; display:flex; align-items:center; justify-content:space-between; padding:0 clamp(26px,6vw,84px); border-bottom:1px solid #e0e2dc; }
