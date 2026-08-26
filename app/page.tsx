@@ -24,6 +24,7 @@ const PICTURES: Record<string, string> = {
 
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 const SWAPS: Record<string, string> = { b:'d',d:'b',p:'b',f:'v',v:'f',c:'k',k:'c',s:'z',z:'s',g:'j',j:'g',l:'r',r:'l',m:'n',n:'m',t:'d',h:'w',w:'h' };
+const ANSWER_REVEAL_MS = 3000;
 
 function seededShuffle<T>(items: T[], seed: number) {
   const copy = [...items]; let value = seed || 1;
@@ -61,7 +62,7 @@ function makeLetterCards(word: string, distractors: string[], seed: number) {
 function speak(word: string) {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US'; utterance.rate = 0.78;
+  utterance.lang = 'en-US'; utterance.rate = 0.62;
   utterance.voice = window.speechSynthesis.getVoices().find((voice) => voice.lang === 'en-US') ?? null;
   window.speechSynthesis.speak(utterance);
 }
@@ -122,7 +123,7 @@ export default function Home() {
     else {
       setRetryWords((words) => words.some((item) => item.word === current.word) ? words : [...words, current]);
       setMessage(`정답은 ${current.word}`); setStage('reveal'); speak(current.word);
-      setTimeout(() => { setStage('spelling'); setMessage('이제 철자를 직접 만들어 보세요.'); }, 1000);
+      setTimeout(() => { setStage('spelling'); setMessage('이제 철자를 직접 만들어 보세요.'); }, ANSWER_REVEAL_MS);
     }
   }
 
@@ -131,7 +132,7 @@ export default function Home() {
       const nextFails = spellingFails + 1; setSpellingFails(nextFails); setSelectedLetters([]);
       if (nextFails >= 5) {
         setRetryWords((words) => words.some((item) => item.word === current.word) ? words : [...words, current]);
-        setMessage(`정답은 ${current.word}`); setStage('reveal'); speak(current.word); setTimeout(() => nextQuestion(false), 1000);
+        setMessage(`정답은 ${current.word}`); setStage('reveal'); speak(current.word); setTimeout(() => nextQuestion(false), ANSWER_REVEAL_MS);
       } else setMessage(`처음부터 다시! ${5 - nextFails}번 더 도전할 수 있어요.`);
       return;
     }
