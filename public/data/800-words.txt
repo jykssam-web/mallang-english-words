@@ -1,0 +1,832 @@
+
+A
+bed  침대
+catch  잡다
+death  죽음
+fine  좋은, 잘
+hat  모자
+knife  칼, 나이프 
+must  ~해야 하다
+point  가리키다, 요점
+she  그녀
+take  가지고 가다
+up  위로, ~위에
+a/an  하나(의)
+bee  꿀벌, 벌
+center  중심, 가운데
+decide  결정하다
+finger  손가락
+hate  미워하다
+know  알고 있다 
+N
+police  경찰
+ship  배 
+talk  얘기하다
+use  사용(하다)
+about  ~에 대한, 대략
+beef  소고기
+certain  확실한, 어떤
+deep  깊은, 깊이
+finish  끝내다, 끝나다
+have  가지고 있다, 먹다
+L
+name  이름
+poor  가난한
+shirt  셔츠
+tall  키가 큰, 높은
+V
+above  ~보다 위에
+before  ~하기 전에
+chair  의자
+delicious  맛있는
+fire  불, 화재
+he  그, 그 남자
+lady  여자, 숙녀
+nation  국가, 나라
+potato  감자
+shoe  신발
+tape  테이프
+vegetable  채소
+across  ~의 건너편에
+begin  시작하다
+chance  기회, 가능성
+design  디자인(하다)
+first  첫째의, 우선
+head  머리, 가다
+lake  호수
+nature  자연, 본성
+power  힘, 권력
+shop  가게, 물건을 사다
+taste  맛이 나다 
+very  매우, 아주
+act  행동[연기]하다
+behind  ~의 뒤에
+change  변하다
+desk  책상
+fish  물고기, 낚시하다
+heart  하트(모양), 심장
+land  땅, 착륙하다
+near  ~의 가까이에
+present  선물, 현재
+short  짧은, 키가 작은
+taxi  택시
+video  비디오, 녹화
+add  더하다 
+believe  믿다
+cheap  값싼, 저렴한
+dialog/dialogue  대화
+five  5, 다섯
+heat  열(기), 데우다
+large  큰, 많은
+neck  목
+pretty  예쁜, 꽤
+should  ~해야 한다
+teach  가르치다
+violin  바이올린
+address  주소
+bell  종, 초인종
+check  확인하다
+die  죽다
+fix  고치다
+heavy  무거운
+laser  레이저
+need  필요하다
+prince  왕자
+show  보여주다
+team  (경기 등의) 팀
+visit  방문(하다)
+adult  어른, 성인
+below  ~이하의
+cheese  치즈
+difficult  어려운
+floor  바닥, 층
+hello/hi  안녕(하세요)
+last  마지막, 지난
+never  결코 ~않다
+print  인쇄(하다)
+shy  수줍어하는
+telephone/phone  전화
+voice  목소리
+afraid  두려워하는
+belt  허리띠, 벨트
+chicken  닭(고기)
+dinner  저녁 식사
+flower  꽃
+helmet  헬멧
+late  늦은, 늦게
+new  새로운
+problem  문제
+sick  아픈
+television/TV  텔레비전
+W
+after  ~한 후에
+beside  ~옆에
+child  아이
+discuss  논의하다
+fly  날다, 파리
+help  돕다, 도움
+lazy  게으른
+news  소식, 뉴스
+program  프로그램
+side  쪽, 옆면
+tell  말하다
+wait  기다리다
+afternoon  오후
+between  ~의 사이에
+chocolate  초콜릿
+do  ~을 하다
+focus  집중하다
+here  여기(에)
+learn  배우다
+newspaper  신문
+project  프로젝트
+sing  노래하다
+ten  10, 열
+wake  (잠에서) 깨다
+again  다시
+big  큰, 커다란
+choose  선택하다
+doctor  의사, 박사
+food  음식, 식품
+hero  영웅, 히어로
+left  왼쪽(의)
+next  다음의, 옆의
+puppy  강아지
+sister  여자 형제
+tennis  테니스
+walk  걷다, 산책하다
+against  ~에 반대하여
+bike  자전거
+church  교회
+dog  개 
+fool  바보, 속이다
+high  높은, 높이
+leg  다리
+nice  좋은, 친절한
+push  밀다
+sit  앉다
+tent  텐트, 천막
+wall  벽, 담
+age  나이
+bill  계산서, 지폐
+circle  원, 동그라미
+doll  인형
+foot  발
+hike  하이킹(가다)
+lesson  수업, 교훈
+night  밤
+put  놓다, 두다
+six  6, 여섯
+test  시험,  검사하다
+want  원하다
+ago  [시간] ~전에 
+bird  새
+city  도시
+door  문
+football  (미식)축구
+hill  언덕
+letter  편지, 글자
+nine  9, 아홉
+Q
+size  크기, 사이즈
+textbook  교과서
+war  전쟁
+agree  동의하다
+birth  출생, 출산
+class  수업, 학급
+double  두 배(의)
+for  ~동안, ~을 위해
+history  역사
+library  도서관, 서재
+no  아니, 안 돼
+queen  여왕
+skate  스케이트
+than  ~보다
+warm  따뜻한, 데우다
+ahead  앞에, 미리
+biscuit  비스킷
+clean  청소하다, 깨끗한
+doughnut/donut  도넛
+forest  숲
+hit  때리다, 치다
+lie  거짓말(하다)
+north  북쪽(의)
+question  질문
+ski  스키
+thank  감사하다
+wash  씻다
+air  공기, 대기
+black  검은(색)
+clear  맑은, 분명한
+down  아래에, 아래로
+forget  잊다
+hobby  취미
+life  인생, 생명
+nose  코
+quick  빠른
+skin  피부, 껍질
+that  저, 저 사람, 저것
+watch  보다, 손목시계
+airplane/plane  비행기
+blood  피, 혈액
+clever  똑똑한
+draw  그리다
+fork  포크
+hold  잡다, (회의를) 열다
+light  빛, 가벼운
+not  ~이 아니다
+quiet  조용한
+skirt  치마, 스커트
+the  그
+water  물, 물을 주다
+album  사진첩, 앨범
+blue  파란(색)
+climb  오르다, 등반하다
+dream  꿈(을 꾸다)
+form  서식(양식)
+holiday  휴가, 휴일
+like  좋아하다, ~처럼
+note  메모, 쪽지
+quiz  퀴즈, 시험
+sky  하늘
+there  저기에, 그곳에
+watermelon  수박
+all  모든, 모두
+board  게시판, 판자
+clock  (벽에 거는) 시계
+dress  드레스, 옷
+four  4, 넷
+home  집(으로)
+line  선, 줄
+notebook  공책, 노트
+R
+sleep  잠을 자다
+they  그들, 그것들
+way  길, 방법
+almost  거의
+boat  배, 보트
+close  닫다, 가까운
+drink  마시다, 마실 것
+fox  여우
+homework  숙제
+lion  사자
+nothing  아무것도 ~아니다
+rabbit  토끼
+slow  느린, 느리게
+thing  [사물] 것, 물건
+we  우리
+alone  혼자(인)
+body  몸, 신체
+clothes  옷
+drive  운전하다
+free  무료의, 자유로운
+honest  정직한, 솔직한
+lip  입술
+now  지금, 이제
+race  경주(하다)
+small  작은
+think  생각하다
+wear  (옷 등을) 입고 있다
+along  ~을 따라서
+bone  뼈
+cloud  구름
+drop  떨어뜨리다
+fresh  신선한
+hope  희망(하다)
+listen  듣다
+number  수, 숫자
+radio  라디오
+smell  냄새가 나다
+third  세 번째(의)
+weather  날씨
+already  이미, 벌써
+book  책
+club  동호회, 동아리
+drum  북, 드럼
+friend  친구
+horse  말
+little  약간의, 어린
+nurse  간호사
+rain  비가 오다
+smile  미소 짓다
+thirsty  갈증이 나는
+website  웹사이트
+alright  괜찮은, 좋은
+borrow  빌리다
+coat  외투, 코트
+dry  말리다, 건조한
+from  ~로부터
+hospital  병원
+live  살다
+O
+read  읽다
+snow  눈(이 오다)
+thirteen  13, 열셋
+wedding  결혼, 결혼식
+also  또한, ...도
+both  둘 다(의)
+coffee  커피
+duck  오리
+front  앞쪽(의)
+hot  뜨거운, 매운
+long  긴, 오랫동안
+of  ~중의
+ready  준비가 된
+so  매우, 그래서
+thirty  30, 서른
+week  일주일, 주
+always  항상, 언제나
+bottle  병
+cold  추운, 감기
+during  ~동안
+fruit  과일
+hour  시간
+look  보다, ~해 보이다
+off  ~에서 떨어져
+recreation  오락
+soccer  축구
+this  이, 이것, 이 사람
+weekend  주말
+and  그리고, ~와
+bottom  맨 아래
+collect  모으다
+E
+full  가득 찬, 배부른
+house  집
+love  사랑(하다)
+office  사무실
+red  붉은, 빨간색
+sock  양말
+three  3, 셋
+weight  체중, 무게
+animal  동물
+box  상자
+college  대학
+ear  귀
+fun  재미(있는)
+how  어떻게, 얼마나
+low  낮은, 낮게
+often  자주, 종종
+remember  기억하다
+soft  부드러운
+ticket  표, 입장권
+welcome  환영(하다)
+another  또 하나의, 다른
+boy  소년, 남자아이
+color  색(깔), 색칠하다
+early  일찍, 빨리
+future  미래
+however  하지만
+luck  행운
+oil  기름, 석유
+restaurant  음식점, 식당
+software  소프트웨어
+tiger  호랑이
+well  잘, 좋게, 우물
+answer  대답(하다)
+brave  용감한
+come  오다
+earth  지구
+G
+human  인간
+lunch  점심 식사
+okay / OK  오케이, 그래
+restroom  화장실
+some  약간의, 조금
+time  시간, 시각
+west  서쪽(의)
+any  무슨, 어떤
+bread  빵
+comic  웃기는
+east  동쪽(의)
+game  게임, 경기
+hundred  100, 백
+M
+old  나이 많은, 오래된
+return  돌아가다
+son  아들
+tired  피곤한
+wet  젖은
+apartment  아파트
+break  깨뜨리다
+company  회사, 동료
+eat  먹다
+garden  정원
+hunt  사냥(하다)
+mad  화가 난, 미친
+on  ~의 위에
+ribbon  리본
+song  노래
+to  ~(으)로, ~까지
+what  무엇, 무슨, 몇
+apple  사과
+breakfast  아침 식사
+compute  계산하다
+egg  알, 달걀
+gas  기체, 가스
+hurry  서두르다
+mail  우편(으로 보내다)
+one  1, 하나 
+rich  부유한, 부자인
+sorry  미안한
+today  오늘
+when  언제, ~할 때
+area  지역, 구역
+bridge  다리
+condition  상태, 조건
+eight  8, 여덟
+gentleman  신사, 남자분
+husband  남편
+make  만들다
+only  유일한, 오직
+right  오른쪽, 옳은
+sound 소리,~하게 들리다
+together  함께
+where  어디에
+arm  팔
+bright  밝은
+congratulate  축하하다
+elephant  코끼리
+get  얻다, 받다
+I
+man  남자
+open  열다, 열려 있는
+ring  반지, ~이 울리다
+soup  수프
+tomato  토마토
+white  흰색(의)
+around  ~의 주위에
+bring  가져오다
+control  통제[조절]하다
+eleven  11, 열하나
+girl  여자아이, 소녀
+I  나
+many  많은
+or  혹은, 또는
+river  강
+south  남쪽(의)
+tomorrow  내일
+who  누구
+arrive  도착하다
+brother  남자 형제
+cook  요리하다, 요리사
+end  끝, 끝내다
+give  주다
+ice  얼음
+map  지도
+orange  오렌지
+road  길, 도로
+space  공간, 우주
+tonight  오늘 밤(에)
+why  왜
+art  예술, 미술
+brown  갈색(의)
+cookie  쿠키
+energy  힘, 에너지
+glad  기쁜
+idea  생각, 아이디어
+marathon  마라톤
+out  밖으로, 밖에
+robot  로봇
+spaghetti  스파게티
+too  ~도 또한, 너무
+wife  아내, 와이프
+as  ~할 때, ~로서 
+brush  붓, 솔
+cool  시원한, 멋진
+enough  충분한, 충분히
+glass  유리(잔)
+if  만약 ~라면
+market  시장
+over  ~위에, ~너머로
+rock  바위, 록(음악)
+speak  말하다
+tooth  치아, 이
+will  ~할 것이다
+ask  질문[요청]하다
+build  짓다
+corner  구석, 모서리
+enter  ~에 들어가다
+go  가다
+image  이미지, 인상
+marry  ~와 결혼하다
+P
+room  방
+speed  속도
+top  정상, 맨 위
+win  이기다
+at  ~에, ~에서
+burn  (불에) 태우다
+cost  (비용이) 들다
+evening  저녁
+goal  목표, 득점
+in  ~(안)에
+mathematics/math  수학
+page  페이지, 쪽
+rose  장미
+spoon  숟가락
+touch  만지다
+wind  바람
+aunt  고모, 이모
+bus  버스
+could  can의 과거형
+every  모든, ~마다
+god  하느님, 신
+inside  ~안으로, 내부
+may  ~일지도 모른다
+paint  그림을 그리다
+run  달리다
+sport  운동, 스포츠
+town  작은 도시, 마을
+window  창문
+autumn  가을
+business  사업
+country  나라, 시골
+example  예, 예시
+gold  금
+internet  인터넷
+meat  고기
+pants  바지
+S
+spring  봄
+toy  장난감
+wine  포도주, 와인
+away  떨어져서
+busy  바쁜, 혼잡한
+couple  한 쌍, 커플
+exercise  운동(하다)
+good  좋은, 괜찮은
+into  ~(안)으로
+medal  메달
+paper  종이
+sad  슬픈
+staff  직원
+track  경주로, 트랙
+winter  겨울
+B
+but  하지만
+course  강좌, 과정
+eye  눈
+goodbye 안녕(작별 인사)
+introduce  소개하다
+meet  만나다
+parents  부모
+safe  안전한, 금고
+stand  서다, 일어서다
+train  기차, 훈련하다
+wish  바라다, 소원
+baby  아기
+butter  버터
+court  경기장, 법정
+F
+grandfather  할아버지
+invite  초대하다
+member  구성원, 멤버
+park  공원, 주차하다
+salad  샐러드
+star  별
+travel  여행(하다)
+with  ~와 함께
+back  뒤로, 등
+button  단추, 버튼
+cousin  사촌
+face  얼굴, 마주보다
+grape  포도
+issue  쟁점, 문제
+memory  기억, 추억
+part  부분, 일부
+sale  판매, 할인
+start  시작(하다)
+tree  나무
+woman  여자, 여성
+bad  나쁜, 안 좋은
+buy  구입하다
+cover  덮다, 덮개
+fact  사실
+grass  풀, 잔디
+it  그것
+middle  가운데
+partner  동반자, 파트너
+salt  소금
+stay  머무르다
+trip  여행
+wood  나무
+badminton  배드민턴
+by  ~의 옆에, ~까지
+cow  암소, 젖소
+fail  실패하다
+gray/grey  회색(의)
+J
+might  ~인 것 같다
+party  파티, 정당
+same  같은
+steak  스테이크
+truck  트럭
+word  단어
+bag  가방
+C
+crayon  크레파스
+fall  떨어지다, 가을
+great  큰, 위대한
+jacket  재킷, 상의
+milk  우유
+pass  지나가다, 건네주다
+sand  모래
+stone  돌, 돌멩이
+true  사실의, 진짜의
+work  일하다, 작품
+bake  굽다
+cake  케이크
+cream  크림(색)
+family  가족
+green  초록색(의)
+jam  잼, 혼잡
+mind  마음, 꺼리다
+pay  지불하다
+sandwich  샌드위치
+stop  멈추다
+try  노력[시도]하다
+world  세계, 세상
+ball  공
+call  전화하다
+cross  건너다
+fan  선풍기, 팬
+ground  땅, 기초
+job  직업, 직장, 일
+miss  그리워하다, 놓치다
+pen  펜
+save  구하다, 저축하다
+store  가게, 상점
+turn  돌다, 차례
+worry  걱정(하다)
+banana  바나나
+camera  카메라
+cry  울다, 외치다
+far  먼, 멀리
+group  모둠, 모이다
+join  가입하다
+model  모델, 모형
+pencil  연필
+say  말하다
+story  이야기
+twelve  12, 열둘
+write  쓰다, 적다
+bank  은행
+camp  야영지, 캠프
+culture  문화
+farm  농장
+grow  자라다, 기르다
+juice  주스, 액
+money  돈
+people  사람들, 국민
+school  학교
+street  거리, 도로
+twenty  20, 스물
+wrong  틀린, 잘못된
+base  맨 아랫부분
+campaign  캠페인
+cup  컵, 잔
+fast  빠르게, 빠른
+guess  추측(하다)
+jump  점프하다, 뛰기
+monkey  원숭이
+piano  피아노
+science  과학
+strong  강한, 힘센
+twenty-first  21번째의
+Y
+baseball  야구
+can  ~할 수 있다, 캔
+curtain  커튼
+fat  뚱뚱한, 지방
+guitar  [악기]기타
+just  방금, 단지
+month  달(월), 개월
+pick  고르다, 따다
+scissors  가위
+study  공부하다
+twenty-second  22번째의
+year  해, 년(연)
+basket  바구니
+candy  사탕, 캔디
+customer  손님, 고객
+father/dad 아버지, 아빠
+gum  껌, 잇몸
+K
+moon  달
+picture  사진, 그림
+score  득점(하다)
+style  스타일, 유행
+twenty-third  23번째의
+yellow  노란색(의)
+basketball  농구
+cap  모자
+cut  자르다
+favorite  가장 좋아하는
+guy  남자, 녀석
+keep  유지하다, 보관하다
+morning  아침, 오전
+pig  돼지
+sea  바다
+subway  지하철
+twice  두 번
+yes/yep  응, 그래
+bat  박쥐, 방망이
+car  자동차
+D
+feel  느끼다
+H
+key  열쇠, 핵심적인
+mother/mom 어머니, 엄마
+pilot  조종사
+season  계절
+sugar  설탕
+two  2, 둘
+yesterday  어제
+bath  목욕
+card  카드, 명함
+dance  춤추다, 춤
+festival  축제
+habit  습관
+kick  차다, 차기
+mountain  산
+pink  분홍색(의)
+second  둘째의, 초
+summer  여름
+type  종류, 유형
+you  너, 너희
+be  ~이다, ~에 있다
+care  돌보다, 상관하다
+danger  위험
+field  들판, 경기장
+hair  머리카락
+kid  아이, 어린이
+mouse 생쥐,(컴퓨터)마우스
+pizza  피자
+see  보다, 이해하다
+sun  태양, 햇빛
+U
+young  어린, 젊은
+beach  바닷가, 해변
+carrot  당근
+dark  어두운, 어둠
+fight  싸우다, 싸움
+hamburger  햄버거
+kill  죽이다
+mouth  입
+place  장소, 놓다
+sell  팔다
+sure  확신하는
+ugly  못생긴
+Z
+bear  곰
+carry  ~을 나르다
+date  날짜, 데이트
+file  파일, 정보
+hand  손, 건네주다
+kind  친절한, 종류
+move  움직이다
+plan  계획(하다)
+send  보내다
+swim  수영하다
+umbrella  우산
+zoo  동물원
+beauty  아름다움
+case  상자, 경우
+daughter  딸
+fill  채우다
+hang  걸다, 매달다
+king  왕
+movie  영화
+plastic  플라스틱
+service  서비스, 봉사
+T
+uncle  (외)삼촌
+
+
+because  ~때문에
+cash  현금
+day  날, 하루
+film  영화, 필름  
+happy  행복한
+kiss  키스(하다)
+much  많이, (양이) 많은
+play  경기하다, 연주하다
+set  놓다, 맞추다
+table  탁자, 테이블
+under  ~의 아래에
+
+
+become  ~이 되다
+cat  고양이
+dead  죽은, 다 닳은
+find  찾다, 발견하다
+hard  어려운, 힘든
+kitchen  주방, 부엌
+music  음악
+please  제발, 기쁘게 하다
+seven  7, 일곱
+tail  꼬리
+understand  이해하다
+
+
