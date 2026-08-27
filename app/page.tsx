@@ -64,8 +64,11 @@ function makeLetterCards(word: string, seed: number) {
 function speak(word: string) {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US'; utterance.rate = 0.62;
-  utterance.voice = window.speechSynthesis.getVoices().find((voice) => voice.lang === 'en-US') ?? null;
+  utterance.lang = 'en-US'; utterance.rate = 0.78; utterance.pitch = 1;
+  const voices = window.speechSynthesis.getVoices();
+  const voice = voices.find((item) => /^en-US$/i.test(item.lang) && /(natural|google|samantha|aria|jenny|zira|david)/i.test(item.name))
+    ?? voices.find((item) => /^en-US$/i.test(item.lang));
+  if (voice) utterance.voice = voice;
   window.speechSynthesis.speak(utterance);
 }
 
