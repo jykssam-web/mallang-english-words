@@ -24,6 +24,11 @@ const PICTURES: Record<string, string> = {
 
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 const SWAPS: Record<string, string> = { b:'d',d:'b',p:'b',f:'v',v:'f',c:'k',k:'c',s:'z',z:'s',g:'j',j:'g',l:'r',r:'l',m:'n',n:'m',t:'d',h:'w',w:'h' };
+const LETTER_PAIRS: Record<string, string> = {
+  a: 'e', b: 'd', c: 's', d: 'b', e: 'a', f: 'v', g: 'q', h: 'n', i: 'e',
+  j: 'g', k: 'x', l: 'r', m: 'n', n: 'm', o: 'u', p: 'b', q: 'g', r: 'l',
+  s: 'c', t: 'd', u: 'o', v: 'f', w: 'm', x: 'k', y: 'v', z: 's',
+};
 const ANSWER_REVEAL_MS = 3000;
 
 function seededShuffle<T>(items: T[], seed: number) {
@@ -51,12 +56,9 @@ function makeDistractors(word: string) {
   return [...variants].filter((item) => item.length >= 2).slice(0, 3);
 }
 
-function makeLetterCards(word: string, distractors: string[], seed: number) {
-  const needed = [...word]; const extras: string[] = [];
-  distractors.forEach((item) => [...item].forEach((letter) => { if (!needed.includes(letter) && !extras.includes(letter)) extras.push(letter); }));
-  const count = Math.min(4, Math.max(2, Math.ceil(word.length / 2)));
-  for (const letter of 'aeiourstlnd') { if (extras.length >= count) break; if (!needed.includes(letter) && !extras.includes(letter)) extras.push(letter); }
-  return seededShuffle([...needed, ...extras.slice(0, count)].map((letter, id) => ({ id, letter })), seed);
+function makeLetterCards(word: string, seed: number) {
+  const cards = [...word.toLowerCase()].flatMap((letter) => [letter, LETTER_PAIRS[letter] ?? 'x']);
+  return seededShuffle(cards.map((letter, id) => ({ id, letter })), seed);
 }
 
 function speak(word: string) {
@@ -98,7 +100,7 @@ export default function Home() {
   const current = session[index] ?? DEMO_WORDS[0];
   const distractors = useMemo(() => makeDistractors(current.word), [current]);
   const options = useMemo(() => seededShuffle([current.word, ...distractors], current.word.length * 31 + index), [current, distractors, index]);
-  const cards = useMemo(() => makeLetterCards(current.word, distractors, index * 17 + current.word.length), [current, distractors, index]);
+  const cards = useMemo(() => makeLetterCards(current.word, index * 17 + current.word.length), [current, index]);
 
   function startLearning() {
     const today = new Date().toISOString().slice(0, 10);
@@ -117,13 +119,13 @@ export default function Home() {
     if (option === current.word) {
       if (attempt === 0) setKnown((value) => value + 1);
       setMessage('정답이에요! 이제 철자를 만들어 볼까요?');
-      setTimeout(() => { setStage('spelling'); setMessage('알파벳 카드를 순서대로 눌러 보세요.'); }, 650); return;
+      setTimeout(() => { setStage('spelling'); setMessage('각 철자마다 두 장의 카드가 있어요. 순서대로 골라 보세요.'); }, 650); return;
     }
     if (attempt === 0) { setAttempt(1); setDisabledOptions([option]); setMessage('괜찮아요. 소리를 다시 듣고 한 번 더 골라 보세요.'); speak(current.word); }
     else {
       setRetryWords((words) => words.some((item) => item.word === current.word) ? words : [...words, current]);
       setMessage(`정답은 ${current.word}`); setStage('reveal'); speak(current.word);
-      setTimeout(() => { setStage('spelling'); setMessage('이제 철자를 직접 만들어 보세요.'); }, ANSWER_REVEAL_MS);
+      setTimeout(() => { setStage('spelling'); setMessage('각 철자마다 두 장의 카드가 있어요. 순서대로 골라 보세요.'); }, ANSWER_REVEAL_MS);
     }
   }
 
