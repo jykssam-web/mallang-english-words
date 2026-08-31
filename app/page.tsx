@@ -65,8 +65,8 @@ const SENTENCES: Record<string, SentenceLesson> = {
   kitchen: { sentence: 'Mom is in the kitchen.', orderHint: '엄마는 | 있다 | 그 주방에', translation: '엄마는 주방에 있다.' },
 };
 
-function sentenceFor(word: Word): SentenceLesson {
-  return SENTENCES[word.word] ?? {
+function sentenceFor(word: Word, lessons: Record<string, SentenceLesson>): SentenceLesson {
+  return lessons[word.word] ?? SENTENCES[word.word] ?? {
     sentence: `I can say the word ${word.word}.`,
     orderHint: '나는 | 말할 수 있다 | 그 단어를',
     translation: `나는 “${word.word}”라는 단어를 말할 수 있다.`,
@@ -122,20 +122,20 @@ function speakWithBrowser(word: string, rate = 0.78) {
 }
 
 function playPronunciation(word: string) {
-  if (typeof window === 'undefined') return;
-
-  // Recorded files play consistently across phones and computers. The browser
-  // voice remains a fallback until every word has its recorded file.
-  activeAudio?.pause();
-  const audio = new Audio(`/audio/words/${audioFileName(word)}.wav`);
-  activeAudio = audio;
-  audio.addEventListener('error', () => speakWithBrowser(word), { once: true });
-  void audio.play().catch(() => speakWithBrowser(word));
+  playRecordedAudio(`/audio/words/${audioFileName(word)}.wav`, word, 0.78);
 }
 
-function playSentence(sentence: string) {
-  // Sentences deliberately use a slower pace so children can repeat each part.
-  speakWithBrowser(sentence, 0.58);
+function playRecordedAudio(source: string, fallbackText: string, fallbackRate: number) {
+  if (typeof window === 'undefined') return;
+  activeAudio?.pause();
+  const audio = new Audio(source);
+  activeAudio = audio;
+  audio.addEventListener('error', () => speakWithBrowser(fallbackText, fallbackRate), { once: true });
+  void audio.play().catch(() => speakWithBrowser(fallbackText, fallbackRate));
+}
+
+function playSentence(word: string, sentence: string) {
+  playRecordedAudio(`/audio/sentences/${audioFileName(word)}.wav`, sentence, 0.58);
 }
 
 function dateAfter(days: number) {
@@ -152,6 +152,7 @@ export default function Home() {
   const [sentenceIndex, setSentenceIndex] = useState(0);
   const [sentenceLetters, setSentenceLetters] = useState<{ id: number; letter: string }[]>([]);
   const [sentenceMessage, setSentenceMessage] = useState('문장을 듣고, 빈칸에 알맞은 단어를 만들어 보세요.');
+  const [sentenceLessons, setSentenceLessons] = useState<Record<string, SentenceLesson>>(SENTENCES);
   const [known, setKnown] = useState(0); const [message, setMessage] = useState('소리를 듣고 알맞은 단어를 골라 보세요.');
   const [progress, setProgress] = useState({ exposed: 0, mastered: 0, streak: 1 });
   const [records, setRecords] = useState<Record<string, LearningRecord>>({});
@@ -162,6 +163,10 @@ export default function Home() {
         const match = line.match(/^(\S+)\s+(.+)$/); return match ? { word: match[1].toLowerCase(), meaning: match[2].trim() } : null;
       }).filter((item): item is Word => Boolean(item));
       if (parsed.length === 800) setAllWords(parsed);
+    }).catch(() => undefined);
+    fetch('/data/sentence-lessons.json').then((response) => response.ok ? response.json() : []).then((items: Array<SentenceLesson & { word: string }>) => {
+      const loaded = Object.fromEntries(items.filter((item) => item.word && item.sentence && item.orderHint && item.translation).map((item) => [item.word.toLowerCase(), item]));
+      if (Object.keys(loaded).length) setSentenceLessons((current) => ({ ...current, ...loaded }));
     }).catch(() => undefined);
     queueMicrotask(() => {
       const saved = localStorage.getItem('word-garden-progress'); if (saved) setProgress(JSON.parse(saved));
@@ -176,7 +181,7 @@ export default function Home() {
   const sentenceSession = session.slice(0, 10);
   const sentenceWord = sentenceSession[sentenceIndex] ?? DEMO_WORDS[0];
   const sentenceWordText = sentenceWord.word;
-  const sentenceLesson = sentenceFor(sentenceWord);
+  const sentenceLesson = sentenceFor(sentenceWord, sentenceLessons);
   const sentenceCards = makeLetterCards(sentenceWordText, sentenceIndex * 41 + sentenceWordText.length);
   const [sentenceStart, sentenceEnd = ''] = sentenceLesson.sentence.split(sentenceWordText);
 
@@ -284,7 +289,7 @@ export default function Home() {
         <p className="word-order-hint">{sentenceLesson.orderHint}</p>
         <p className="sentence-english"><span>{sentenceStart}</span><strong>{sentenceLetters.map((card) => card.letter).join('') || '____'}</strong><span>{sentenceEnd}</span></p>
         <p className="sentence-translation">{sentenceLesson.translation}</p>
-        <button type="button" className="speaker-button sentence-speaker" onClick={() => playSentence(sentenceLesson.sentence)} aria-label={`${sentenceLesson.sentence} 문장 발음 듣기`}><span>🔊</span> 천천히 문장 듣기</button>
+        <button type="button" className="speaker-button sentence-speaker" onClick={() => playSentence(sentenceWordText, sentenceLesson.sentence)} aria-label={`${sentenceLesson.sentence} 문장 발음 듣기`}><span>🔊</span> 천천히 문장 듣기</button>
         <p className="instruction sentence-instruction">{sentenceMessage}</p>
         <div className="letter-bank">{sentenceCards.map((card) => { const used = sentenceLetters.some((selected) => selected.id === card.id); return <button key={card.id} disabled={used} onClick={() => chooseSentenceLetter(card)}>{card.letter}</button>; })}</div>
       </section>
