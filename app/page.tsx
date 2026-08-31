@@ -24,9 +24,6 @@ const PICTURES: Record<string, string> = {
 
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 const SWAPS: Record<string, string> = { b:'d',d:'b',p:'b',f:'v',v:'f',c:'k',k:'c',s:'z',z:'s',g:'j',j:'g',l:'r',r:'l',m:'n',n:'m',t:'d',h:'w',w:'h' };
-const pronunciationCache = new Map<string, string>();
-const recordedAudioCache = new Map<string, HTMLAudioElement>();
-let activeAudio: HTMLAudioElement | null = null;
 const LETTER_PAIRS: Record<string, string> = {
   a: 'e', b: 'd', c: 's', d: 'b', e: 'a', f: 'v', g: 'q', h: 'n', i: 'e',
   j: 'g', k: 'x', l: 'r', m: 'n', n: 'm', o: 'u', p: 'b', q: 'g', r: 'l',
@@ -64,56 +61,16 @@ function makeLetterCards(word: string, seed: number) {
   return seededShuffle(cards.map((letter, id) => ({ id, letter })), seed);
 }
 
-async function loadRecordedPronunciation(word: string) {
-  const cached = pronunciationCache.get(word);
-  if (cached) return cached;
-  try {
-    const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`);
-    if (!response.ok) return null;
-    const entries = await response.json() as { phonetics?: { audio?: string }[] }[];
-    const audioUrls = entries.flatMap((entry) => entry.phonetics ?? []).map((item) => item.audio ?? '').filter(Boolean);
-    const selected = audioUrls.find((url) => /(?:-|_)us(?:-|_|\.)/i.test(url)) ?? audioUrls[0];
-    if (!selected) return null;
-    const normalized = selected.startsWith('//') ? `https:${selected}` : selected;
-    pronunciationCache.set(word, normalized);
-    return normalized;
-  } catch { return null; }
-}
-
-async function preloadRecordedPronunciation(word: string) {
-  if (recordedAudioCache.has(word)) return;
-  const url = await loadRecordedPronunciation(word);
-  if (!url) return;
-  const audio = new Audio(url);
-  audio.preload = 'auto';
-  audio.load();
-  recordedAudioCache.set(word, audio);
-}
-
-function playRecordedPronunciation(word: string) {
-  const audio = recordedAudioCache.get(word);
-  if (!audio) return false;
-  activeAudio?.pause(); activeAudio = audio; audio.currentTime = 0;
-  void audio.play().catch(() => speak(word));
-  return true;
-}
-
 function speak(word: string) {
-  if (typeof window === 'undefined') return;
-  if (!('speechSynthesis' in window)) return;
-  const synthesis = window.speechSynthesis;
-  synthesis.cancel(); synthesis.resume();
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(word);
   utterance.lang = 'en-US'; utterance.rate = 0.78; utterance.pitch = 1;
-  const voices = synthesis.getVoices();
+  const voices = window.speechSynthesis.getVoices();
   const voice = voices.find((item) => /^en-US$/i.test(item.lang) && /(natural|google|samantha|aria|jenny|zira|david)/i.test(item.name))
     ?? voices.find((item) => /^en-US$/i.test(item.lang));
   if (voice) utterance.voice = voice;
-  synthesis.speak(utterance);
-}
-
-function playPronunciation(word: string) {
-  if (!playRecordedPronunciation(word)) speak(word);
+  window.speechSynthesis.speak(utterance);
 }
 
 function dateAfter(days: number) {
@@ -145,7 +102,6 @@ export default function Home() {
   }, []);
 
   const current = session[index] ?? DEMO_WORDS[0];
-  useEffect(() => { void preloadRecordedPronunciation(current.word); }, [current.word]);
   const distractors = useMemo(() => makeDistractors(current.word), [current]);
   const options = useMemo(() => seededShuffle([current.word, ...distractors], current.word.length * 31 + index), [current, distractors, index]);
   const cards = useMemo(() => makeLetterCards(current.word, index * 17 + current.word.length), [current, index]);
@@ -235,7 +191,7 @@ export default function Home() {
     <main className="app-shell lesson-screen">
       <header className="lesson-header"><button className="round-button" onClick={() => setStage('home')} aria-label="학습 나가기">×</button><div className="lesson-progress"><i style={{ width: `${((index + 1) / session.length) * 100}%` }}/></div><span className="step-count">{Math.min(index + 1, 10)} / {Math.min(session.length, 10)}</span></header>
       <section className="lesson-card">
-        <div className="prompt-side"><span className="picture-frame" role="img" aria-label={current.meaning}>{PICTURES[current.word] ?? '🌟'}</span><h1>{current.meaning.split(',')[0]}</h1><button type="button" className="speaker-button" onClick={() => playPronunciation(current.word)} aria-label={`${current.word} 발음 듣기`}><span>🔊</span> 소리 듣기</button></div>
+        <div className="prompt-side"><span className="picture-frame" role="img" aria-label={current.meaning}>{PICTURES[current.word] ?? '🌟'}</span><h1>{current.meaning.split(',')[0]}</h1><button type="button" className="speaker-button" onClick={() => speak(current.word)} aria-label={`${current.word} 발음 듣기`}><span>🔊</span> 소리 듣기</button></div>
         <div className="answer-side"><p className="instruction">{message}</p>
           {stage === 'choice' && <div className="option-grid">{options.map((option) => <button key={option} disabled={disabledOptions.includes(option)} onClick={() => chooseOption(option)} className={disabledOptions.includes(option) ? 'wrong-option' : ''}>{option}</button>)}</div>}
           {stage === 'reveal' && <div className="answer-reveal">{current.word}</div>}
