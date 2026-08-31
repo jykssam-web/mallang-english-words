@@ -61,7 +61,13 @@ function makeLetterCards(word: string, seed: number) {
   return seededShuffle(cards.map((letter, id) => ({ id, letter })), seed);
 }
 
-function speak(word: string) {
+let activeAudio: HTMLAudioElement | null = null;
+
+function audioFileName(word: string) {
+  return word.toLowerCase().replace(/[^a-z0-9-]/g, '_');
+}
+
+function speakWithBrowser(word: string) {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(word);
@@ -71,6 +77,18 @@ function speak(word: string) {
     ?? voices.find((item) => /^en-US$/i.test(item.lang));
   if (voice) utterance.voice = voice;
   window.speechSynthesis.speak(utterance);
+}
+
+function playPronunciation(word: string) {
+  if (typeof window === 'undefined') return;
+
+  // Recorded files play consistently across phones and computers. The browser
+  // voice remains a fallback until every word has its recorded file.
+  activeAudio?.pause();
+  const audio = new Audio(`/audio/words/${audioFileName(word)}.wav`);
+  activeAudio = audio;
+  audio.addEventListener('error', () => speakWithBrowser(word), { once: true });
+  void audio.play().catch(() => speakWithBrowser(word));
 }
 
 function dateAfter(days: number) {
@@ -191,7 +209,7 @@ export default function Home() {
     <main className="app-shell lesson-screen">
       <header className="lesson-header"><button className="round-button" onClick={() => setStage('home')} aria-label="학습 나가기">×</button><div className="lesson-progress"><i style={{ width: `${((index + 1) / session.length) * 100}%` }}/></div><span className="step-count">{Math.min(index + 1, 10)} / {Math.min(session.length, 10)}</span></header>
       <section className="lesson-card">
-        <div className="prompt-side"><span className="picture-frame" role="img" aria-label={current.meaning}>{PICTURES[current.word] ?? '🌟'}</span><h1>{current.meaning.split(',')[0]}</h1><button type="button" className="speaker-button" onClick={() => speak(current.word)} aria-label={`${current.word} 발음 듣기`}><span>🔊</span> 소리 듣기</button></div>
+        <div className="prompt-side"><span className="picture-frame" role="img" aria-label={current.meaning}>{PICTURES[current.word] ?? '🌟'}</span><h1>{current.meaning.split(',')[0]}</h1><button type="button" className="speaker-button" onClick={() => playPronunciation(current.word)} aria-label={`${current.word} 발음 듣기`}><span>🔊</span> 소리 듣기</button></div>
         <div className="answer-side"><p className="instruction">{message}</p>
           {stage === 'choice' && <div className="option-grid">{options.map((option) => <button key={option} disabled={disabledOptions.includes(option)} onClick={() => chooseOption(option)} className={disabledOptions.includes(option) ? 'wrong-option' : ''}>{option}</button>)}</div>}
           {stage === 'reveal' && <div className="answer-reveal">{current.word}</div>}
