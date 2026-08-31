@@ -113,8 +113,7 @@ export default function Home() {
     const pictureFirst = (items: Word[]) => [...items.filter((item) => PICTURES[item.word]), ...items.filter((item) => !PICTURES[item.word])];
     const pool = [...pictureFirst(due).slice(0, 10), ...pictureFirst(unseen), ...fallback].filter((item, itemIndex, items) => items.findIndex((other) => other.word === item.word) === itemIndex).slice(0, 10);
     setSession(pool.length === 10 ? pool : DEMO_WORDS); setIndex(0); setKnown(0); setRetryWords([]);
-    setAttempt(0); setDisabledOptions([]); setSelectedLetters([]); setSpellingFails(0); setMessage('소리를 듣고 알맞은 단어를 골라 보세요.'); setStage('choice');
-    setTimeout(() => speak((pool[0] ?? DEMO_WORDS[0]).word), 350);
+    setAttempt(0); setDisabledOptions([]); setSelectedLetters([]); setSpellingFails(0); setMessage('스피커 버튼을 눌러 소리를 듣고 알맞은 단어를 골라 보세요.'); setStage('choice');
   }
 
   function chooseOption(option: string) {
@@ -124,10 +123,10 @@ export default function Home() {
       setMessage('정답이에요! 이제 철자를 만들어 볼까요?');
       setTimeout(() => { setStage('spelling'); setMessage('각 철자마다 두 장의 카드가 있어요. 순서대로 골라 보세요.'); }, 650); return;
     }
-    if (attempt === 0) { setAttempt(1); setDisabledOptions([option]); setMessage('괜찮아요. 소리를 다시 듣고 한 번 더 골라 보세요.'); speak(current.word); }
+    if (attempt === 0) { setAttempt(1); setDisabledOptions([option]); setMessage('괜찮아요. 스피커 버튼으로 소리를 다시 듣고 한 번 더 골라 보세요.'); }
     else {
       setRetryWords((words) => words.some((item) => item.word === current.word) ? words : [...words, current]);
-      setMessage(`정답은 ${current.word}`); setStage('reveal'); speak(current.word);
+      setMessage(`정답은 ${current.word}`); setStage('reveal');
       setTimeout(() => { setStage('spelling'); setMessage('각 철자마다 두 장의 카드가 있어요. 순서대로 골라 보세요.'); }, ANSWER_REVEAL_MS);
     }
   }
@@ -137,7 +136,7 @@ export default function Home() {
       const nextFails = spellingFails + 1; setSpellingFails(nextFails); setSelectedLetters([]);
       if (nextFails >= 5) {
         setRetryWords((words) => words.some((item) => item.word === current.word) ? words : [...words, current]);
-        setMessage(`정답은 ${current.word}`); setStage('reveal'); speak(current.word); setTimeout(() => nextQuestion(false), ANSWER_REVEAL_MS);
+        setMessage(`정답은 ${current.word}`); setStage('reveal'); setTimeout(() => nextQuestion(false), ANSWER_REVEAL_MS);
       } else setMessage(`처음부터 다시! ${5 - nextFails}번 더 도전할 수 있어요.`);
       return;
     }
@@ -168,7 +167,7 @@ export default function Home() {
       }
     }
     setIndex((value) => value + 1); setAttempt(0); setDisabledOptions([]); setSelectedLetters([]); setSpellingFails(0);
-    setMessage('소리를 듣고 알맞은 단어를 골라 보세요.'); setStage('choice'); const next = session[index + 1]; if (next) setTimeout(() => speak(next.word), 250);
+    setMessage('스피커 버튼을 눌러 소리를 듣고 알맞은 단어를 골라 보세요.'); setStage('choice');
   }
 
   if (stage === 'home') return (
