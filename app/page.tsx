@@ -73,6 +73,13 @@ function sentenceFor(word: Word, lessons: Record<string, SentenceLesson>): Sente
   };
 }
 
+function splitSentenceAtWord(sentence: string, word: string) {
+  const escapedWord = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const match = sentence.match(new RegExp(`\\b${escapedWord}\\b`, 'i'));
+  if (!match || match.index === undefined) return ['', sentence];
+  return [sentence.slice(0, match.index), sentence.slice(match.index + match[0].length)];
+}
+
 function seededShuffle<T>(items: T[], seed: number) {
   const copy = [...items]; let value = seed || 1;
   for (let i = copy.length - 1; i > 0; i -= 1) {
@@ -183,7 +190,7 @@ export default function Home() {
   const sentenceWordText = sentenceWord.word;
   const sentenceLesson = sentenceFor(sentenceWord, sentenceLessons);
   const sentenceCards = makeLetterCards(sentenceWordText, sentenceIndex * 41 + sentenceWordText.length);
-  const [sentenceStart, sentenceEnd = ''] = sentenceLesson.sentence.split(sentenceWordText);
+  const [sentenceStart, sentenceEnd] = splitSentenceAtWord(sentenceLesson.sentence, sentenceWordText);
 
   function startLearning() {
     const today = new Date().toISOString().slice(0, 10);
