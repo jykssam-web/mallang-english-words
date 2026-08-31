@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 
 type Word = { word: string; meaning: string };
-type Stage = 'home' | 'choice' | 'reveal' | 'spelling' | 'result';
+type SentenceLesson = { sentence: string; orderHint: string; translation: string };
+type Stage = 'home' | 'choice' | 'reveal' | 'spelling' | 'sentence' | 'result';
 type LearningRecord = { exposures: number; spellingStreak: number; mastered: boolean; due: string; failedToday?: boolean };
 
 const DEMO_WORDS: Word[] = [
@@ -30,6 +31,47 @@ const LETTER_PAIRS: Record<string, string> = {
   s: 'c', t: 'd', u: 'o', v: 'f', w: 'm', x: 'k', y: 'v', z: 's',
 };
 const ANSWER_REVEAL_MS = 3000;
+
+const SENTENCES: Record<string, SentenceLesson> = {
+  bed: { sentence: 'The bed is soft.', orderHint: '그 침대는 | ~한 상태이다 | 푹신한', translation: '그 침대는 푹신하다.' },
+  catch: { sentence: 'I can catch the ball.', orderHint: '나는 | 잡을 수 있다 | 그 공을', translation: '나는 그 공을 잡을 수 있다.' },
+  fine: { sentence: 'I am fine today.', orderHint: '나는 | ~한 상태이다 | 오늘 | 좋아', translation: '나는 오늘 잘 지낸다.' },
+  hat: { sentence: 'My hat is red.', orderHint: '나의 모자는 | ~한 상태이다 | 빨간', translation: '내 모자는 빨갛다.' },
+  knife: { sentence: 'The knife is sharp.', orderHint: '그 칼은 | ~한 상태이다 | 날카로운', translation: '그 칼은 날카롭다.' },
+  must: { sentence: 'You must be kind.', orderHint: '너는 | ~해야 한다 | 친절한 상태여야', translation: '너는 친절해야 한다.' },
+  point: { sentence: 'Point at the star.', orderHint: '가리켜라 | 그 별을', translation: '그 별을 가리켜라.' },
+  take: { sentence: 'Take this book.', orderHint: '가져가라 | 이 책을', translation: '이 책을 가져가라.' },
+  bee: { sentence: 'The bee is busy.', orderHint: '그 벌은 | ~한 상태이다 | 바쁜', translation: '그 벌은 바쁘다.' },
+  center: { sentence: 'Stand in the center.', orderHint: '서라 | 그 가운데에', translation: '가운데에 서라.' },
+  decide: { sentence: 'I decide to try.', orderHint: '나는 | 결정한다 | 해 보기로', translation: '나는 해 보기로 결정한다.' },
+  finger: { sentence: 'Raise one finger.', orderHint: '들어라 | 한 손가락을', translation: '손가락 하나를 들어라.' },
+  know: { sentence: 'I know the answer.', orderHint: '나는 | 안다 | 그 답을', translation: '나는 그 답을 안다.' },
+  police: { sentence: 'The police help us.', orderHint: '그 경찰은 | 돕는다 | 우리를', translation: '경찰은 우리를 돕는다.' },
+  ship: { sentence: 'The ship is big.', orderHint: '그 배는 | ~한 상태이다 | 큰', translation: '그 배는 크다.' },
+  talk: { sentence: 'We talk after school.', orderHint: '우리는 | 이야기한다 | 방과 후에', translation: '우리는 방과 후에 이야기한다.' },
+  tree: { sentence: 'The tree is tall.', orderHint: '그 나무는 | ~한 상태이다 | 키가 큰', translation: '그 나무는 키가 크다.' },
+  use: { sentence: 'Use a clean cup.', orderHint: '사용해라 | 깨끗한 컵을', translation: '깨끗한 컵을 사용해라.' },
+  beef: { sentence: 'I like beef soup.', orderHint: '나는 | 좋아한다 | 소고기국을', translation: '나는 소고기국을 좋아한다.' },
+  deep: { sentence: 'The water is deep.', orderHint: '그 물은 | ~한 상태이다 | 깊은', translation: '그 물은 깊다.' },
+  finish: { sentence: 'Finish your work.', orderHint: '끝내라 | 너의 일을', translation: '네 일을 끝내라.' },
+  have: { sentence: 'I have a new bag.', orderHint: '나는 | 가지고 있다 | 새 가방을', translation: '나는 새 가방이 있다.' },
+  name: { sentence: 'My name is Mina.', orderHint: '나의 이름은 | ~이다 | 미나', translation: '내 이름은 미나이다.' },
+  shirt: { sentence: 'His shirt is blue.', orderHint: '그의 셔츠는 | ~한 상태이다 | 파란', translation: '그의 셔츠는 파랗다.' },
+  tall: { sentence: 'The tree is tall.', orderHint: '그 나무는 | ~한 상태이다 | 키가 큰', translation: '그 나무는 키가 크다.' },
+  chair: { sentence: 'Sit on the chair.', orderHint: '앉아라 | 그 의자에', translation: '그 의자에 앉아라.' },
+  bird: { sentence: 'The bird can fly.', orderHint: '그 새는 | 할 수 있다 | 날기를', translation: '그 새는 날 수 있다.' },
+  cat: { sentence: 'The cat is sleepy.', orderHint: '그 고양이는 | ~한 상태이다 | 졸린', translation: '그 고양이는 졸리다.' },
+  music: { sentence: 'I like this music.', orderHint: '나는 | 좋아한다 | 이 음악을', translation: '나는 이 음악을 좋아한다.' },
+  kitchen: { sentence: 'Mom is in the kitchen.', orderHint: '엄마는 | 있다 | 그 주방에', translation: '엄마는 주방에 있다.' },
+};
+
+function sentenceFor(word: Word): SentenceLesson {
+  return SENTENCES[word.word] ?? {
+    sentence: `I can say the word ${word.word}.`,
+    orderHint: '나는 | 말할 수 있다 | 그 단어를',
+    translation: `나는 “${word.word}”라는 단어를 말할 수 있다.`,
+  };
+}
 
 function seededShuffle<T>(items: T[], seed: number) {
   const copy = [...items]; let value = seed || 1;
@@ -67,11 +109,11 @@ function audioFileName(word: string) {
   return word.toLowerCase().replace(/[^a-z0-9-]/g, '_');
 }
 
-function speakWithBrowser(word: string) {
+function speakWithBrowser(word: string, rate = 0.78) {
   if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = 'en-US'; utterance.rate = 0.78; utterance.pitch = 1;
+  utterance.lang = 'en-US'; utterance.rate = rate; utterance.pitch = 1;
   const voices = window.speechSynthesis.getVoices();
   const voice = voices.find((item) => /^en-US$/i.test(item.lang) && /(natural|google|samantha|aria|jenny|zira|david)/i.test(item.name))
     ?? voices.find((item) => /^en-US$/i.test(item.lang));
@@ -91,6 +133,11 @@ function playPronunciation(word: string) {
   void audio.play().catch(() => speakWithBrowser(word));
 }
 
+function playSentence(sentence: string) {
+  // Sentences deliberately use a slower pace so children can repeat each part.
+  speakWithBrowser(sentence, 0.58);
+}
+
 function dateAfter(days: number) {
   const date = new Date(); date.setDate(date.getDate() + days); return date.toISOString().slice(0, 10);
 }
@@ -102,6 +149,9 @@ export default function Home() {
   const [attempt, setAttempt] = useState(0); const [disabledOptions, setDisabledOptions] = useState<string[]>([]);
   const [selectedLetters, setSelectedLetters] = useState<{ id: number; letter: string }[]>([]);
   const [spellingFails, setSpellingFails] = useState(0); const [retryWords, setRetryWords] = useState<Word[]>([]);
+  const [sentenceIndex, setSentenceIndex] = useState(0);
+  const [sentenceLetters, setSentenceLetters] = useState<{ id: number; letter: string }[]>([]);
+  const [sentenceMessage, setSentenceMessage] = useState('문장을 듣고, 빈칸에 알맞은 단어를 만들어 보세요.');
   const [known, setKnown] = useState(0); const [message, setMessage] = useState('소리를 듣고 알맞은 단어를 골라 보세요.');
   const [progress, setProgress] = useState({ exposed: 0, mastered: 0, streak: 1 });
   const [records, setRecords] = useState<Record<string, LearningRecord>>({});
@@ -123,6 +173,12 @@ export default function Home() {
   const distractors = useMemo(() => makeDistractors(current.word), [current]);
   const options = useMemo(() => seededShuffle([current.word, ...distractors], current.word.length * 31 + index), [current, distractors, index]);
   const cards = useMemo(() => makeLetterCards(current.word, index * 17 + current.word.length), [current, index]);
+  const sentenceSession = session.slice(0, 10);
+  const sentenceWord = sentenceSession[sentenceIndex] ?? DEMO_WORDS[0];
+  const sentenceWordText = sentenceWord.word;
+  const sentenceLesson = sentenceFor(sentenceWord);
+  const sentenceCards = makeLetterCards(sentenceWordText, sentenceIndex * 41 + sentenceWordText.length);
+  const [sentenceStart, sentenceEnd = ''] = sentenceLesson.sentence.split(sentenceWordText);
 
   function startLearning() {
     const today = new Date().toISOString().slice(0, 10);
@@ -182,11 +238,26 @@ export default function Home() {
       if (effectiveRetries.length && session.length <= 10) setSession((items) => [...items, ...effectiveRetries]);
       else {
         const nextProgress = { exposed: Object.keys(nextRecords).length, mastered: Object.values(nextRecords).filter((record) => record.mastered).length, streak: progress.streak };
-        localStorage.setItem('word-garden-progress', JSON.stringify(nextProgress)); setProgress(nextProgress); setStage('result'); return;
+        localStorage.setItem('word-garden-progress', JSON.stringify(nextProgress)); setProgress(nextProgress);
+        setSentenceIndex(0); setSentenceLetters([]); setSentenceMessage('문장을 듣고, 빈칸에 알맞은 단어를 만들어 보세요.'); setStage('sentence'); return;
       }
     }
     setIndex((value) => value + 1); setAttempt(0); setDisabledOptions([]); setSelectedLetters([]); setSpellingFails(0);
     setMessage('스피커 버튼을 눌러 소리를 듣고 알맞은 단어를 골라 보세요.'); setStage('choice');
+  }
+
+  function chooseSentenceLetter(card: { id: number; letter: string }) {
+    if (card.letter !== sentenceWord.word[sentenceLetters.length]) {
+      setSentenceLetters([]); setSentenceMessage('천천히 다시 해 봐요. 처음 글자부터 골라 보세요.'); return;
+    }
+    const next = [...sentenceLetters, card]; setSentenceLetters(next);
+    if (next.length !== sentenceWord.word.length) return;
+    setSentenceMessage('멋져요! 문장을 소리 내어 한 번 따라 읽어 보세요.');
+    setTimeout(() => {
+      if (sentenceIndex >= sentenceSession.length - 1) { setStage('result'); return; }
+      setSentenceIndex((value) => value + 1); setSentenceLetters([]);
+      setSentenceMessage('문장을 듣고, 빈칸에 알맞은 단어를 만들어 보세요.');
+    }, 1400);
   }
 
   if (stage === 'home') return (
@@ -203,6 +274,22 @@ export default function Home() {
 
   if (stage === 'result') return (
     <main className="app-shell center-screen"><section className="result-card"><span className="result-burst">★</span><p className="eyebrow">오늘 학습 완료</p><h1>열 단어를 끝까지 해냈어요!</h1><p>한 번에 알아본 단어는 <strong>{known}개</strong>예요.<br/>다시 볼 단어는 다음 학습에 먼저 만나요.</p><button className="start-button" onClick={() => setStage('home')}>홈으로 돌아가기</button></section></main>
+  );
+
+  if (stage === 'sentence') return (
+    <main className="app-shell lesson-screen sentence-screen">
+      <header className="lesson-header"><button className="round-button" onClick={() => setStage('home')} aria-label="학습 나가기">×</button><div className="lesson-progress"><i style={{ width: `${((sentenceIndex + 1) / sentenceSession.length) * 100}%` }}/></div><span className="step-count">문장 {sentenceIndex + 1} / {sentenceSession.length}</span></header>
+      <section className="sentence-card">
+        <div className="sentence-label">오늘 배운 단어로 문장 만들기</div>
+        <p className="word-order-hint">{sentenceLesson.orderHint}</p>
+        <p className="sentence-english"><span>{sentenceStart}</span><strong>{sentenceLetters.map((card) => card.letter).join('') || '____'}</strong><span>{sentenceEnd}</span></p>
+        <p className="sentence-translation">{sentenceLesson.translation}</p>
+        <button type="button" className="speaker-button sentence-speaker" onClick={() => playSentence(sentenceLesson.sentence)} aria-label={`${sentenceLesson.sentence} 문장 발음 듣기`}><span>🔊</span> 천천히 문장 듣기</button>
+        <p className="instruction sentence-instruction">{sentenceMessage}</p>
+        <div className="letter-bank">{sentenceCards.map((card) => { const used = sentenceLetters.some((selected) => selected.id === card.id); return <button key={card.id} disabled={used} onClick={() => chooseSentenceLetter(card)}>{card.letter}</button>; })}</div>
+      </section>
+      <footer className="lesson-tip">💡 소리를 들은 뒤, 영어 어순대로 문장을 천천히 따라 말해 보세요.</footer>
+    </main>
   );
 
   return (
