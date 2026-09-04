@@ -31,6 +31,7 @@ const LETTER_PAIRS: Record<string, string> = {
   s: 'c', t: 'd', u: 'o', v: 'f', w: 'm', x: 'k', y: 'v', z: 's',
 };
 const ANSWER_REVEAL_MS = 3000;
+const DEFAULT_ACCENT = 'en-US';
 
 const SENTENCES: Record<string, SentenceLesson> = {
   bed: { sentence: 'The bed is soft.', orderHint: '그 침대는 | ~한 상태이다 | 푹신한', translation: '그 침대는 푹신하다.' },
@@ -129,7 +130,7 @@ function speakWithBrowser(word: string, rate = 0.78) {
 }
 
 function playPronunciation(word: string) {
-  playRecordedAudio(`/audio/words/${audioFileName(word)}.wav`, word, 0.78);
+  playRecordedAudio(`/audio/${DEFAULT_ACCENT}/words/${audioFileName(word)}.mp3`, word.replaceAll('/', ', '), 0.78);
 }
 
 function playRecordedAudio(source: string, fallbackText: string, fallbackRate: number) {
@@ -142,7 +143,7 @@ function playRecordedAudio(source: string, fallbackText: string, fallbackRate: n
 }
 
 function playSentence(word: string, sentence: string) {
-  playRecordedAudio(`/audio/sentences/${audioFileName(word)}.wav`, sentence, 0.58);
+  playRecordedAudio(`/audio/${DEFAULT_ACCENT}/sentences/${audioFileName(word)}.mp3`, sentence.replaceAll('/', ', '), 0.72);
 }
 
 function dateAfter(days: number) {
@@ -187,7 +188,7 @@ export default function Home() {
   const cards = useMemo(() => makeLetterCards(current.word, index * 17 + current.word.length), [current, index]);
   const sentenceSession = session.slice(0, 10);
   const sentenceWord = sentenceSession[sentenceIndex] ?? DEMO_WORDS[0];
-  const sentenceWordText = sentenceWord.word;
+  const sentenceWordText = sentenceWord.word.split('/')[0];
   const sentenceLesson = sentenceFor(sentenceWord, sentenceLessons);
   const sentenceCards = makeLetterCards(sentenceWordText, sentenceIndex * 41 + sentenceWordText.length);
   const [sentenceStart, sentenceEnd] = splitSentenceAtWord(sentenceLesson.sentence, sentenceWordText);
@@ -259,7 +260,7 @@ export default function Home() {
   }
 
   function chooseSentenceLetter(card: { id: number; letter: string }) {
-    if (card.letter !== sentenceWord.word[sentenceLetters.length]) {
+    if (card.letter !== sentenceWordText[sentenceLetters.length]) {
       setSentenceLetters([]); setSentenceMessage('천천히 다시 해 봐요. 처음 글자부터 골라 보세요.'); return;
     }
     const next = [...sentenceLetters, card]; setSentenceLetters(next);

@@ -1,0 +1,4802 @@
+[
+  {
+    "word": "bed",
+    "sentence": "My dog sleeps on my bed.",
+    "orderHint": "나의 개는 | 자요 | 나의 침대 위에서",
+    "translation": "나의 개는 내 침대에서 자요."
+  },
+  {
+    "word": "catch",
+    "sentence": "Can you catch the red ball?",
+    "orderHint": "너는 ~할 수 있니 | 잡다 | 그 빨간 공을",
+    "translation": "너 그 빨간 공 잡을 수 있니?"
+  },
+  {
+    "word": "death",
+    "sentence": "My game character avoids death.",
+    "orderHint": "나의 게임 캐릭터는 | 피해요 | 죽음을",
+    "translation": "내 게임 캐릭터는 죽음을 피해요."
+  },
+  {
+    "word": "fine",
+    "sentence": "I am fine today, thank you.",
+    "orderHint": "나는 | 괜찮아요 | 오늘 | 고마워요",
+    "translation": "저는 오늘 괜찮아요, 고마워요."
+  },
+  {
+    "word": "hat",
+    "sentence": "She wears a yellow hat.",
+    "orderHint": "그녀는 | 써요 | 노란 모자를",
+    "translation": "그녀는 노란 모자를 써요."
+  },
+  {
+    "word": "knife",
+    "sentence": "The knife is on the table.",
+    "orderHint": "그 칼은 | 있다 | 탁자 위에",
+    "translation": "그 칼은 탁자 위에 있어요."
+  },
+  {
+    "word": "must",
+    "sentence": "We must wash our hands first.",
+    "orderHint": "우리는 | 씻어야 한다 | 우리의 손을 | 먼저",
+    "translation": "우리는 먼저 손을 씻어야 해요."
+  },
+  {
+    "word": "point",
+    "sentence": "Please point to the red star.",
+    "orderHint": "가리켜 주세요 | ~를 | 그 빨간 별",
+    "translation": "빨간 별을 가리켜 보세요."
+  },
+  {
+    "word": "she",
+    "sentence": "She likes to read storybooks.",
+    "orderHint": "그녀는 | 좋아한다 | 읽는 것을 | 동화책을",
+    "translation": "그녀는 동화책 읽는 것을 좋아해요."
+  },
+  {
+    "word": "take",
+    "sentence": "Please take an umbrella with you.",
+    "orderHint": "가지고 가세요 | 우산을 | 너와 함께",
+    "translation": "우산을 가지고 가세요."
+  },
+  {
+    "word": "up",
+    "sentence": "Look up at the blue sky.",
+    "orderHint": "위로 보아라 | ~를 | 파란 하늘을",
+    "translation": "파란 하늘을 위로 올려다보세요."
+  },
+  {
+    "word": "a/an",
+    "sentence": "I see a red apple.",
+    "orderHint": "나는 | 본다 | 빨간 사과 하나를",
+    "translation": "나는 빨간 사과 하나를 본다."
+  },
+  {
+    "word": "bee",
+    "sentence": "A bee is on the yellow flower.",
+    "orderHint": "한 벌이 | 있다 | ~위에 | 그 노란 꽃",
+    "translation": "벌 한 마리가 노란 꽃 위에 있어요."
+  },
+  {
+    "word": "center",
+    "sentence": "Put the cake in the center.",
+    "orderHint": "놓아라 | 그 케이크를 | ~에 | 그 가운데",
+    "translation": "케이크를 가운데에 놓으세요."
+  },
+  {
+    "word": "decide",
+    "sentence": "We can decide together.",
+    "orderHint": "우리는 | 결정할 수 있다 | 함께",
+    "translation": "우리는 함께 결정할 수 있어요."
+  },
+  {
+    "word": "finger",
+    "sentence": "I hurt my little finger.",
+    "orderHint": "나는 다쳤어요 | 나의 작은 | 손가락을",
+    "translation": "나는 작은 손가락을 다쳤어요."
+  },
+  {
+    "word": "hate",
+    "sentence": "I hate cold winter days.",
+    "orderHint": "나는 싫어해요 | 추운 겨울 | 날들을",
+    "translation": "나는 추운 겨울날이 싫어요."
+  },
+  {
+    "word": "know",
+    "sentence": "I know the right answer.",
+    "orderHint": "나는 알고 있어요 | 알맞은 | 답을",
+    "translation": "나는 정답을 알고 있어요."
+  },
+  {
+    "word": "police",
+    "sentence": "The police help many people.",
+    "orderHint": "경찰은 | 도와요 | 많은 사람들을",
+    "translation": "경찰은 많은 사람들을 도와요."
+  },
+  {
+    "word": "ship",
+    "sentence": "I see a big ship on the sea.",
+    "orderHint": "나는 봐요 | 큰 배를 | 바다 위에서",
+    "translation": "나는 바다 위에 있는 큰 배를 봐요."
+  },
+  {
+    "word": "talk",
+    "sentence": "I talk to my friend.",
+    "orderHint": "나는 | 얘기해요 | 나의 친구에게",
+    "translation": "나는 친구와 이야기해요."
+  },
+  {
+    "word": "use",
+    "sentence": "Can I use this pencil?",
+    "orderHint": "내가 | 쓸 수 있나요 | 이 연필을",
+    "translation": "이 연필을 사용해도 되나요?"
+  },
+  {
+    "word": "about",
+    "sentence": "We read a book about dogs.",
+    "orderHint": "우리는 | 읽어요 | 책을 | 강아지에 대한",
+    "translation": "우리는 강아지에 대한 책을 읽어요."
+  },
+  {
+    "word": "beef",
+    "sentence": "My dad likes to eat beef.",
+    "orderHint": "나의 아빠는 | 좋아해요 | 먹는 것을 | 소고기를",
+    "translation": "우리 아빠는 소고기 먹는 것을 좋아해요."
+  },
+  {
+    "word": "certain",
+    "sentence": "Are you certain about the answer?",
+    "orderHint": "당신은 | 확실한가요 | 그 답에 대해",
+    "translation": "그 정답이 확실한가요?"
+  },
+  {
+    "word": "deep",
+    "sentence": "The water is very deep.",
+    "orderHint": "그 물은 | 이다 | 매우 깊은.",
+    "translation": "그 물은 매우 깊어요."
+  },
+  {
+    "word": "finish",
+    "sentence": "I will finish my homework now.",
+    "orderHint": "나는 | 끝낼 것이다 | 나의 숙제를 | 지금.",
+    "translation": "나는 지금 숙제를 끝낼 거야."
+  },
+  {
+    "word": "have",
+    "sentence": "I have a big red ball.",
+    "orderHint": "나는 | 가지고 있다 | 하나의 큰 빨간 공을.",
+    "translation": "나는 큰 빨간 공을 가지고 있어."
+  },
+  {
+    "word": "name",
+    "sentence": "My name is Sam.",
+    "orderHint": "나의 이름은 | 이다 | 샘.",
+    "translation": "내 이름은 샘이야."
+  },
+  {
+    "word": "poor",
+    "sentence": "They are a poor family.",
+    "orderHint": "그들은 | 이다 | 하나의 가난한 가족.",
+    "translation": "그들은 가난한 가족이에요."
+  },
+  {
+    "word": "shirt",
+    "sentence": "I wear a clean shirt.",
+    "orderHint": "나는 입는다 | 깨끗한 셔츠를.",
+    "translation": "나는 깨끗한 셔츠를 입어요."
+  },
+  {
+    "word": "tall",
+    "sentence": "My brother is very tall.",
+    "orderHint": "나의 형은 | 이다 | 매우 키가 큰.",
+    "translation": "내 형은 키가 매우 크다."
+  },
+  {
+    "word": "above",
+    "sentence": "The sun is above the clouds.",
+    "orderHint": "해는 | 있다 | 위에 | 구름들.",
+    "translation": "해는 구름 위에 있어요."
+  },
+  {
+    "word": "before",
+    "sentence": "Wash your hands before dinner.",
+    "orderHint": "씻어라 | 너의 손을 | 전에 | 저녁 식사.",
+    "translation": "저녁 식사 전에 손을 씻어라."
+  },
+  {
+    "word": "chair",
+    "sentence": "He sits on the red chair.",
+    "orderHint": "그는 앉는다 | 위에 | 그 빨간 의자.",
+    "translation": "그는 빨간 의자에 앉아 있어요."
+  },
+  {
+    "word": "delicious",
+    "sentence": "This pizza is very delicious.",
+    "orderHint": "이 피자는 | 이다 | 매우 | 맛있는.",
+    "translation": "이 피자는 정말 맛있어요."
+  },
+  {
+    "word": "fire",
+    "sentence": "Do not touch the fire.",
+    "orderHint": "~하지 마라 | 만지는 것을 | 그 불을.",
+    "translation": "불을 만지지 마세요."
+  },
+  {
+    "word": "he",
+    "sentence": "He is my best friend.",
+    "orderHint": "그는 | 이다 | 나의 | 최고의 | 친구.",
+    "translation": "그는 나의 제일 가까운 친구예요."
+  },
+  {
+    "word": "lady",
+    "sentence": "The kind lady smiled at me.",
+    "orderHint": "그 친절한 여성은 | 미소 지었다 | ~에게 | 나.",
+    "translation": "그 친절한 여성이 나에게 미소를 지었어요."
+  },
+  {
+    "word": "nation",
+    "sentence": "Korea is a beautiful nation.",
+    "orderHint": "한국은 | 이다 | 하나의 | 아름다운 | 나라.",
+    "translation": "한국은 아름다운 나라예요."
+  },
+  {
+    "word": "potato",
+    "sentence": "I eat a hot potato.",
+    "orderHint": "나는 | 먹어요 | 뜨거운 감자를",
+    "translation": "나는 뜨거운 감자를 먹어요."
+  },
+  {
+    "word": "shoe",
+    "sentence": "I put on my new shoe.",
+    "orderHint": "나는 | 신어요 | 나의 새 신발을",
+    "translation": "나는 나의 새 신발을 신어요."
+  },
+  {
+    "word": "tape",
+    "sentence": "I put tape on the box.",
+    "orderHint": "나는 | 붙여요 | 테이프를 | 상자에",
+    "translation": "나는 상자에 테이프를 붙여요."
+  },
+  {
+    "word": "vegetable",
+    "sentence": "I eat a fresh vegetable every day.",
+    "orderHint": "나는 | 먹어요 | 신선한 채소를 | 매일",
+    "translation": "나는 매일 신선한 채소를 먹어요."
+  },
+  {
+    "word": "across",
+    "sentence": "The park is across the street.",
+    "orderHint": "그 공원은 | 있어요 | 건너편에 | 그 길의",
+    "translation": "그 공원은 길 건너편에 있어요."
+  },
+  {
+    "word": "begin",
+    "sentence": "We begin the game now.",
+    "orderHint": "우리는 시작한다 | 그 게임을 | 지금",
+    "translation": "우리는 지금 게임을 시작해요."
+  },
+  {
+    "word": "chance",
+    "sentence": "You have one more chance.",
+    "orderHint": "너는 가지고 있다 | 한 번의 더 많은 기회를",
+    "translation": "너에게 한 번의 기회가 더 있어."
+  },
+  {
+    "word": "design",
+    "sentence": "I can design a robot.",
+    "orderHint": "나는 디자인할 수 있다 | 로봇을",
+    "translation": "나는 로봇을 디자인할 수 있어요."
+  },
+  {
+    "word": "first",
+    "sentence": "Wash your hands first.",
+    "orderHint": "씻어라 | 너의 손을 | 먼저",
+    "translation": "먼저 손을 씻으세요."
+  },
+  {
+    "word": "head",
+    "sentence": "Wear a hat on your head.",
+    "orderHint": "써라 | 모자를 | 너의 머리에",
+    "translation": "머리에 모자를 쓰세요."
+  },
+  {
+    "word": "lake",
+    "sentence": "We can swim in the lake.",
+    "orderHint": "우리는 | 수영할 수 있다 | 호수에서",
+    "translation": "우리는 호수에서 수영할 수 있어요."
+  },
+  {
+    "word": "nature",
+    "sentence": "I love to walk in nature.",
+    "orderHint": "나는 | 좋아한다 | 걷는 것을 | 자연 속에서",
+    "translation": "나는 자연 속에서 걷는 것을 좋아해요."
+  },
+  {
+    "word": "power",
+    "sentence": "The hero has great power.",
+    "orderHint": "그 영웅은 | 가지고 있다 | 큰 힘을",
+    "translation": "그 영웅은 큰 힘을 가지고 있어요."
+  },
+  {
+    "word": "shop",
+    "sentence": "We buy fruit at the shop.",
+    "orderHint": "우리는 | 사요 | 과일을 | 가게에서",
+    "translation": "우리는 가게에서 과일을 사요."
+  },
+  {
+    "word": "taste",
+    "sentence": "The apples taste very sweet.",
+    "orderHint": "그 사과들은 | 맛이 난다 | 매우 달게",
+    "translation": "그 사과들은 매우 달콤한 맛이 나요."
+  },
+  {
+    "word": "very",
+    "sentence": "This dog is very cute.",
+    "orderHint": "이 개는 | 이다 | 매우 | 귀여운.",
+    "translation": "이 개는 매우 귀여워요."
+  },
+  {
+    "word": "act",
+    "sentence": "They act on the school stage.",
+    "orderHint": "그들은 | 연기한다 | ~에서 | 학교 무대.",
+    "translation": "그들은 학교 무대에서 연기해요."
+  },
+  {
+    "word": "behind",
+    "sentence": "The cat is behind the door.",
+    "orderHint": "그 고양이는 | 있다 | ~뒤에 | 그 문.",
+    "translation": "고양이는 문 뒤에 있어요."
+  },
+  {
+    "word": "change",
+    "sentence": "Leaves change color in fall.",
+    "orderHint": "나뭇잎들은 | 변한다 | 색이 | 가을에.",
+    "translation": "가을에는 나뭇잎 색이 변해요."
+  },
+  {
+    "word": "desk",
+    "sentence": "My book is on the desk.",
+    "orderHint": "내 책은 | 있다 | ~위에 | 그 책상.",
+    "translation": "내 책은 책상 위에 있어요."
+  },
+  {
+    "word": "fish",
+    "sentence": "The little fish swims in the river.",
+    "orderHint": "그 작은 물고기는 | 헤엄쳐요 | 강에서",
+    "translation": "작은 물고기가 강에서 헤엄쳐요."
+  },
+  {
+    "word": "heart",
+    "sentence": "She drew a big red heart.",
+    "orderHint": "그녀는 그렸어요 | 큰 빨간 하트를",
+    "translation": "그녀는 큰 빨간 하트를 그렸어요."
+  },
+  {
+    "word": "land",
+    "sentence": "The red plane will land soon.",
+    "orderHint": "그 빨간 비행기는 | 착륙할 거예요 | 곧",
+    "translation": "그 빨간 비행기는 곧 착륙할 거예요."
+  },
+  {
+    "word": "near",
+    "sentence": "My school is near my house.",
+    "orderHint": "내 학교는 | 있어요 | 가까이에 | 우리 집",
+    "translation": "우리 학교는 우리 집 근처에 있어요."
+  },
+  {
+    "word": "present",
+    "sentence": "I got a birthday present today.",
+    "orderHint": "나는 받았어요 | 생일 선물을 | 오늘",
+    "translation": "나는 오늘 생일 선물을 받았어요."
+  },
+  {
+    "word": "short",
+    "sentence": "My pencil is very short.",
+    "orderHint": "내 연필은 | 이다 | 매우 짧은",
+    "translation": "내 연필은 매우 짧아요."
+  },
+  {
+    "word": "taxi",
+    "sentence": "We see a yellow taxi.",
+    "orderHint": "우리는 | 본다 | 노란 택시를",
+    "translation": "우리는 노란 택시를 봐요."
+  },
+  {
+    "word": "video",
+    "sentence": "They watch a funny video.",
+    "orderHint": "그들은 | 본다 | 재미있는 영상을",
+    "translation": "그들은 재미있는 영상을 봐요."
+  },
+  {
+    "word": "add",
+    "sentence": "Can you add some sugar?",
+    "orderHint": "너는 ~할 수 있니 | 더하다 | 약간의 설탕을",
+    "translation": "설탕을 좀 더 넣어 줄래?"
+  },
+  {
+    "word": "believe",
+    "sentence": "I believe my best friend.",
+    "orderHint": "나는 | 믿는다 | 나의 제일 친한 친구를",
+    "translation": "나는 내 제일 친한 친구를 믿어요."
+  },
+  {
+    "word": "cheap",
+    "sentence": "This pencil is very cheap.",
+    "orderHint": "이 연필은 | 이다 | 매우 저렴한.",
+    "translation": "이 연필은 매우 싸요."
+  },
+  {
+    "word": "dialog/dialogue",
+    "sentence": "Read the dialog aloud.",
+    "orderHint": "읽어라 | 그 대화를 | 소리 내어",
+    "translation": "그 대화를 소리 내어 읽어라."
+  },
+  {
+    "word": "five",
+    "sentence": "I see five cute birds.",
+    "orderHint": "나는 | 본다 | 다섯 마리의 | 귀여운 새들을.",
+    "translation": "나는 귀여운 새 다섯 마리를 봐요."
+  },
+  {
+    "word": "heat",
+    "sentence": "The sun gives us heat.",
+    "orderHint": "태양은 | 준다 | 우리에게 | 열을.",
+    "translation": "태양은 우리에게 열을 줘요."
+  },
+  {
+    "word": "large",
+    "sentence": "They live in a large house.",
+    "orderHint": "그들은 | 산다 | 큰 집 안에서.",
+    "translation": "그들은 큰 집에 살아요."
+  },
+  {
+    "word": "neck",
+    "sentence": "The giraffe has a long neck.",
+    "orderHint": "그 기린은 | 가지고 있다 | 긴 목을.",
+    "translation": "그 기린은 목이 길어요."
+  },
+  {
+    "word": "pretty",
+    "sentence": "She wears a pretty pink dress.",
+    "orderHint": "그녀는 | 입는다 | 예쁜 분홍색 드레스를.",
+    "translation": "그녀는 예쁜 분홍색 드레스를 입어요."
+  },
+  {
+    "word": "should",
+    "sentence": "You should wash your hands.",
+    "orderHint": "너는 | ~해야 한다 | 씻다 | 너의 손을.",
+    "translation": "너는 손을 씻어야 해."
+  },
+  {
+    "word": "teach",
+    "sentence": "My mom will teach me English.",
+    "orderHint": "나의 엄마는 | 가르쳐 줄 것이다 | 나에게 | 영어를.",
+    "translation": "우리 엄마는 나에게 영어를 가르쳐 주실 거야."
+  },
+  {
+    "word": "violin",
+    "sentence": "He plays the violin very well.",
+    "orderHint": "그는 | 연주한다 | 바이올린을 | 매우 잘.",
+    "translation": "그는 바이올린을 매우 잘 연주해요."
+  },
+  {
+    "word": "address",
+    "sentence": "Please write your address on the paper.",
+    "orderHint": "적어 주세요 | 당신의 주소를 | 종이 위에",
+    "translation": "종이에 당신의 주소를 적어 주세요."
+  },
+  {
+    "word": "bell",
+    "sentence": "The school bell rings at nine.",
+    "orderHint": "그 학교 종이 | 울립니다 | 9시에",
+    "translation": "학교 종이 9시에 울립니다."
+  },
+  {
+    "word": "check",
+    "sentence": "Please check your answers again.",
+    "orderHint": "확인해 주세요 | 당신의 답을 | 다시",
+    "translation": "답을 다시 한번 확인해 주세요."
+  },
+  {
+    "word": "die",
+    "sentence": "Flowers die without water.",
+    "orderHint": "꽃들은 죽습니다 | 물이 없으면",
+    "translation": "꽃은 물이 없으면 죽어요."
+  },
+  {
+    "word": "fix",
+    "sentence": "Dad can fix my broken toy.",
+    "orderHint": "아빠는 고칠 수 있어요 | 나의 고장 난 장난감을",
+    "translation": "아빠는 내 고장 난 장난감을 고칠 수 있어요."
+  },
+  {
+    "word": "heavy",
+    "sentence": "This bag is very heavy.",
+    "orderHint": "이 가방은 | 이다 | 매우 | 무거운",
+    "translation": "이 가방은 매우 무거워요."
+  },
+  {
+    "word": "laser",
+    "sentence": "The cat plays with a red laser.",
+    "orderHint": "그 고양이는 | 놀아요 | ~를 가지고 | 빨간 | 레이저",
+    "translation": "고양이가 빨간 레이저를 가지고 놀아요."
+  },
+  {
+    "word": "need",
+    "sentence": "I need a new pencil.",
+    "orderHint": "나는 | 필요해요 | 하나의 | 새 연필이",
+    "translation": "나는 새 연필이 필요해요."
+  },
+  {
+    "word": "prince",
+    "sentence": "The prince lives in a big castle.",
+    "orderHint": "그 왕자는 | 살아요 | ~안에 | 큰 성",
+    "translation": "그 왕자는 큰 성에 살아요."
+  },
+  {
+    "word": "show",
+    "sentence": "Please show me your picture.",
+    "orderHint": "제발 | 보여주세요 | 나에게 | 너의 그림을",
+    "translation": "나에게 너의 그림을 보여주세요."
+  },
+  {
+    "word": "team",
+    "sentence": "Our soccer team won the game.",
+    "orderHint": "우리 축구 팀은 | 이겼다 | 그 경기를",
+    "translation": "우리 축구 팀이 경기에서 이겼어요."
+  },
+  {
+    "word": "visit",
+    "sentence": "We will visit my grandma today.",
+    "orderHint": "우리는 | 방문할 것이다 | 나의 할머니를 | 오늘",
+    "translation": "우리는 오늘 할머니 댁을 방문할 거예요."
+  },
+  {
+    "word": "adult",
+    "sentence": "Ask an adult for help.",
+    "orderHint": "요청해라 | 어른에게 | 도움을",
+    "translation": "어른에게 도움을 요청하세요."
+  },
+  {
+    "word": "below",
+    "sentence": "Kids below six can enter free.",
+    "orderHint": "아이들은 | 6세 이하의 | 들어갈 수 있다 | 무료로",
+    "translation": "6세 이하의 아이들은 무료로 입장할 수 있어요."
+  },
+  {
+    "word": "cheese",
+    "sentence": "I like cheese on my pizza.",
+    "orderHint": "나는 | 좋아한다 | 치즈를 | 내 피자 위의",
+    "translation": "나는 피자 위에 올린 치즈를 좋아해요."
+  },
+  {
+    "word": "difficult",
+    "sentence": "This game is very difficult.",
+    "orderHint": "이 게임은 | 이다 | 매우 어려운.",
+    "translation": "이 게임은 매우 어렵습니다."
+  },
+  {
+    "word": "floor",
+    "sentence": "He is sitting on the floor.",
+    "orderHint": "그는 | 이다 앉아있는 | 바닥 위에.",
+    "translation": "그는 바닥에 앉아 있습니다."
+  },
+  {
+    "word": "hello/hi",
+    "sentence": "Say hello to your new teacher.",
+    "orderHint": "말해라 | 안녕이라고 | 너의 새 선생님에게.",
+    "translation": "새 선생님에게 인사하세요."
+  },
+  {
+    "word": "last",
+    "sentence": "I finished the last page today.",
+    "orderHint": "나는 | 끝냈다 | 마지막 페이지를 | 오늘.",
+    "translation": "나는 오늘 마지막 페이지를 끝냈다."
+  },
+  {
+    "word": "never",
+    "sentence": "I will never forget this day.",
+    "orderHint": "나는 | 결코 ~않을 것이다 | 잊다 | 이 날을.",
+    "translation": "나는 이 날을 절대 잊지 않을 것이다."
+  },
+  {
+    "word": "print",
+    "sentence": "I can print the picture for you.",
+    "orderHint": "나는 | 인쇄할 수 있다 | 그 사진을 | 너를 위해",
+    "translation": "내가 너를 위해 그 사진을 인쇄해 줄 수 있어."
+  },
+  {
+    "word": "shy",
+    "sentence": "The new student is very shy.",
+    "orderHint": "그 새 학생은 | 이다 | 매우 수줍어하는",
+    "translation": "그 전학생은 매우 수줍어한다."
+  },
+  {
+    "word": "telephone/phone",
+    "sentence": "The telephone is ringing.",
+    "orderHint": "그 전화기는 | 울리고 있다",
+    "translation": "전화기가 울리고 있다."
+  },
+  {
+    "word": "voice",
+    "sentence": "I can hear your voice clearly.",
+    "orderHint": "나는 | 들을 수 있다 | 너의 목소리를 | 또렷하게",
+    "translation": "나는 너의 목소리를 또렷하게 들을 수 있다."
+  },
+  {
+    "word": "afraid",
+    "sentence": "He is afraid of the dark.",
+    "orderHint": "그는 | 이다 | 두려워하는 | 어둠을",
+    "translation": "그는 어둠을 두려워한다."
+  },
+  {
+    "word": "belt",
+    "sentence": "I wear a blue belt today.",
+    "orderHint": "나는 착용해요 | 파란 벨트를 | 오늘",
+    "translation": "나는 오늘 파란 벨트를 매요."
+  },
+  {
+    "word": "chicken",
+    "sentence": "We eat fried chicken for lunch.",
+    "orderHint": "우리는 먹어요 | 튀긴 치킨을 | 점심으로",
+    "translation": "우리는 점심으로 치킨을 먹어요."
+  },
+  {
+    "word": "dinner",
+    "sentence": "My mom cooks a delicious dinner.",
+    "orderHint": "나의 엄마는 요리해요 | 맛있는 저녁 식사를",
+    "translation": "엄마는 맛있는 저녁 식사를 요리해요."
+  },
+  {
+    "word": "flower",
+    "sentence": "Look at the pretty red flower.",
+    "orderHint": "보세요 | 그 예쁜 빨간 꽃을",
+    "translation": "예쁜 빨간 꽃을 보세요."
+  },
+  {
+    "word": "helmet",
+    "sentence": "Always wear a helmet on your bike.",
+    "orderHint": "항상 쓰세요 | 헬멧을 | 너의 자전거 위에서",
+    "translation": "자전거를 탈 때는 항상 헬멧을 쓰세요."
+  },
+  {
+    "word": "late",
+    "sentence": "Do not be late for school.",
+    "orderHint": "하지 마라 | 늦게 | 학교에",
+    "translation": "학교에 늦지 마세요."
+  },
+  {
+    "word": "new",
+    "sentence": "I have a new toy car.",
+    "orderHint": "나는 | 가지고 있다 | 새로운 장난감 차를",
+    "translation": "나는 새 장난감 자동차가 있어요."
+  },
+  {
+    "word": "problem",
+    "sentence": "Can you solve this math problem?",
+    "orderHint": "너는 | 풀 수 있니 | 이 수학 문제를",
+    "translation": "이 수학 문제를 풀 수 있나요?"
+  },
+  {
+    "word": "sick",
+    "sentence": "My little sister is sick today.",
+    "orderHint": "나의 여동생은 | 아프다 | 오늘",
+    "translation": "내 여동생은 오늘 아파요."
+  },
+  {
+    "word": "television/tv",
+    "sentence": "We watch television after dinner.",
+    "orderHint": "우리는 | 본다 | 텔레비전을 | 저녁 식사 후에",
+    "translation": "우리는 저녁 식사 후에 텔레비전을 봐요."
+  },
+  {
+    "word": "after",
+    "sentence": "We can play after school.",
+    "orderHint": "우리는 놀 수 있다 | 학교 후에",
+    "translation": "우리는 방과 후에 놀 수 있어요."
+  },
+  {
+    "word": "beside",
+    "sentence": "Sit beside me on the bus.",
+    "orderHint": "앉으렴 | 내 옆에 | 버스에서",
+    "translation": "버스에서 내 옆에 앉으렴."
+  },
+  {
+    "word": "child",
+    "sentence": "Every child likes ice cream.",
+    "orderHint": "모든 아이는 | 좋아한다 | 아이스크림을",
+    "translation": "모든 아이는 아이스크림을 좋아해요."
+  },
+  {
+    "word": "discuss",
+    "sentence": "We discuss our plans together.",
+    "orderHint": "우리는 논의한다 | 우리의 계획을 | 함께",
+    "translation": "우리는 함께 우리의 계획을 논의해요."
+  },
+  {
+    "word": "fly",
+    "sentence": "Birds fly high in the sky.",
+    "orderHint": "새들은 | 난다 | 높이 | 하늘에서",
+    "translation": "새들은 하늘 높이 날아요."
+  },
+  {
+    "word": "help",
+    "sentence": "I will help my mom today.",
+    "orderHint": "나는 | 도울 것이다 | 나의 엄마를 | 오늘",
+    "translation": "나는 오늘 엄마를 도울 거예요."
+  },
+  {
+    "word": "lazy",
+    "sentence": "The lazy cat is sleeping on the bed.",
+    "orderHint": "그 게으른 고양이는 | 자고 있다 | 침대 위에서",
+    "translation": "게으른 고양이가 침대 위에서 자고 있어요."
+  },
+  {
+    "word": "news",
+    "sentence": "I have good news for you.",
+    "orderHint": "나는 | 가지고 있다 | 좋은 소식을 | 너를 위한",
+    "translation": "너에게 전할 좋은 소식이 있어."
+  },
+  {
+    "word": "program",
+    "sentence": "This is a fun TV program.",
+    "orderHint": "이것은 | 이다 | 재미있는 TV 프로그램",
+    "translation": "이것은 재미있는 TV 프로그램이에요."
+  },
+  {
+    "word": "side",
+    "sentence": "Sit on this side of the table.",
+    "orderHint": "앉아라 | 이 쪽에 | 탁자의",
+    "translation": "탁자 이쪽에 앉으렴."
+  },
+  {
+    "word": "tell",
+    "sentence": "Please tell me a fun story.",
+    "orderHint": "말해 주세요 | 나에게 | 재미있는 이야기를",
+    "translation": "나에게 재미있는 이야기를 말해 주세요."
+  },
+  {
+    "word": "wait",
+    "sentence": "We wait for the school bus.",
+    "orderHint": "우리는 기다려요 | 학교 버스를",
+    "translation": "우리는 학교 버스를 기다려요."
+  },
+  {
+    "word": "afternoon",
+    "sentence": "I play soccer in the afternoon.",
+    "orderHint": "나는 축구를 해요 | 오후에",
+    "translation": "나는 오후에 축구를 해요."
+  },
+  {
+    "word": "between",
+    "sentence": "The cat sits between two dogs.",
+    "orderHint": "그 고양이는 앉아 있어요 | 두 마리 개 사이에",
+    "translation": "그 고양이는 두 마리의 개 사이에 앉아 있어요."
+  },
+  {
+    "word": "chocolate",
+    "sentence": "I like sweet chocolate ice cream.",
+    "orderHint": "나는 좋아해요 | 달콤한 초콜릿 아이스크림을",
+    "translation": "나는 달콤한 초콜릿 아이스크림을 좋아해요."
+  },
+  {
+    "word": "do",
+    "sentence": "I do my homework now.",
+    "orderHint": "나는 | 한다 | 나의 숙제를 | 지금",
+    "translation": "나는 지금 숙제를 해요."
+  },
+  {
+    "word": "focus",
+    "sentence": "Please focus on your teacher.",
+    "orderHint": "부탁해요 | 집중하세요 | 너의 선생님에게",
+    "translation": "선생님에게 집중해 주세요."
+  },
+  {
+    "word": "here",
+    "sentence": "Your new book is here.",
+    "orderHint": "너의 새 책은 | 있다 | 여기에",
+    "translation": "너의 새 책이 여기에 있어."
+  },
+  {
+    "word": "learn",
+    "sentence": "We learn English at school.",
+    "orderHint": "우리는 | 배워요 | 영어를 | 학교에서",
+    "translation": "우리는 학교에서 영어를 배워요."
+  },
+  {
+    "word": "newspaper",
+    "sentence": "My dad reads the newspaper every morning.",
+    "orderHint": "나의 아빠는 | 읽는다 | 신문을 | 매일 아침",
+    "translation": "우리 아빠는 매일 아침 신문을 읽으셔."
+  },
+  {
+    "word": "project",
+    "sentence": "We start a new art project.",
+    "orderHint": "우리는 시작해요 | 새로운 미술 프로젝트를",
+    "translation": "우리는 새로운 미술 프로젝트를 시작해요."
+  },
+  {
+    "word": "sing",
+    "sentence": "They sing a happy song together.",
+    "orderHint": "그들은 부른다 | 즐거운 노래를 | 함께",
+    "translation": "그들은 함께 즐거운 노래를 불러요."
+  },
+  {
+    "word": "ten",
+    "sentence": "I have ten blue pencils.",
+    "orderHint": "나는 가지고 있어요 | 열 개의 파란 연필을",
+    "translation": "나는 파란 연필 10개를 가지고 있어요."
+  },
+  {
+    "word": "wake",
+    "sentence": "I wake up early today.",
+    "orderHint": "나는 깬다 | 일찍 | 오늘",
+    "translation": "나는 오늘 일찍 잠에서 깨요."
+  },
+  {
+    "word": "again",
+    "sentence": "Please read the book again.",
+    "orderHint": "읽어 주세요 | 그 책을 | 다시",
+    "translation": "그 책을 다시 읽어 주세요."
+  },
+  {
+    "word": "big",
+    "sentence": "I see a big dog in the park.",
+    "orderHint": "나는 본다 | 큰 개를 | 공원에서",
+    "translation": "나는 공원에서 큰 개를 봐요."
+  },
+  {
+    "word": "choose",
+    "sentence": "You can choose a toy today.",
+    "orderHint": "너는 선택할 수 있다 | 장난감을 | 오늘",
+    "translation": "너는 오늘 장난감을 하나 고를 수 있어."
+  },
+  {
+    "word": "doctor",
+    "sentence": "My mother is a good doctor.",
+    "orderHint": "나의 엄마는 | 이다 | 좋은 의사",
+    "translation": "우리 엄마는 좋은 의사예요."
+  },
+  {
+    "word": "food",
+    "sentence": "This food smells really good.",
+    "orderHint": "이 음식은 | 냄새가 난다 | 정말 좋게",
+    "translation": "이 음식은 정말 맛있는 냄새가 나요."
+  },
+  {
+    "word": "hero",
+    "sentence": "My dad is my hero.",
+    "orderHint": "나의 아빠는 | 이다 | 나의 영웅",
+    "translation": "우리 아빠는 나의 영웅이에요."
+  },
+  {
+    "word": "left",
+    "sentence": "Turn left at the corner.",
+    "orderHint": "돌으세요 | 왼쪽으로 | 모퉁이에서",
+    "translation": "모퉁이에서 왼쪽으로 도세요."
+  },
+  {
+    "word": "next",
+    "sentence": "My house is next to the park.",
+    "orderHint": "나의 집은 | 있다 | 옆에 | 그 공원의",
+    "translation": "우리 집은 공원 옆에 있어요."
+  },
+  {
+    "word": "puppy",
+    "sentence": "The cute puppy plays with a ball.",
+    "orderHint": "그 귀여운 강아지는 | 놀아요 | 공을 가지고",
+    "translation": "귀여운 강아지가 공을 가지고 놀아요."
+  },
+  {
+    "word": "sister",
+    "sentence": "My sister likes to draw pictures.",
+    "orderHint": "나의 여동생은 | 좋아해요 | 그림 그리는 것을",
+    "translation": "내 여동생은 그림 그리는 것을 좋아해요."
+  },
+  {
+    "word": "tennis",
+    "sentence": "We play tennis every Saturday.",
+    "orderHint": "우리는 | 쳐요 | 테니스를 | 매주 토요일마다",
+    "translation": "우리는 매주 토요일에 테니스를 쳐요."
+  },
+  {
+    "word": "walk",
+    "sentence": "I walk to school every morning.",
+    "orderHint": "나는 걸어간다 | 학교로 | 매일 아침에",
+    "translation": "나는 매일 아침 학교에 걸어간다."
+  },
+  {
+    "word": "against",
+    "sentence": "Put the chair against the wall.",
+    "orderHint": "놓아라 | 그 의자를 | 벽에 붙여서",
+    "translation": "의자를 벽에 붙여 놓아라."
+  },
+  {
+    "word": "bike",
+    "sentence": "She rides her red bike outside.",
+    "orderHint": "그녀는 탄다 | 그녀의 빨간 자전거를 | 밖에서",
+    "translation": "그녀는 밖에서 빨간 자전거를 탄다."
+  },
+  {
+    "word": "church",
+    "sentence": "We go to church on Sunday.",
+    "orderHint": "우리는 간다 | 교회에 | 일요일에",
+    "translation": "우리는 일요일에 교회에 간다."
+  },
+  {
+    "word": "dog",
+    "sentence": "The happy dog runs very fast.",
+    "orderHint": "그 신난 개는 | 달린다 | 매우 빠르게",
+    "translation": "그 신난 개는 매우 빠르게 달린다."
+  },
+  {
+    "word": "fool",
+    "sentence": "Do not fool your friends.",
+    "orderHint": "속이지 마라 | 너의 친구들을",
+    "translation": "친구들을 속이지 마세요."
+  },
+  {
+    "word": "high",
+    "sentence": "The bird flies very high.",
+    "orderHint": "그 새는 | 날아간다 | 매우 높이",
+    "translation": "그 새는 매우 높이 날아갑니다."
+  },
+  {
+    "word": "leg",
+    "sentence": "My left leg hurts a little.",
+    "orderHint": "내 왼쪽 다리가 | 아프다 | 조금",
+    "translation": "내 왼쪽 다리가 조금 아파요."
+  },
+  {
+    "word": "nice",
+    "sentence": "She is very nice to everyone.",
+    "orderHint": "그녀는 | 이다 | 매우 친절한 | 모두에게",
+    "translation": "그녀는 모두에게 매우 친절해요."
+  },
+  {
+    "word": "push",
+    "sentence": "You can push the heavy door.",
+    "orderHint": "너는 | 밀 수 있다 | 그 무거운 문을",
+    "translation": "너는 그 무거운 문을 밀 수 있어."
+  },
+  {
+    "word": "sit",
+    "sentence": "Please sit on the soft chair.",
+    "orderHint": "제발 앉으세요 | 그 부드러운 의자 위에",
+    "translation": "부드러운 의자에 앉아 주세요."
+  },
+  {
+    "word": "tent",
+    "sentence": "We built a tent in the yard.",
+    "orderHint": "우리는 지었다 | 텐트를 | 마당에",
+    "translation": "우리는 마당에 텐트를 쳤어요."
+  },
+  {
+    "word": "wall",
+    "sentence": "A big clock is on the wall.",
+    "orderHint": "큰 시계가 | 있다 | 벽에",
+    "translation": "벽에 큰 시계가 걸려 있어요."
+  },
+  {
+    "word": "age",
+    "sentence": "What is your age?",
+    "orderHint": "무엇이니 | 너의 나이는",
+    "translation": "너는 몇 살이니?"
+  },
+  {
+    "word": "bill",
+    "sentence": "He paid the bill with cash.",
+    "orderHint": "그는 지불했다 | 그 계산서를 | 현금으로",
+    "translation": "그는 현금으로 계산서를 지불했어요."
+  },
+  {
+    "word": "circle",
+    "sentence": "Draw a big circle on the paper.",
+    "orderHint": "그려라 | 큰 원을 | 종이 위에",
+    "translation": "종이에 큰 동그라미를 그리세요."
+  },
+  {
+    "word": "doll",
+    "sentence": "She plays with her cute doll.",
+    "orderHint": "그녀는 놀아요 | 그녀의 귀여운 인형과 함께",
+    "translation": "그녀는 귀여운 인형을 가지고 놀아요."
+  },
+  {
+    "word": "foot",
+    "sentence": "My right foot hurts a little.",
+    "orderHint": "내 오른발이 | 아파요 | 조금",
+    "translation": "내 오른발이 조금 아파요."
+  },
+  {
+    "word": "hike",
+    "sentence": "We hike up the mountain today.",
+    "orderHint": "우리는 하이킹해요 | 산 위로 | 오늘",
+    "translation": "우리는 오늘 산으로 하이킹을 가요."
+  },
+  {
+    "word": "lesson",
+    "sentence": "I have a music lesson today.",
+    "orderHint": "나는 있어요 | 음악 수업이 | 오늘",
+    "translation": "나는 오늘 음악 수업이 있어요."
+  },
+  {
+    "word": "night",
+    "sentence": "Stars shine brightly at night.",
+    "orderHint": "별들은 | 빛난다 | 밝게 | 밤에",
+    "translation": "밤에는 별들이 밝게 빛나요."
+  },
+  {
+    "word": "put",
+    "sentence": "Please put the book on the desk.",
+    "orderHint": "놓아주세요 | 그 책을 | 책상 위에",
+    "translation": "책을 책상 위에 놓아주세요."
+  },
+  {
+    "word": "six",
+    "sentence": "I have six colorful pencils.",
+    "orderHint": "나는 | 가지고 있다 | 여섯 개의 | 알록달록한 연필들을",
+    "translation": "나는 알록달록한 연필 여섯 자루가 있어요."
+  },
+  {
+    "word": "test",
+    "sentence": "We have a math test today.",
+    "orderHint": "우리는 | 있다 | 수학 시험이 | 오늘",
+    "translation": "우리는 오늘 수학 시험이 있어요."
+  },
+  {
+    "word": "want",
+    "sentence": "I want a cup of warm milk.",
+    "orderHint": "나는 | 원한다 | 한 잔의 | 따뜻한 우유를",
+    "translation": "나는 따뜻한 우유 한 잔을 원해요."
+  },
+  {
+    "word": "ago",
+    "sentence": "I ate lunch two hours ago.",
+    "orderHint": "나는 먹었다 | 점심을 | 두 시간 전에",
+    "translation": "나는 두 시간 전에 점심을 먹었다."
+  },
+  {
+    "word": "bird",
+    "sentence": "A blue bird is in the tree.",
+    "orderHint": "파란 새가 | 있다 | 나무 안에",
+    "translation": "파란 새가 나무에 있다."
+  },
+  {
+    "word": "city",
+    "sentence": "We live in a big city.",
+    "orderHint": "우리는 산다 | 큰 도시에",
+    "translation": "우리는 큰 도시에 산다."
+  },
+  {
+    "word": "door",
+    "sentence": "Please close the door now.",
+    "orderHint": "제발 닫아라 | 문을 | 지금",
+    "translation": "지금 문을 닫아 주세요."
+  },
+  {
+    "word": "football",
+    "sentence": "They play football on Sunday.",
+    "orderHint": "그들은 한다 | 미식축구를 | 일요일에",
+    "translation": "그들은 일요일에 미식축구를 한다."
+  },
+  {
+    "word": "hill",
+    "sentence": "We ran up the green hill.",
+    "orderHint": "우리는 | 뛰어 올라갔다 | 그 초록색 언덕을",
+    "translation": "우리는 초록색 언덕을 뛰어 올라갔습니다."
+  },
+  {
+    "word": "letter",
+    "sentence": "I wrote a letter to my friend.",
+    "orderHint": "나는 | 썼다 | 편지를 | 나의 친구에게",
+    "translation": "나는 친구에게 편지를 썼습니다."
+  },
+  {
+    "word": "nine",
+    "sentence": "I have nine colorful pencils.",
+    "orderHint": "나는 | 가지고 있다 | 아홉 개의 알록달록한 연필을",
+    "translation": "나는 알록달록한 연필 아홉 자루를 가지고 있습니다."
+  },
+  {
+    "word": "size",
+    "sentence": "This shirt is the right size.",
+    "orderHint": "이 셔츠는 | 이다 | 알맞은 크기",
+    "translation": "이 셔츠는 알맞은 크기입니다."
+  },
+  {
+    "word": "textbook",
+    "sentence": "Open your English textbook now.",
+    "orderHint": "펴세요 | 너의 영어 교과서를 | 지금",
+    "translation": "지금 영어 교과서를 펴세요."
+  },
+  {
+    "word": "war",
+    "sentence": "The book tells a story about war.",
+    "orderHint": "그 책은 | 말해줘요 | 이야기를 | 전쟁에 대한",
+    "translation": "그 책은 전쟁에 대한 이야기를 들려줘요."
+  },
+  {
+    "word": "agree",
+    "sentence": "I agree with your good idea.",
+    "orderHint": "나는 | 동의해요 | 너의 좋은 생각에",
+    "translation": "나는 너의 좋은 생각에 동의해."
+  },
+  {
+    "word": "birth",
+    "sentence": "We celebrated the birth of the baby.",
+    "orderHint": "우리는 | 축하했어요 | 탄생을 | 그 아기의",
+    "translation": "우리는 그 아기의 탄생을 축하했어요."
+  },
+  {
+    "word": "class",
+    "sentence": "Our English class starts at nine.",
+    "orderHint": "우리의 영어 수업은 | 시작해요 | 9시에",
+    "translation": "우리 영어 수업은 9시에 시작해요."
+  },
+  {
+    "word": "double",
+    "sentence": "I bought a double pack of pencils.",
+    "orderHint": "나는 | 샀어요 | 두 개들이 묶음의 연필을",
+    "translation": "나는 연필 2개들이 팩을 샀어요."
+  },
+  {
+    "word": "for",
+    "sentence": "I waited for ten minutes.",
+    "orderHint": "나는 기다렸다 | 10분 동안",
+    "translation": "나는 10분 동안 기다렸다."
+  },
+  {
+    "word": "history",
+    "sentence": "We learn history at school today.",
+    "orderHint": "우리는 배운다 | 역사를 | 학교에서 | 오늘",
+    "translation": "우리는 오늘 학교에서 역사를 배운다."
+  },
+  {
+    "word": "library",
+    "sentence": "I borrow books from the library.",
+    "orderHint": "나는 빌린다 | 책들을 | 도서관으로부터",
+    "translation": "나는 도서관에서 책을 빌린다."
+  },
+  {
+    "word": "no",
+    "sentence": "There is no juice in the box.",
+    "orderHint": "~이 없다 | 주스가 | 상자 안에",
+    "translation": "상자 안에는 주스가 없다."
+  },
+  {
+    "word": "queen",
+    "sentence": "The queen lives in a big castle.",
+    "orderHint": "그 여왕은 | 산다 | 큰 성 안에",
+    "translation": "그 여왕은 큰 성에 산다."
+  },
+  {
+    "word": "skate",
+    "sentence": "I can skate on ice.",
+    "orderHint": "나는 | 스케이트를 탈 수 있다 | 얼음 위에서",
+    "translation": "나는 얼음 위에서 스케이트를 탈 수 있어."
+  },
+  {
+    "word": "than",
+    "sentence": "My brother is taller than me.",
+    "orderHint": "나의 형은 | ~이다 더 키가 큰 | 나보다",
+    "translation": "우리 형은 나보다 키가 더 크다."
+  },
+  {
+    "word": "warm",
+    "sentence": "I like warm milk.",
+    "orderHint": "나는 | 좋아한다 | 따뜻한 우유를",
+    "translation": "나는 따뜻한 우유를 좋아해."
+  },
+  {
+    "word": "ahead",
+    "sentence": "Look ahead when you walk.",
+    "orderHint": "보아라 | 앞을 | 네가 걸을 때",
+    "translation": "걸을 때 앞을 보렴."
+  },
+  {
+    "word": "biscuit",
+    "sentence": "I ate a sweet biscuit.",
+    "orderHint": "나는 | 먹었다 | 달콤한 비스킷을",
+    "translation": "나는 달콤한 비스킷을 먹었다."
+  },
+  {
+    "word": "clean",
+    "sentence": "I clean my room every day.",
+    "orderHint": "나는 | 청소해요 | 나의 방을 | 매일",
+    "translation": "나는 매일 내 방을 청소해요."
+  },
+  {
+    "word": "doughnut/donut",
+    "sentence": "I ate a sweet doughnut.",
+    "orderHint": "나는 | 먹었다 | 달콤한 도넛 하나를",
+    "translation": "나는 달콤한 도넛 하나를 먹었다."
+  },
+  {
+    "word": "forest",
+    "sentence": "Many trees grow in the forest.",
+    "orderHint": "많은 나무들이 | 자라요 | 숲에서",
+    "translation": "숲에는 많은 나무가 자라요."
+  },
+  {
+    "word": "hit",
+    "sentence": "He can hit the ball hard.",
+    "orderHint": "그는 | 칠 수 있어요 | 공을 | 세게",
+    "translation": "그는 공을 세게 칠 수 있어요."
+  },
+  {
+    "word": "lie",
+    "sentence": "You should not tell a lie.",
+    "orderHint": "너는 | 해서는 안 돼요 | 거짓말을",
+    "translation": "거짓말을 하면 안 돼요."
+  },
+  {
+    "word": "north",
+    "sentence": "Birds fly north in the spring.",
+    "orderHint": "새들은 | 날아간다 | 북쪽으로 | 봄에",
+    "translation": "새들은 봄에 북쪽으로 날아갑니다."
+  },
+  {
+    "word": "question",
+    "sentence": "I have a question for you.",
+    "orderHint": "나는 | 가지고 있다 | 질문 하나를 | 너에게",
+    "translation": "너에게 물어볼 질문이 하나 있어."
+  },
+  {
+    "word": "ski",
+    "sentence": "We like to ski in winter.",
+    "orderHint": "우리는 | 좋아한다 | 스키 타는 것을 | 겨울에",
+    "translation": "우리는 겨울에 스키 타는 것을 좋아해요."
+  },
+  {
+    "word": "thank",
+    "sentence": "I thank my teacher every day.",
+    "orderHint": "나는 | 감사해한다 | 나의 선생님에게 | 매일",
+    "translation": "나는 매일 선생님께 감사드려요."
+  },
+  {
+    "word": "wash",
+    "sentence": "Please wash your hands before dinner.",
+    "orderHint": "씻으세요 | 너의 손을 | 저녁 식사 전에",
+    "translation": "저녁 먹기 전에 손을 씻으세요."
+  },
+  {
+    "word": "air",
+    "sentence": "Fresh air comes into the room.",
+    "orderHint": "신선한 공기가 | 들어온다 | 방 안으로",
+    "translation": "신선한 공기가 방 안으로 들어와요."
+  },
+  {
+    "word": "black",
+    "sentence": "The cute cat has black fur.",
+    "orderHint": "그 귀여운 고양이는 | 가지고 있다 | 검은 털을",
+    "translation": "그 귀여운 고양이는 검은 털을 가지고 있어요."
+  },
+  {
+    "word": "clear",
+    "sentence": "The sky is very clear today.",
+    "orderHint": "하늘이 | 이다 | 매우 맑은 | 오늘",
+    "translation": "오늘 하늘이 아주 맑아요."
+  },
+  {
+    "word": "down",
+    "sentence": "Please sit down on this chair.",
+    "orderHint": "제발 | 앉으세요 | 아래로 | 이 의자에",
+    "translation": "이 의자에 앉아 주세요."
+  },
+  {
+    "word": "forget",
+    "sentence": "Do not forget your warm hat.",
+    "orderHint": "잊지 마라 | 너의 따뜻한 모자를",
+    "translation": "너의 따뜻한 모자를 잊지 마."
+  },
+  {
+    "word": "hobby",
+    "sentence": "My hobby is reading books.",
+    "orderHint": "My hobby | is | reading books.",
+    "translation": "제 취미는 책 읽기입니다."
+  },
+  {
+    "word": "life",
+    "sentence": "Life is beautiful.",
+    "orderHint": "Life | is | beautiful.",
+    "translation": "인생은 아름다워요."
+  },
+  {
+    "word": "nose",
+    "sentence": "I have a small nose.",
+    "orderHint": "I | have | a small nose.",
+    "translation": "저는 작은 코를 가지고 있어요."
+  },
+  {
+    "word": "quick",
+    "sentence": "Be quick! Let's go.",
+    "orderHint": "Be quick! | Let's go.",
+    "translation": "빨리 해요! 가요."
+  },
+  {
+    "word": "skin",
+    "sentence": "My skin is soft.",
+    "orderHint": "My skin | is | soft.",
+    "translation": "제 피부는 부드러워요."
+  },
+  {
+    "word": "that",
+    "sentence": "Look at that cat.",
+    "orderHint": "봐 | 저 | 고양이",
+    "translation": "저 고양이를 봐."
+  },
+  {
+    "word": "watch",
+    "sentence": "I watch TV.",
+    "orderHint": "나는 | 본다 | TV를",
+    "translation": "나는 TV를 본다."
+  },
+  {
+    "word": "airplane/plane",
+    "sentence": "The airplane is in the sky.",
+    "orderHint": "그 비행기는 | 있다 | 하늘에",
+    "translation": "비행기가 하늘에 있다."
+  },
+  {
+    "word": "blood",
+    "sentence": "My finger has blood.",
+    "orderHint": "나의 | 손가락은 | 가지고 있다 | 피를",
+    "translation": "내 손가락에 피가 있어."
+  },
+  {
+    "word": "clever",
+    "sentence": "You are very clever.",
+    "orderHint": "너는 | 이다 | 매우 | 똑똑한",
+    "translation": "너는 아주 똑똑해."
+  },
+  {
+    "word": "draw",
+    "sentence": "I like to draw.",
+    "orderHint": "나는 | 좋아한다 | 그리는 것을",
+    "translation": "나는 그리는 것을 좋아한다."
+  },
+  {
+    "word": "fork",
+    "sentence": "Use a fork.",
+    "orderHint": "사용해라 | 포크를",
+    "translation": "포크를 사용해."
+  },
+  {
+    "word": "hold",
+    "sentence": "Hold my hand.",
+    "orderHint": "잡아라 | 나의 | 손을",
+    "translation": "내 손을 잡아."
+  },
+  {
+    "word": "light",
+    "sentence": "Turn on the light.",
+    "orderHint": "켜라 | 그 | 빛을",
+    "translation": "불을 켜."
+  },
+  {
+    "word": "not",
+    "sentence": "I am not sad.",
+    "orderHint": "나는 | 이다 | 아니다 | 슬픈",
+    "translation": "나는 슬프지 않아."
+  },
+  {
+    "word": "quiet",
+    "sentence": "Be quiet, please.",
+    "orderHint": "조용히 해라 | 제발",
+    "translation": "조용히 해줘."
+  },
+  {
+    "word": "skirt",
+    "sentence": "She wears a skirt.",
+    "orderHint": "그녀는 | 입는다 | 치마를",
+    "translation": "그녀는 치마를 입는다."
+  },
+  {
+    "word": "the",
+    "sentence": "Look at the dog.",
+    "orderHint": "봐 | 그 | 개를",
+    "translation": "그 개를 봐."
+  },
+  {
+    "word": "water",
+    "sentence": "I drink water.",
+    "orderHint": "나는 | 마신다 | 물을",
+    "translation": "나는 물을 마신다."
+  },
+  {
+    "word": "album",
+    "sentence": "Look at my album.",
+    "orderHint": "봐 | 나의 | 앨범을",
+    "translation": "내 앨범을 봐."
+  },
+  {
+    "word": "blue",
+    "sentence": "The sky is blue.",
+    "orderHint": "그 | 하늘은 | 이다 | 파란색",
+    "translation": "하늘은 파란색이다."
+  },
+  {
+    "word": "climb",
+    "sentence": "I can climb a tree.",
+    "orderHint": "나는 | 할 수 있다 | 오르다 | 나무를",
+    "translation": "나는 나무에 오를 수 있다."
+  },
+  {
+    "word": "dream",
+    "sentence": "I had a good dream.",
+    "orderHint": "나는 | 가졌다 | 좋은 | 꿈을",
+    "translation": "나는 좋은 꿈을 꿨어."
+  },
+  {
+    "word": "form",
+    "sentence": "Fill out this form.",
+    "orderHint": "작성해라 | 이 | 양식을",
+    "translation": "이 양식을 작성해."
+  },
+  {
+    "word": "holiday",
+    "sentence": "Today is a holiday.",
+    "orderHint": "오늘은 | 이다 | 휴일",
+    "translation": "오늘은 휴일이다."
+  },
+  {
+    "word": "like",
+    "sentence": "I like apples.",
+    "orderHint": "나는 | 좋아한다 | 사과를",
+    "translation": "나는 사과를 좋아한다."
+  },
+  {
+    "word": "note",
+    "sentence": "Write a short note.",
+    "orderHint": "써라 | 짧은 | 쪽지를",
+    "translation": "짧은 쪽지를 써."
+  },
+  {
+    "word": "quiz",
+    "sentence": "We have a quiz.",
+    "orderHint": "우리는 | 가지고 있다 | 퀴즈를",
+    "translation": "우리는 퀴즈가 있어."
+  },
+  {
+    "word": "sky",
+    "sentence": "The sky is blue.",
+    "orderHint": "그 | 하늘은 | 이다 | 파란색",
+    "translation": "하늘은 파란색이다."
+  },
+  {
+    "word": "there",
+    "sentence": "Look over there.",
+    "orderHint": "봐라 | 저기에",
+    "translation": "저기를 봐."
+  },
+  {
+    "word": "watermelon",
+    "sentence": "I like watermelon.",
+    "orderHint": "나 | 좋아해 | 수박.",
+    "translation": "나는 수박을 좋아해."
+  },
+  {
+    "word": "all",
+    "sentence": "We are all friends.",
+    "orderHint": "우리 | 입니다 | 모두 | 친구들.",
+    "translation": "우리는 모두 친구예요."
+  },
+  {
+    "word": "board",
+    "sentence": "Write on the board.",
+    "orderHint": "써라 | 위에 | 그 | 칠판.",
+    "translation": "칠판에 써."
+  },
+  {
+    "word": "clock",
+    "sentence": "Look at the clock.",
+    "orderHint": "봐라 | ~을 | 그 | 시계.",
+    "translation": "시계를 봐."
+  },
+  {
+    "word": "dress",
+    "sentence": "She has a pretty dress.",
+    "orderHint": "그녀는 | 가지고 있다 | 예쁜 | 드레스.",
+    "translation": "그녀는 예쁜 드레스를 가지고 있어."
+  },
+  {
+    "word": "four",
+    "sentence": "I have four apples.",
+    "orderHint": "나 | 가지고 있다 | 넷 | 사과들.",
+    "translation": "나는 사과 넷이 있어."
+  },
+  {
+    "word": "home",
+    "sentence": "Let's go home now.",
+    "orderHint": "~하자 | 가자 | 집으로 | 지금.",
+    "translation": "지금 집에 가자."
+  },
+  {
+    "word": "line",
+    "sentence": "Stand in a line.",
+    "orderHint": "서라 | 안에 | 한 | 줄.",
+    "translation": "줄 서."
+  },
+  {
+    "word": "notebook",
+    "sentence": "Open your notebook.",
+    "orderHint": "열어라 | 너의 | 공책.",
+    "translation": "공책을 펴."
+  },
+  {
+    "word": "sleep",
+    "sentence": "I want to sleep.",
+    "orderHint": "나 | 원한다 | ~하는 것을 | 잠자다.",
+    "translation": "나는 자고 싶어."
+  },
+  {
+    "word": "they",
+    "sentence": "They are my friends.",
+    "orderHint": "그들은 | 입니다 | 나의 | 친구들.",
+    "translation": "그들은 내 친구들이야."
+  },
+  {
+    "word": "way",
+    "sentence": "This is the way.",
+    "orderHint": "이것은 | 입니다 | 그 | 길.",
+    "translation": "이것이 그 길이야."
+  },
+  {
+    "word": "almost",
+    "sentence": "It's almost time.",
+    "orderHint": "그것은 | 거의 | 시간.",
+    "translation": "거의 시간 다 됐어."
+  },
+  {
+    "word": "boat",
+    "sentence": "I see a boat.",
+    "orderHint": "나 | 본다 | 한 | 배.",
+    "translation": "나는 배를 봐."
+  },
+  {
+    "word": "close",
+    "sentence": "Please close the door.",
+    "orderHint": "제발 | 닫아라 | 그 | 문.",
+    "translation": "문을 닫아 주세요."
+  },
+  {
+    "word": "drink",
+    "sentence": "I want to drink water.",
+    "orderHint": "나 | 원한다 | ~하는 것을 | 마시다 | 물.",
+    "translation": "나는 물을 마시고 싶어."
+  },
+  {
+    "word": "fox",
+    "sentence": "The fox is fast.",
+    "orderHint": "그 | 여우는 | 입니다 | 빠른.",
+    "translation": "여우는 빨라."
+  },
+  {
+    "word": "homework",
+    "sentence": "Do your homework.",
+    "orderHint": "해라 | 너의 | 숙제.",
+    "translation": "숙제 해."
+  },
+  {
+    "word": "lion",
+    "sentence": "The lion is big.",
+    "orderHint": "그 | 사자는 | 입니다 | 큰.",
+    "translation": "사자는 커."
+  },
+  {
+    "word": "nothing",
+    "sentence": "I have nothing.",
+    "orderHint": "나 | 가지고 있다 | 아무것도.",
+    "translation": "나는 아무것도 없어."
+  },
+  {
+    "word": "rabbit",
+    "sentence": "The rabbit is cute.",
+    "orderHint": "그 | 토끼는 | 입니다 | 귀여운.",
+    "translation": "토끼는 귀여워."
+  },
+  {
+    "word": "slow",
+    "sentence": "The turtle is slow.",
+    "orderHint": "그 | 거북이는 | 입니다 | 느린.",
+    "translation": "거북이는 느려."
+  },
+  {
+    "word": "thing",
+    "sentence": "What is that thing?",
+    "orderHint": "무엇 | 입니다 | 저 | 것?",
+    "translation": "저것은 무엇이니?"
+  },
+  {
+    "word": "we",
+    "sentence": "We like to play.",
+    "orderHint": "우리는 | 좋아한다 | ~하는 것을 | 놀다.",
+    "translation": "우리는 노는 것을 좋아해."
+  },
+  {
+    "word": "alone",
+    "sentence": "I am not alone.",
+    "orderHint": "나 | 입니다 | 아니다 | 혼자.",
+    "translation": "나는 혼자가 아니야."
+  },
+  {
+    "word": "body",
+    "sentence": "My body is strong.",
+    "orderHint": "나의 몸 | 이다 | 강한",
+    "translation": "내 몸은 튼튼해."
+  },
+  {
+    "word": "clothes",
+    "sentence": "I like new clothes.",
+    "orderHint": "나는 좋아한다 | 새 옷들을",
+    "translation": "나는 새 옷이 좋아."
+  },
+  {
+    "word": "drive",
+    "sentence": "Dad can drive a car.",
+    "orderHint": "아빠는 할 수 있다 | 운전하다 | 차를",
+    "translation": "아빠는 차를 운전할 수 있어."
+  },
+  {
+    "word": "free",
+    "sentence": "This toy is free.",
+    "orderHint": "이 장난감은 | 이다 | 무료인",
+    "translation": "이 장난감은 공짜야."
+  },
+  {
+    "word": "honest",
+    "sentence": "Be honest with me.",
+    "orderHint": "되어라 | 정직하게 | 나와 함께",
+    "translation": "나에게 솔직해져."
+  },
+  {
+    "word": "lip",
+    "sentence": "My lip is dry.",
+    "orderHint": "나의 입술은 | 이다 | 마른",
+    "translation": "내 입술이 말랐어."
+  },
+  {
+    "word": "now",
+    "sentence": "Let's play now.",
+    "orderHint": "하자 | 놀자 | 지금",
+    "translation": "지금 놀자."
+  },
+  {
+    "word": "race",
+    "sentence": "Let's run a race.",
+    "orderHint": "하자 | 달리자 | 경주를",
+    "translation": "경주하자."
+  },
+  {
+    "word": "small",
+    "sentence": "This cat is small.",
+    "orderHint": "이 고양이는 | 이다 | 작은",
+    "translation": "이 고양이는 작아."
+  },
+  {
+    "word": "think",
+    "sentence": "I think it's fun.",
+    "orderHint": "나는 생각한다 | 그것은 이다 | 재미있는",
+    "translation": "재미있다고 생각해."
+  },
+  {
+    "word": "wear",
+    "sentence": "I wear a hat.",
+    "orderHint": "나는 입는다 | 모자를",
+    "translation": "나는 모자를 써."
+  },
+  {
+    "word": "along",
+    "sentence": "Walk along the road.",
+    "orderHint": "걸어라 | ~을 따라서 | 그 길을",
+    "translation": "길을 따라 걸어."
+  },
+  {
+    "word": "bone",
+    "sentence": "A dog likes a bone.",
+    "orderHint": "한 개는 | 좋아한다 | 한 뼈를",
+    "translation": "개는 뼈를 좋아해."
+  },
+  {
+    "word": "cloud",
+    "sentence": "Look at the cloud.",
+    "orderHint": "봐라 | ~을 | 그 구름을",
+    "translation": "구름을 봐."
+  },
+  {
+    "word": "drop",
+    "sentence": "Don't drop the ball.",
+    "orderHint": "하지 마라 | 떨어뜨리다 | 그 공을",
+    "translation": "공을 떨어뜨리지 마."
+  },
+  {
+    "word": "fresh",
+    "sentence": "This fruit is fresh.",
+    "orderHint": "이 과일은 | 이다 | 신선한",
+    "translation": "이 과일은 신선해."
+  },
+  {
+    "word": "hope",
+    "sentence": "I hope you win.",
+    "orderHint": "나는 희망한다 | 네가 이기기를",
+    "translation": "네가 이기길 바라."
+  },
+  {
+    "word": "listen",
+    "sentence": "Listen to the music.",
+    "orderHint": "들어라 | ~을 | 그 음악을",
+    "translation": "음악을 들어."
+  },
+  {
+    "word": "number",
+    "sentence": "What is your number?",
+    "orderHint": "무엇이니 | 이다 | 너의 숫자",
+    "translation": "네 번호가 뭐야?"
+  },
+  {
+    "word": "radio",
+    "sentence": "Turn on the radio.",
+    "orderHint": "켜라 | ~을 | 그 라디오를",
+    "translation": "라디오를 켜."
+  },
+  {
+    "word": "smell",
+    "sentence": "I smell a pretty flower.",
+    "orderHint": "나는 | 냄새를 맡는다 | 예쁜 꽃의",
+    "translation": "나는 예쁜 꽃의 냄새를 맡는다."
+  },
+  {
+    "word": "third",
+    "sentence": "I am third in line.",
+    "orderHint": "나는 이다 | 세 번째 | 줄에서",
+    "translation": "나는 줄에서 세 번째야."
+  },
+  {
+    "word": "weather",
+    "sentence": "The weather is nice today.",
+    "orderHint": "그 날씨는 | 이다 | 좋은 | 오늘",
+    "translation": "오늘 날씨가 좋아."
+  },
+  {
+    "word": "already",
+    "sentence": "I already ate lunch.",
+    "orderHint": "나는 이미 | 먹었다 | 점심을",
+    "translation": "나는 이미 점심을 먹었어."
+  },
+  {
+    "word": "book",
+    "sentence": "Read a good book.",
+    "orderHint": "읽어라 | 한 좋은 | 책을",
+    "translation": "좋은 책을 읽어."
+  },
+  {
+    "word": "club",
+    "sentence": "I like my school club.",
+    "orderHint": "나는 좋아한다 | 나의 학교 동아리.",
+    "translation": "나는 학교 동아리를 좋아해."
+  },
+  {
+    "word": "drum",
+    "sentence": "I can play the drum.",
+    "orderHint": "나는 할 수 있다 | 연주하다 | 그 북.",
+    "translation": "나는 북을 연주할 수 있어."
+  },
+  {
+    "word": "friend",
+    "sentence": "She is my best friend.",
+    "orderHint": "그녀는 이다 | 나의 가장 친한 친구.",
+    "translation": "그녀는 나의 가장 친한 친구야."
+  },
+  {
+    "word": "horse",
+    "sentence": "I saw a big horse.",
+    "orderHint": "나는 보았다 | 큰 말.",
+    "translation": "나는 큰 말을 봤어."
+  },
+  {
+    "word": "little",
+    "sentence": "I have a little dog.",
+    "orderHint": "나는 가지고 있다 | 작은 개.",
+    "translation": "나는 작은 강아지가 있어."
+  },
+  {
+    "word": "nurse",
+    "sentence": "My mom is a nurse.",
+    "orderHint": "나의 엄마는 이다 | 간호사.",
+    "translation": "우리 엄마는 간호사야."
+  },
+  {
+    "word": "rain",
+    "sentence": "It will rain tomorrow.",
+    "orderHint": "그것은 할 것이다 | 비가 오다 | 내일.",
+    "translation": "내일 비가 올 거야."
+  },
+  {
+    "word": "smile",
+    "sentence": "Please smile for the photo.",
+    "orderHint": "제발 미소 짓다 | 그 사진을 위해.",
+    "translation": "사진을 위해 웃어주세요."
+  },
+  {
+    "word": "thirsty",
+    "sentence": "I am thirsty. I need water.",
+    "orderHint": "나는 이다 | 목마른. | 나는 필요하다 | 물.",
+    "translation": "목말라. 물이 필요해."
+  },
+  {
+    "word": "website",
+    "sentence": "Look at this fun website!",
+    "orderHint": "봐라 | 이 재미있는 웹사이트!",
+    "translation": "이 재미있는 웹사이트를 봐!"
+  },
+  {
+    "word": "alright",
+    "sentence": "Are you alright? I am fine.",
+    "orderHint": "너는 이니 | 괜찮은? | 나는 이다 | 괜찮은.",
+    "translation": "괜찮니? 나는 괜찮아."
+  },
+  {
+    "word": "borrow",
+    "sentence": "Can I borrow your pencil?",
+    "orderHint": "할 수 있니 | 내가 빌리다 | 너의 연필?",
+    "translation": "네 연필 좀 빌릴 수 있을까?"
+  },
+  {
+    "word": "coat",
+    "sentence": "Wear your warm coat.",
+    "orderHint": "입어라 | 너의 따뜻한 코트.",
+    "translation": "따뜻한 코트를 입어."
+  },
+  {
+    "word": "dry",
+    "sentence": "Please dry your hands.",
+    "orderHint": "제발 말려라 | 너의 손.",
+    "translation": "손을 말려주세요."
+  },
+  {
+    "word": "from",
+    "sentence": "I am from Korea.",
+    "orderHint": "나는 이다 | ~로부터 | 한국.",
+    "translation": "나는 한국에서 왔어."
+  },
+  {
+    "word": "hospital",
+    "sentence": "My dad works at a hospital.",
+    "orderHint": "나의 아빠는 일한다 | ~에서 | 병원.",
+    "translation": "우리 아빠는 병원에서 일하셔."
+  },
+  {
+    "word": "live",
+    "sentence": "I live in a big city.",
+    "orderHint": "나는 산다 | ~안에 | 큰 도시.",
+    "translation": "나는 큰 도시에 살아."
+  },
+  {
+    "word": "read",
+    "sentence": "I like to read books.",
+    "orderHint": "나는 좋아한다 | ~하는 것을 | 읽다 | 책들.",
+    "translation": "나는 책 읽는 것을 좋아해."
+  },
+  {
+    "word": "snow",
+    "sentence": "It will snow today.",
+    "orderHint": "그것은 할 것이다 | 눈이 오다 | 오늘.",
+    "translation": "오늘 눈이 올 거야."
+  },
+  {
+    "word": "thirteen",
+    "sentence": "I am thirteen years old.",
+    "orderHint": "나는 이다 | 열세 살.",
+    "translation": "나는 열세 살이야."
+  },
+  {
+    "word": "wedding",
+    "sentence": "My aunt's wedding was fun.",
+    "orderHint": "나의 이모의 결혼식은 이었다 | 재미있는.",
+    "translation": "우리 이모 결혼식은 재미있었어."
+  },
+  {
+    "word": "also",
+    "sentence": "I like pizza. I also like pasta.",
+    "orderHint": "나는 좋아한다 | 피자. | 나는 또한 좋아한다 | 파스타.",
+    "translation": "나는 피자를 좋아해. 파스타도 좋아해."
+  },
+  {
+    "word": "both",
+    "sentence": "We both like ice cream.",
+    "orderHint": "우리 둘 다 | 좋아한다 | 아이스크림.",
+    "translation": "우리 둘 다 아이스크림을 좋아해."
+  },
+  {
+    "word": "coffee",
+    "sentence": "My mom drinks coffee.",
+    "orderHint": "나의 엄마는 마신다 | 커피.",
+    "translation": "우리 엄마는 커피를 마셔."
+  },
+  {
+    "word": "duck",
+    "sentence": "Look at the cute duck!",
+    "orderHint": "봐라 | 그 귀여운 오리!",
+    "translation": "저 귀여운 오리를 봐!"
+  },
+  {
+    "word": "front",
+    "sentence": "The car is in front.",
+    "orderHint": "그 차 | ~이다 | ~안에 | 앞.",
+    "translation": "차가 앞에 있어요."
+  },
+  {
+    "word": "hot",
+    "sentence": "This soup is hot.",
+    "orderHint": "이 수프 | ~이다 | 뜨거운.",
+    "translation": "이 수프는 뜨거워요."
+  },
+  {
+    "word": "long",
+    "sentence": "My hair is long.",
+    "orderHint": "내 머리카락 | ~이다 | 긴.",
+    "translation": "내 머리카락은 길어요."
+  },
+  {
+    "word": "of",
+    "sentence": "This is a cup of milk.",
+    "orderHint": "이것 | ~이다 | 한 컵 | ~의 | 우유.",
+    "translation": "이것은 우유 한 잔이에요."
+  },
+  {
+    "word": "ready",
+    "sentence": "Are you ready to go?",
+    "orderHint": "~이니 | 너 | 준비된 | ~하기 위해 | 가다?",
+    "translation": "갈 준비 됐니?"
+  },
+  {
+    "word": "so",
+    "sentence": "I am so happy.",
+    "orderHint": "나 | ~이다 | 매우 | 행복한.",
+    "translation": "나는 정말 행복해요."
+  },
+  {
+    "word": "thirty",
+    "sentence": "I am thirty years old.",
+    "orderHint": "나 | ~이다 | 서른 | 살 | 나이.",
+    "translation": "저는 서른 살이에요."
+  },
+  {
+    "word": "week",
+    "sentence": "I will see you next week.",
+    "orderHint": "나 | ~할 것이다 | 보다 | 너를 | 다음 | 주.",
+    "translation": "다음 주에 만나요."
+  },
+  {
+    "word": "always",
+    "sentence": "I always eat breakfast.",
+    "orderHint": "나 | 항상 | 먹다 | 아침 식사.",
+    "translation": "나는 항상 아침을 먹어요."
+  },
+  {
+    "word": "bottle",
+    "sentence": "Please open the bottle.",
+    "orderHint": "제발 | 열어라 | 그 병.",
+    "translation": "병을 열어주세요."
+  },
+  {
+    "word": "cold",
+    "sentence": "It is cold outside.",
+    "orderHint": "그것 | ~이다 | 추운 | 밖에.",
+    "translation": "밖이 추워요."
+  },
+  {
+    "word": "during",
+    "sentence": "We play during recess.",
+    "orderHint": "우리 | 놀다 | ~동안 | 쉬는 시간.",
+    "translation": "우리는 쉬는 시간 동안 놀아요."
+  },
+  {
+    "word": "fruit",
+    "sentence": "I like to eat fruit.",
+    "orderHint": "나 | 좋아한다 | ~하는 것을 | 먹다 | 과일.",
+    "translation": "나는 과일 먹는 것을 좋아해요."
+  },
+  {
+    "word": "hour",
+    "sentence": "I will be back in an hour.",
+    "orderHint": "나 | ~할 것이다 | ~이다 | 돌아온 | ~안에 | 한 | 시간.",
+    "translation": "한 시간 후에 돌아올게요."
+  },
+  {
+    "word": "look",
+    "sentence": "Look at the pretty flower!",
+    "orderHint": "봐라 | ~을 | 그 예쁜 | 꽃!",
+    "translation": "예쁜 꽃을 봐!"
+  },
+  {
+    "word": "off",
+    "sentence": "Turn off the light.",
+    "orderHint": "꺼라 | 그 불.",
+    "translation": "불을 꺼."
+  },
+  {
+    "word": "recreation",
+    "sentence": "We have recreation time.",
+    "orderHint": "우리 | 가지고 있다 | 오락 | 시간.",
+    "translation": "우리는 오락 시간이 있어요."
+  },
+  {
+    "word": "soccer",
+    "sentence": "Let's play soccer.",
+    "orderHint": "~하자 | 놀다 | 축구.",
+    "translation": "축구하자."
+  },
+  {
+    "word": "this",
+    "sentence": "This is my book.",
+    "orderHint": "이것 | ~이다 | 나의 | 책.",
+    "translation": "이것은 내 책이야."
+  },
+  {
+    "word": "weekend",
+    "sentence": "Have a good weekend!",
+    "orderHint": "가져라 | 좋은 | 주말!",
+    "translation": "좋은 주말 보내!"
+  },
+  {
+    "word": "and",
+    "sentence": "I like apples and bananas.",
+    "orderHint": "나 | 좋아한다 | 사과 | 그리고 | 바나나.",
+    "translation": "나는 사과와 바나나를 좋아해요."
+  },
+  {
+    "word": "bottom",
+    "sentence": "The ball is at the bottom.",
+    "orderHint": "그 공 | ~이다 | ~에 | 그 맨 아래.",
+    "translation": "공이 맨 아래에 있어요."
+  },
+  {
+    "word": "collect",
+    "sentence": "I collect stickers.",
+    "orderHint": "나 | 모은다 | 스티커.",
+    "translation": "나는 스티커를 모아요."
+  },
+  {
+    "word": "full",
+    "sentence": "My tummy is full.",
+    "orderHint": "나의 | 배 | ~이다 | 가득 찬.",
+    "translation": "내 배는 불러요."
+  },
+  {
+    "word": "house",
+    "sentence": "This is my house.",
+    "orderHint": "이것 | ~이다 | 나의 | 집.",
+    "translation": "이곳은 우리 집이에요."
+  },
+  {
+    "word": "love",
+    "sentence": "I love my mom.",
+    "orderHint": "나는 | 사랑해 | 나의 엄마를",
+    "translation": "나는 엄마를 사랑해."
+  },
+  {
+    "word": "office",
+    "sentence": "My dad is at the office.",
+    "orderHint": "나의 아빠는 | ~에 있어 | 그 사무실",
+    "translation": "우리 아빠는 사무실에 계셔."
+  },
+  {
+    "word": "red",
+    "sentence": "This is a red apple.",
+    "orderHint": "이것은 | ~이다 | 빨간 사과",
+    "translation": "이것은 빨간 사과야."
+  },
+  {
+    "word": "sock",
+    "sentence": "I lost one sock.",
+    "orderHint": "나는 | 잃어버렸어 | 한 양말",
+    "translation": "나는 양말 한 짝을 잃어버렸어."
+  },
+  {
+    "word": "three",
+    "sentence": "I have three books.",
+    "orderHint": "나는 | 가지고 있어 | 세 권의 책",
+    "translation": "나는 책 세 권이 있어."
+  },
+  {
+    "word": "weight",
+    "sentence": "What is your weight?",
+    "orderHint": "무엇이니 | 너의 체중은",
+    "translation": "네 몸무게는 얼마니?"
+  },
+  {
+    "word": "animal",
+    "sentence": "A dog is an animal.",
+    "orderHint": "개는 | ~이다 | 한 동물",
+    "translation": "개는 동물이야."
+  },
+  {
+    "word": "box",
+    "sentence": "Put it in the box.",
+    "orderHint": "넣어라 | 그것을 | ~안에 | 그 상자",
+    "translation": "그것을 상자에 넣어."
+  },
+  {
+    "word": "college",
+    "sentence": "My brother goes to college.",
+    "orderHint": "나의 오빠는 | 간다 | 대학에",
+    "translation": "우리 오빠는 대학에 다녀."
+  },
+  {
+    "word": "ear",
+    "sentence": "My ear is small.",
+    "orderHint": "나의 귀는 | ~한 상태이다 | 작은",
+    "translation": "나의 귀는 작다."
+  },
+  {
+    "word": "fun",
+    "sentence": "This game is fun.",
+    "orderHint": "이 게임은 | ~이다 | 재미있는",
+    "translation": "이 게임은 재미있어."
+  },
+  {
+    "word": "how",
+    "sentence": "How are you?",
+    "orderHint": "어떻게 | ~이니 | 너는",
+    "translation": "어떻게 지내니?"
+  },
+  {
+    "word": "low",
+    "sentence": "The ball is low.",
+    "orderHint": "그 공은 | ~이다 | 낮은",
+    "translation": "공이 낮아."
+  },
+  {
+    "word": "often",
+    "sentence": "I often play outside.",
+    "orderHint": "나는 | 자주 | 놀아 | 밖에서",
+    "translation": "나는 자주 밖에서 놀아."
+  },
+  {
+    "word": "remember",
+    "sentence": "I remember your name.",
+    "orderHint": "나는 | 기억해 | 너의 이름을",
+    "translation": "나는 네 이름을 기억해."
+  },
+  {
+    "word": "soft",
+    "sentence": "This blanket is soft.",
+    "orderHint": "이 담요는 | ~이다 | 부드러운",
+    "translation": "이 담요는 부드러워."
+  },
+  {
+    "word": "ticket",
+    "sentence": "I need a ticket.",
+    "orderHint": "나는 | 필요해 | 한 표",
+    "translation": "나는 표가 필요해."
+  },
+  {
+    "word": "welcome",
+    "sentence": "Welcome to my home.",
+    "orderHint": "환영해 | ~에 | 나의 집",
+    "translation": "우리 집에 온 걸 환영해."
+  },
+  {
+    "word": "another",
+    "sentence": "I want another cookie.",
+    "orderHint": "나는 | 원해 | 또 하나의 쿠키",
+    "translation": "나는 쿠키 하나 더 원해."
+  },
+  {
+    "word": "boy",
+    "sentence": "He is a good boy.",
+    "orderHint": "그는 | ~이다 | 좋은 소년",
+    "translation": "그는 좋은 소년이야."
+  },
+  {
+    "word": "color",
+    "sentence": "What is your favorite color?",
+    "orderHint": "무엇이니 | 너의 가장 좋아하는 색깔은",
+    "translation": "네가 가장 좋아하는 색깔은 뭐니?"
+  },
+  {
+    "word": "early",
+    "sentence": "I wake up early.",
+    "orderHint": "나는 | 일어난다 | 일찍",
+    "translation": "나는 일찍 일어나."
+  },
+  {
+    "word": "future",
+    "sentence": "I will be a doctor in the future.",
+    "orderHint": "나는 | ~일 것이다 | 의사 | ~안에 | 그 미래",
+    "translation": "나는 미래에 의사가 될 거야."
+  },
+  {
+    "word": "however",
+    "sentence": "I want to go. However, I can't.",
+    "orderHint": "나는 | 원해 | 가기를. | 하지만, | 나는 | ~할 수 없어",
+    "translation": "나는 가고 싶어. 하지만 갈 수 없어."
+  },
+  {
+    "word": "luck",
+    "sentence": "I wish you good luck.",
+    "orderHint": "나는 | 바라 | 너에게 | 좋은 행운을",
+    "translation": "행운을 빌어."
+  },
+  {
+    "word": "oil",
+    "sentence": "This car needs oil.",
+    "orderHint": "이 차 | 필요해 | 기름",
+    "translation": "이 차는 기름이 필요해요."
+  },
+  {
+    "word": "restaurant",
+    "sentence": "Let's eat at the restaurant.",
+    "orderHint": "하자 | 먹기 | ~에서 | 그 식당",
+    "translation": "식당에서 밥 먹자."
+  },
+  {
+    "word": "software",
+    "sentence": "This computer needs new software.",
+    "orderHint": "이 컴퓨터 | 필요해 | 새 소프트웨어",
+    "translation": "이 컴퓨터는 새 소프트웨어가 필요해요."
+  },
+  {
+    "word": "tiger",
+    "sentence": "The tiger is a big cat.",
+    "orderHint": "그 호랑이 | ~이다 | 큰 고양이",
+    "translation": "호랑이는 큰 고양이에요."
+  },
+  {
+    "word": "well",
+    "sentence": "She sings very well.",
+    "orderHint": "그녀는 | 노래해 | 아주 잘",
+    "translation": "그녀는 노래를 아주 잘해요."
+  },
+  {
+    "word": "answer",
+    "sentence": "Please answer my question.",
+    "orderHint": "부디 | 대답해 | 나의 질문",
+    "translation": "제 질문에 대답해주세요."
+  },
+  {
+    "word": "brave",
+    "sentence": "He is a brave boy.",
+    "orderHint": "그는 | ~이다 | 용감한 소년",
+    "translation": "그는 용감한 소년이에요."
+  },
+  {
+    "word": "come",
+    "sentence": "Please come to my party.",
+    "orderHint": "부디 | 와 | ~에게 | 나의 파티",
+    "translation": "제 파티에 와주세요."
+  },
+  {
+    "word": "earth",
+    "sentence": "The Earth is our home.",
+    "orderHint": "그 지구 | ~이다 | 우리의 집",
+    "translation": "지구는 우리의 집이에요."
+  },
+  {
+    "word": "human",
+    "sentence": "A human has two legs.",
+    "orderHint": "한 인간 | 가지고 있어 | 두 다리",
+    "translation": "인간은 다리가 두 개예요."
+  },
+  {
+    "word": "lunch",
+    "sentence": "Let's eat lunch together.",
+    "orderHint": "하자 | 먹기 | 점심 | 함께",
+    "translation": "같이 점심 먹자."
+  },
+  {
+    "word": "okay",
+    "sentence": "Are you okay?",
+    "orderHint": "~이니 | 너 | 괜찮은",
+    "translation": "괜찮아요?"
+  },
+  {
+    "word": "restroom",
+    "sentence": "Where is the restroom?",
+    "orderHint": "어디 | ~이다 | 그 화장실",
+    "translation": "화장실이 어디예요?"
+  },
+  {
+    "word": "some",
+    "sentence": "I want some water.",
+    "orderHint": "나는 | 원해 | 약간의 물",
+    "translation": "저는 물 좀 원해요."
+  },
+  {
+    "word": "time",
+    "sentence": "What time is it?",
+    "orderHint": "무슨 시간 | ~이다 | 그것",
+    "translation": "몇 시예요?"
+  },
+  {
+    "word": "west",
+    "sentence": "The sun sets in the west.",
+    "orderHint": "그 해 | 져 | ~안에 | 그 서쪽",
+    "translation": "해는 서쪽으로 져요."
+  },
+  {
+    "word": "any",
+    "sentence": "Do you have any questions?",
+    "orderHint": "~하니 | 너 | 가지고 있어 | 어떤 질문",
+    "translation": "질문 있어요?"
+  },
+  {
+    "word": "bread",
+    "sentence": "I like to eat bread.",
+    "orderHint": "나는 | 좋아해 | 먹는 것 | 빵",
+    "translation": "저는 빵 먹는 것을 좋아해요."
+  },
+  {
+    "word": "comic",
+    "sentence": "This comic book is funny.",
+    "orderHint": "이 만화책 | ~이다 | 웃긴",
+    "translation": "이 만화책은 웃겨요."
+  },
+  {
+    "word": "east",
+    "sentence": "The sun rises in the east.",
+    "orderHint": "그 해 | 떠 | ~안에 | 그 동쪽",
+    "translation": "해는 동쪽에서 떠요."
+  },
+  {
+    "word": "game",
+    "sentence": "Let's play a game.",
+    "orderHint": "하자 | 놀기 | 한 게임",
+    "translation": "게임하자."
+  },
+  {
+    "word": "hundred",
+    "sentence": "I have one hundred stickers.",
+    "orderHint": "나는 | 가지고 있어 | 백 개의 스티커",
+    "translation": "저는 스티커 백 개가 있어요."
+  },
+  {
+    "word": "old",
+    "sentence": "My grandpa is very old.",
+    "orderHint": "나의 할아버지 | ~이다 | 아주 늙은",
+    "translation": "우리 할아버지는 아주 늙으셨어요."
+  },
+  {
+    "word": "return",
+    "sentence": "I will return home soon.",
+    "orderHint": "나는 | ~할 것이다 | 돌아가다 | 집 | 곧",
+    "translation": "저는 곧 집에 돌아갈 거예요."
+  },
+  {
+    "word": "son",
+    "sentence": "My son is a good boy.",
+    "orderHint": "나의 아들 | ~이다 | 좋은 소년",
+    "translation": "제 아들은 착한 소년이에요."
+  },
+  {
+    "word": "tired",
+    "sentence": "I am tired today.",
+    "orderHint": "나는 | 피곤하다 | 오늘.",
+    "translation": "나는 오늘 피곤해."
+  },
+  {
+    "word": "wet",
+    "sentence": "My shoes are wet.",
+    "orderHint": "내 신발은 | 젖었다.",
+    "translation": "내 신발이 젖었어."
+  },
+  {
+    "word": "apartment",
+    "sentence": "I live in an apartment.",
+    "orderHint": "나는 산다 | ~안에 | 아파트.",
+    "translation": "나는 아파트에 살아."
+  },
+  {
+    "word": "break",
+    "sentence": "Do not break the toy.",
+    "orderHint": "~하지 마라 | 깨뜨리다 | 그 장난감.",
+    "translation": "장난감을 깨뜨리지 마."
+  },
+  {
+    "word": "company",
+    "sentence": "My dad works at a company.",
+    "orderHint": "나의 아빠는 | 일한다 | ~에서 | 회사.",
+    "translation": "우리 아빠는 회사에서 일해."
+  },
+  {
+    "word": "eat",
+    "sentence": "Let's eat dinner now.",
+    "orderHint": "~하자 | 먹다 | 저녁 | 지금.",
+    "translation": "지금 저녁 먹자."
+  },
+  {
+    "word": "garden",
+    "sentence": "Flowers grow in the garden.",
+    "orderHint": "꽃들은 | 자란다 | ~안에 | 그 정원.",
+    "translation": "꽃들이 정원에서 자라."
+  },
+  {
+    "word": "hunt",
+    "sentence": "Let's hunt for treasure.",
+    "orderHint": "~하자 | 찾다 | 보물.",
+    "translation": "보물 찾기 하자."
+  },
+  {
+    "word": "mad",
+    "sentence": "Don't be mad at me.",
+    "orderHint": "~하지 마라 | 화내다 | 나에게.",
+    "translation": "나한테 화내지 마."
+  },
+  {
+    "word": "on",
+    "sentence": "The book is on the table.",
+    "orderHint": "그 책은 | 있다 | ~위에 | 그 테이블.",
+    "translation": "책이 테이블 위에 있어."
+  },
+  {
+    "word": "ribbon",
+    "sentence": "She has a pink ribbon.",
+    "orderHint": "그녀는 가지고 있다 | 분홍색 리본.",
+    "translation": "그녀는 분홍색 리본을 가지고 있어."
+  },
+  {
+    "word": "song",
+    "sentence": "I like this song.",
+    "orderHint": "나는 좋아한다 | 이 노래.",
+    "translation": "나는 이 노래가 좋아."
+  },
+  {
+    "word": "to",
+    "sentence": "Let's go to the park.",
+    "orderHint": "~하자 | 가다 | ~로 | 그 공원.",
+    "translation": "공원에 가자."
+  },
+  {
+    "word": "what",
+    "sentence": "What is your name?",
+    "orderHint": "무엇 | 이다 | 너의 이름?",
+    "translation": "네 이름이 뭐니?"
+  },
+  {
+    "word": "apple",
+    "sentence": "I want an apple.",
+    "orderHint": "나는 원한다 | 사과 하나.",
+    "translation": "나는 사과 하나를 원해."
+  },
+  {
+    "word": "breakfast",
+    "sentence": "I eat breakfast every day.",
+    "orderHint": "나는 먹는다 | 아침 식사 | 매일.",
+    "translation": "나는 매일 아침을 먹어."
+  },
+  {
+    "word": "compute",
+    "sentence": "The computer can compute fast.",
+    "orderHint": "그 컴퓨터는 | 할 수 있다 | 계산하다 | 빠르게.",
+    "translation": "컴퓨터는 빠르게 계산할 수 있어."
+  },
+  {
+    "word": "egg",
+    "sentence": "I eat an egg for breakfast.",
+    "orderHint": "나는 | 먹는다 | 달걀 하나를 | 아침으로",
+    "translation": "나는 아침으로 달걀 하나를 먹는다."
+  },
+  {
+    "word": "gas",
+    "sentence": "The car needs gas.",
+    "orderHint": "그 차는 | 필요하다 | 가스.",
+    "translation": "차에 기름이 필요해."
+  },
+  {
+    "word": "hurry",
+    "sentence": "Please hurry up!",
+    "orderHint": "제발 | 서둘러라 | 위로!",
+    "translation": "제발 서둘러!"
+  },
+  {
+    "word": "mail",
+    "sentence": "I will mail this letter.",
+    "orderHint": "나는 ~할 것이다 | 우편으로 보내다 | 이 편지.",
+    "translation": "나는 이 편지를 보낼 거야."
+  },
+  {
+    "word": "one",
+    "sentence": "I have one apple.",
+    "orderHint": "나는 가지고 있다 | 하나 | 사과.",
+    "translation": "나는 사과 하나를 가지고 있어."
+  },
+  {
+    "word": "rich",
+    "sentence": "He is a rich man.",
+    "orderHint": "그는 | 이다 | 부유한 남자.",
+    "translation": "그는 부자 남자야."
+  },
+  {
+    "word": "sorry",
+    "sentence": "I am sorry.",
+    "orderHint": "나는 | 미안하다.",
+    "translation": "미안해."
+  },
+  {
+    "word": "today",
+    "sentence": "Today is a good day.",
+    "orderHint": "오늘은 | 이다 | 좋은 날.",
+    "translation": "오늘은 좋은 날이야."
+  },
+  {
+    "word": "when",
+    "sentence": "When is your birthday?",
+    "orderHint": "언제 | 이니 | 너의 | 생일?",
+    "translation": "너의 생일은 언제니?"
+  },
+  {
+    "word": "area",
+    "sentence": "This is a safe area.",
+    "orderHint": "이것은 | 이다 | 안전한 | 지역.",
+    "translation": "이곳은 안전한 지역이야."
+  },
+  {
+    "word": "bridge",
+    "sentence": "We walk on the bridge.",
+    "orderHint": "우리는 | 걷는다 | 위에 | 그 | 다리.",
+    "translation": "우리는 다리 위를 걸어."
+  },
+  {
+    "word": "condition",
+    "sentence": "What is the weather condition?",
+    "orderHint": "무엇 | 이니 | 그 | 날씨 | 상태?",
+    "translation": "날씨 상태가 어때?"
+  },
+  {
+    "word": "eight",
+    "sentence": "I have eight apples.",
+    "orderHint": "나는 | 가지고 있다 | 여덟 | 사과.",
+    "translation": "나는 사과 여덟 개를 가지고 있어."
+  },
+  {
+    "word": "gentleman",
+    "sentence": "He is a kind gentleman.",
+    "orderHint": "그는 | 이다 | 친절한 | 신사.",
+    "translation": "그는 친절한 신사야."
+  },
+  {
+    "word": "husband",
+    "sentence": "My mom has a husband.",
+    "orderHint": "나의 | 엄마는 | 가지고 있다 | 한 | 남편.",
+    "translation": "우리 엄마는 남편이 있어."
+  },
+  {
+    "word": "make",
+    "sentence": "I can make a cake.",
+    "orderHint": "나는 | 할 수 있다 | 만들다 | 한 | 케이크.",
+    "translation": "나는 케이크를 만들 수 있어."
+  },
+  {
+    "word": "only",
+    "sentence": "I have only one toy.",
+    "orderHint": "나는 | 가지고 있다 | 오직 | 한 | 장난감.",
+    "translation": "나는 장난감이 하나뿐이야."
+  },
+  {
+    "word": "right",
+    "sentence": "Turn right at the corner.",
+    "orderHint": "돌아라 | 오른쪽으로 | 에서 | 그 | 모퉁이.",
+    "translation": "모퉁이에서 오른쪽으로 돌아."
+  },
+  {
+    "word": "sound",
+    "sentence": "I hear a loud sound.",
+    "orderHint": "나는 | 듣는다 | 큰 | 소리.",
+    "translation": "나는 큰 소리를 들어."
+  },
+  {
+    "word": "together",
+    "sentence": "Let's play together now.",
+    "orderHint": "하자 | 놀다 | 함께 | 지금.",
+    "translation": "지금 함께 놀자."
+  },
+  {
+    "word": "where",
+    "sentence": "Where is my book?",
+    "orderHint": "어디에 | 이니 | 나의 | 책?",
+    "translation": "내 책은 어디에 있어?"
+  },
+  {
+    "word": "arm",
+    "sentence": "Raise your right arm.",
+    "orderHint": "들어라 | 너의 오른팔을",
+    "translation": "오른팔을 들어라."
+  },
+  {
+    "word": "bright",
+    "sentence": "The sun is very bright.",
+    "orderHint": "그 | 해는 | 이다 | 매우 | 밝은.",
+    "translation": "해가 아주 밝아."
+  },
+  {
+    "word": "congratulate",
+    "sentence": "I congratulate you on your win.",
+    "orderHint": "나는 | 축하한다 | 너를 | 에 | 너의 | 승리.",
+    "translation": "너의 승리를 축하해."
+  },
+  {
+    "word": "elephant",
+    "sentence": "An elephant has a long trunk.",
+    "orderHint": "한 | 코끼리는 | 가지고 있다 | 긴 | 코.",
+    "translation": "코끼리는 코가 길어."
+  },
+  {
+    "word": "get",
+    "sentence": "Can I get a cookie?",
+    "orderHint": "할 수 있니 | 내가 | 얻다 | 한 | 쿠키?",
+    "translation": "쿠키 하나 얻을 수 있을까?"
+  },
+  {
+    "word": "man",
+    "sentence": "That man is my dad.",
+    "orderHint": "저 | 남자는 | 이다 | 나의 | 아빠.",
+    "translation": "저 남자는 우리 아빠야."
+  },
+  {
+    "word": "open",
+    "sentence": "Please open the door.",
+    "orderHint": "제발 | 열어라 | 그 | 문.",
+    "translation": "문을 열어 주세요."
+  },
+  {
+    "word": "ring",
+    "sentence": "My phone will ring soon.",
+    "orderHint": "나의 | 전화가 | 할 것이다 | 울리다 | 곧.",
+    "translation": "내 전화가 곧 울릴 거야."
+  },
+  {
+    "word": "soup",
+    "sentence": "I like hot soup.",
+    "orderHint": "나는 | 좋아한다 | 뜨거운 | 수프.",
+    "translation": "나는 뜨거운 수프를 좋아해."
+  },
+  {
+    "word": "tomato",
+    "sentence": "This tomato is red.",
+    "orderHint": "이 | 토마토는 | 이다 | 빨간색.",
+    "translation": "이 토마토는 빨개."
+  },
+  {
+    "word": "white",
+    "sentence": "The snow is white.",
+    "orderHint": "그 | 눈은 | 이다 | 흰색.",
+    "translation": "눈은 하얘."
+  },
+  {
+    "word": "around",
+    "sentence": "We walk around the park.",
+    "orderHint": "우리는 | 걷는다 | 주위에 | 그 | 공원.",
+    "translation": "우리는 공원 주위를 걸어."
+  },
+  {
+    "word": "bring",
+    "sentence": "Please bring your book.",
+    "orderHint": "부디 | 가져와라 | 너의 | 책을",
+    "translation": "책을 가져와 주세요."
+  },
+  {
+    "word": "control",
+    "sentence": "Control your dog, please.",
+    "orderHint": "통제해라 | 너의 | 개를 | 부디",
+    "translation": "강아지를 통제해 주세요."
+  },
+  {
+    "word": "eleven",
+    "sentence": "I am eleven years old.",
+    "orderHint": "나는 | 이다 | 열한 | 살",
+    "translation": "나는 열한 살이야."
+  },
+  {
+    "word": "girl",
+    "sentence": "She is a nice girl.",
+    "orderHint": "그녀는 | 이다 | 한 | 좋은 | 소녀",
+    "translation": "그녀는 좋은 소녀예요."
+  },
+  {
+    "word": "i",
+    "sentence": "I like to play.",
+    "orderHint": "나는 | 좋아한다 | 노는 것을",
+    "translation": "나는 노는 것을 좋아해."
+  },
+  {
+    "word": "many",
+    "sentence": "I have many toys.",
+    "orderHint": "나는 | 가지고 있다 | 많은 | 장난감들을",
+    "translation": "나는 장난감이 많아."
+  },
+  {
+    "word": "or",
+    "sentence": "Do you want an apple or a banana?",
+    "orderHint": "하니 | 너는 | 원하니 | 한 | 사과 | 또는 | 한 | 바나나를",
+    "translation": "사과 아니면 바나나를 원하니?"
+  },
+  {
+    "word": "river",
+    "sentence": "The river is very long.",
+    "orderHint": "그 | 강은 | 이다 | 매우 | 긴",
+    "translation": "그 강은 매우 길어요."
+  },
+  {
+    "word": "south",
+    "sentence": "We live in the south.",
+    "orderHint": "우리는 | 산다 | 안에 | 그 | 남쪽",
+    "translation": "우리는 남쪽에 살아요."
+  },
+  {
+    "word": "tomorrow",
+    "sentence": "I will play tomorrow.",
+    "orderHint": "나는 | 할 것이다 | 놀다 | 내일",
+    "translation": "나는 내일 놀 거야."
+  },
+  {
+    "word": "who",
+    "sentence": "Who is your friend?",
+    "orderHint": "누가 | 이다 | 너의 | 친구",
+    "translation": "누가 너의 친구니?"
+  },
+  {
+    "word": "arrive",
+    "sentence": "When will you arrive?",
+    "orderHint": "언제 | 할 것이다 | 너는 | 도착하다",
+    "translation": "언제 도착할 거니?"
+  },
+  {
+    "word": "brother",
+    "sentence": "My brother is tall.",
+    "orderHint": "나의 | 형제는 | 이다 | 키 큰",
+    "translation": "내 형제는 키가 커."
+  },
+  {
+    "word": "cook",
+    "sentence": "My mom can cook well.",
+    "orderHint": "나의 | 엄마는 | 할 수 있다 | 요리하다 | 잘",
+    "translation": "우리 엄마는 요리를 잘 하셔."
+  },
+  {
+    "word": "end",
+    "sentence": "This is the end.",
+    "orderHint": "이것은 | 이다 | 그 | 끝",
+    "translation": "이것이 끝이야."
+  },
+  {
+    "word": "give",
+    "sentence": "Please give me a pen.",
+    "orderHint": "부디 | 줘라 | 나에게 | 한 | 펜을",
+    "translation": "나에게 펜을 줘."
+  },
+  {
+    "word": "ice",
+    "sentence": "I like ice cream.",
+    "orderHint": "나는 | 좋아한다 | 얼음 | 크림을",
+    "translation": "나는 아이스크림을 좋아해."
+  },
+  {
+    "word": "map",
+    "sentence": "Look at the map.",
+    "orderHint": "봐라 | ~을 | 그 | 지도를",
+    "translation": "지도를 봐."
+  },
+  {
+    "word": "orange",
+    "sentence": "I like orange juice.",
+    "orderHint": "나는 | 좋아한다 | 오렌지 | 주스를",
+    "translation": "나는 오렌지 주스를 좋아해."
+  },
+  {
+    "word": "road",
+    "sentence": "The road is long.",
+    "orderHint": "그 | 길은 | 이다 | 긴",
+    "translation": "그 길은 길어요."
+  },
+  {
+    "word": "space",
+    "sentence": "I want to go to space.",
+    "orderHint": "나는 | 원한다 | 가다 | ~로 | 우주",
+    "translation": "나는 우주에 가고 싶어."
+  },
+  {
+    "word": "tonight",
+    "sentence": "Let's play tonight.",
+    "orderHint": "하자 | 놀다 | 오늘 밤에",
+    "translation": "오늘 밤에 놀자."
+  },
+  {
+    "word": "why",
+    "sentence": "Why are you sad?",
+    "orderHint": "왜 | 이니 | 너는 | 슬픈",
+    "translation": "왜 슬프니?"
+  },
+  {
+    "word": "art",
+    "sentence": "I like art class.",
+    "orderHint": "나는 | 좋아한다 | 미술 | 수업을",
+    "translation": "나는 미술 수업을 좋아해."
+  },
+  {
+    "word": "brown",
+    "sentence": "My dog is brown.",
+    "orderHint": "나의 | 개는 | 이다 | 갈색",
+    "translation": "내 강아지는 갈색이야."
+  },
+  {
+    "word": "cookie",
+    "sentence": "I like this cookie.",
+    "orderHint": "나는 | 좋아해 | 이 | 쿠키를.",
+    "translation": "나는 이 쿠키를 좋아해."
+  },
+  {
+    "word": "energy",
+    "sentence": "I have much energy.",
+    "orderHint": "나는 | 가지고 있어 | 많은 | 에너지를.",
+    "translation": "나는 에너지가 많아."
+  },
+  {
+    "word": "glad",
+    "sentence": "I am glad to see you.",
+    "orderHint": "나는 | 기뻐 | 보게 되어 | 너를.",
+    "translation": "너를 만나서 기뻐."
+  },
+  {
+    "word": "idea",
+    "sentence": "That is a good idea.",
+    "orderHint": "그것은 | ~이다 | 좋은 | 아이디어.",
+    "translation": "그것은 좋은 생각이야."
+  },
+  {
+    "word": "marathon",
+    "sentence": "He ran a marathon.",
+    "orderHint": "그는 | 달렸다 | 마라톤을.",
+    "translation": "그는 마라톤을 달렸어."
+  },
+  {
+    "word": "out",
+    "sentence": "Let's go out to play.",
+    "orderHint": "우리 | 가자 | 밖으로 | 놀기 위해.",
+    "translation": "우리 놀러 나가자."
+  },
+  {
+    "word": "robot",
+    "sentence": "I like my toy robot.",
+    "orderHint": "나는 | 좋아해 | 나의 | 장난감 | 로봇을.",
+    "translation": "나는 내 장난감 로봇을 좋아해."
+  },
+  {
+    "word": "spaghetti",
+    "sentence": "I want to eat spaghetti.",
+    "orderHint": "나는 | 원해 | 먹는 것을 | 스파게티를.",
+    "translation": "나는 스파게티를 먹고 싶어."
+  },
+  {
+    "word": "too",
+    "sentence": "I like pizza, too.",
+    "orderHint": "나는 | 좋아해 | 피자를 | ~도 또한.",
+    "translation": "나도 피자를 좋아해."
+  },
+  {
+    "word": "wife",
+    "sentence": "My dad loves his wife.",
+    "orderHint": "나의 | 아빠는 | 사랑해 | 그의 | 아내를.",
+    "translation": "우리 아빠는 엄마를 사랑해."
+  },
+  {
+    "word": "as",
+    "sentence": "He works as a teacher.",
+    "orderHint": "그는 | 일한다 | ~로서 | 선생님.",
+    "translation": "그는 선생님으로 일해."
+  },
+  {
+    "word": "brush",
+    "sentence": "I brush my teeth daily.",
+    "orderHint": "나는 | 닦아 | 나의 | 이를 | 매일.",
+    "translation": "나는 매일 이를 닦아."
+  },
+  {
+    "word": "cool",
+    "sentence": "This ice cream is cool.",
+    "orderHint": "이 | 아이스크림은 | ~이다 | 시원해.",
+    "translation": "이 아이스크림은 시원해."
+  },
+  {
+    "word": "enough",
+    "sentence": "I have enough toys.",
+    "orderHint": "나는 | 가지고 있어 | 충분한 | 장난감을.",
+    "translation": "나는 장난감이 충분해."
+  },
+  {
+    "word": "glass",
+    "sentence": "Drink water from a glass.",
+    "orderHint": "마셔라 | 물을 | ~로부터 | 유리잔.",
+    "translation": "유리잔에 있는 물을 마셔."
+  },
+  {
+    "word": "if",
+    "sentence": "If it rains, we stay home.",
+    "orderHint": "만약 | 비가 온다면 | 우리는 | 머물러 | 집에.",
+    "translation": "만약 비가 오면, 우리는 집에 있을 거야."
+  },
+  {
+    "word": "market",
+    "sentence": "Let's go to the market.",
+    "orderHint": "우리 | 가자 | ~로 | 시장.",
+    "translation": "우리 시장에 가자."
+  },
+  {
+    "word": "over",
+    "sentence": "The bird flew over the house.",
+    "orderHint": "그 | 새는 | 날았다 | ~위에 | 그 | 집.",
+    "translation": "새가 집 위로 날아갔어."
+  },
+  {
+    "word": "rock",
+    "sentence": "This is a big rock.",
+    "orderHint": "이것은 | ~이다 | 큰 | 바위.",
+    "translation": "이것은 큰 바위야."
+  },
+  {
+    "word": "speak",
+    "sentence": "Can you speak English?",
+    "orderHint": "~할 수 있니 | 너는 | 말하다 | 영어를?",
+    "translation": "너 영어 말할 수 있니?"
+  },
+  {
+    "word": "tooth",
+    "sentence": "I have a loose tooth.",
+    "orderHint": "나는 | 가지고 있어 | 흔들리는 | 이를.",
+    "translation": "나는 흔들리는 이가 있어."
+  },
+  {
+    "word": "will",
+    "sentence": "I will play outside later.",
+    "orderHint": "나는 | ~할 것이다 | 놀다 | 밖에서 | 나중에.",
+    "translation": "나는 나중에 밖에서 놀 거야."
+  },
+  {
+    "word": "ask",
+    "sentence": "I will ask my mom.",
+    "orderHint": "나는 | ~할 것이다 | 물어보다 | 나의 | 엄마에게.",
+    "translation": "나는 엄마에게 물어볼 거야."
+  },
+  {
+    "word": "build",
+    "sentence": "Let's build a sandcastle.",
+    "orderHint": "우리 | 짓자 | 모래성을.",
+    "translation": "우리 모래성을 짓자."
+  },
+  {
+    "word": "corner",
+    "sentence": "The ball is in the corner.",
+    "orderHint": "그 | 공은 | ~이다 | ~안에 | 그 | 모퉁이.",
+    "translation": "공이 모퉁이에 있어."
+  },
+  {
+    "word": "enter",
+    "sentence": "Please enter the room.",
+    "orderHint": "부디 | 들어가세요 | 그 방에.",
+    "translation": "방으로 들어오세요."
+  },
+  {
+    "word": "go",
+    "sentence": "Let's go to the park.",
+    "orderHint": "우리 | 가자 | 그 공원에.",
+    "translation": "공원에 가자."
+  },
+  {
+    "word": "image",
+    "sentence": "This image is pretty.",
+    "orderHint": "이 | 이미지는 | 예뻐요.",
+    "translation": "이 이미지는 예뻐요."
+  },
+  {
+    "word": "marry",
+    "sentence": "My doll will marry.",
+    "orderHint": "내 인형은 | 결혼할 거야.",
+    "translation": "내 인형이 결혼할 거야."
+  },
+  {
+    "word": "room",
+    "sentence": "This is my room.",
+    "orderHint": "이것은 | 내 방이야.",
+    "translation": "여기는 내 방이야."
+  },
+  {
+    "word": "speed",
+    "sentence": "The car has speed.",
+    "orderHint": "그 차는 | 가지고 있어 | 속도를.",
+    "translation": "그 차는 속도가 있어."
+  },
+  {
+    "word": "top",
+    "sentence": "Put it on the top.",
+    "orderHint": "놓아라 | 그것을 | 맨 위에.",
+    "translation": "그것을 맨 위에 놓아."
+  },
+  {
+    "word": "win",
+    "sentence": "I want to win.",
+    "orderHint": "나는 | 원한다 | 이기는 것을.",
+    "translation": "나는 이기고 싶어."
+  },
+  {
+    "word": "at",
+    "sentence": "Look at the bird.",
+    "orderHint": "봐라 | ~을 | 그 새를.",
+    "translation": "새를 봐."
+  },
+  {
+    "word": "burn",
+    "sentence": "Don't burn the paper.",
+    "orderHint": "태우지 마라 | 그 종이를.",
+    "translation": "종이를 태우지 마."
+  },
+  {
+    "word": "cost",
+    "sentence": "How much does it cost?",
+    "orderHint": "얼마나 많이 | 그것은 | 비용이 드니?",
+    "translation": "얼마예요?"
+  },
+  {
+    "word": "evening",
+    "sentence": "Good evening, everyone.",
+    "orderHint": "좋은 저녁입니다 | 모두.",
+    "translation": "안녕하세요, 여러분."
+  },
+  {
+    "word": "goal",
+    "sentence": "He scored a goal.",
+    "orderHint": "그는 | 득점했다 | 한 골을.",
+    "translation": "그는 골을 넣었어."
+  },
+  {
+    "word": "in",
+    "sentence": "The cat is in the box.",
+    "orderHint": "그 고양이는 | 있다 | ~안에 | 그 상자.",
+    "translation": "고양이가 상자 안에 있어."
+  },
+  {
+    "word": "mathematics/math",
+    "sentence": "I study mathematics at school.",
+    "orderHint": "나는 | 공부한다 | 수학을 | 학교에서",
+    "translation": "나는 학교에서 수학을 공부한다."
+  },
+  {
+    "word": "page",
+    "sentence": "Open your book to page ten.",
+    "orderHint": "열어라 | 너의 책을 | ~로 | 10쪽.",
+    "translation": "책 10쪽을 펴세요."
+  },
+  {
+    "word": "rose",
+    "sentence": "This rose is red.",
+    "orderHint": "이 장미는 | 빨갛다.",
+    "translation": "이 장미는 빨개."
+  },
+  {
+    "word": "spoon",
+    "sentence": "Use a spoon.",
+    "orderHint": "사용해라 | 한 숟가락을.",
+    "translation": "숟가락을 사용해."
+  },
+  {
+    "word": "touch",
+    "sentence": "Don't touch the hot stove.",
+    "orderHint": "만지지 마라 | 그 뜨거운 스토브를.",
+    "translation": "뜨거운 스토브를 만지지 마."
+  },
+  {
+    "word": "wind",
+    "sentence": "The wind is strong.",
+    "orderHint": "그 바람은 | 강하다.",
+    "translation": "바람이 강해."
+  },
+  {
+    "word": "aunt",
+    "sentence": "My aunt is kind.",
+    "orderHint": "내 고모는 | 친절하다.",
+    "translation": "우리 고모는 친절해."
+  },
+  {
+    "word": "bus",
+    "sentence": "Let's take the bus.",
+    "orderHint": "우리 | 타자 | 그 버스를.",
+    "translation": "버스 타자."
+  },
+  {
+    "word": "could",
+    "sentence": "I could help you.",
+    "orderHint": "나는 | ~할 수 있었다 | 너를 돕는 것을.",
+    "translation": "내가 너를 도울 수 있어."
+  },
+  {
+    "word": "every",
+    "sentence": "Every day is fun.",
+    "orderHint": "모든 날은 | 재미있다.",
+    "translation": "매일이 즐거워."
+  },
+  {
+    "word": "god",
+    "sentence": "God bless you.",
+    "orderHint": "신이 | 축복하시기를 | 너를.",
+    "translation": "신의 축복이 있기를."
+  },
+  {
+    "word": "inside",
+    "sentence": "Come inside, please.",
+    "orderHint": "와라 | 안으로 | 제발",
+    "translation": "안으로 들어오세요."
+  },
+  {
+    "word": "may",
+    "sentence": "You may go now.",
+    "orderHint": "너는 | ~할지도 모른다 | 가다 | 지금",
+    "translation": "이제 가도 좋아요."
+  },
+  {
+    "word": "paint",
+    "sentence": "I like to paint.",
+    "orderHint": "나는 | 좋아한다 | ~하는 것을 | 그림 그리다",
+    "translation": "나는 그림 그리는 것을 좋아해요."
+  },
+  {
+    "word": "run",
+    "sentence": "Let's run fast!",
+    "orderHint": "우리 | 달리자 | 빠르게",
+    "translation": "빨리 달리자!"
+  },
+  {
+    "word": "sport",
+    "sentence": "My favorite sport is soccer.",
+    "orderHint": "나의 | 가장 좋아하는 | 운동은 | 이다 | 축구",
+    "translation": "내가 가장 좋아하는 운동은 축구야."
+  },
+  {
+    "word": "town",
+    "sentence": "I live in a small town.",
+    "orderHint": "나는 | 산다 | ~안에 | 작은 | 마을",
+    "translation": "나는 작은 마을에 살아요."
+  },
+  {
+    "word": "window",
+    "sentence": "Open the window, please.",
+    "orderHint": "열어라 | 그 | 창문을 | 제발",
+    "translation": "창문 좀 열어주세요."
+  },
+  {
+    "word": "autumn",
+    "sentence": "Autumn leaves are pretty.",
+    "orderHint": "가을 | 잎들은 | 이다 | 예쁜",
+    "translation": "가을 잎들은 예뻐요."
+  },
+  {
+    "word": "business",
+    "sentence": "My dad has a business.",
+    "orderHint": "나의 | 아빠는 | 가지고 있다 | 사업",
+    "translation": "우리 아빠는 사업을 하세요."
+  },
+  {
+    "word": "country",
+    "sentence": "I love my country.",
+    "orderHint": "나는 | 사랑한다 | 나의 | 나라",
+    "translation": "나는 내 나라를 사랑해."
+  },
+  {
+    "word": "example",
+    "sentence": "Give me an example.",
+    "orderHint": "주세요 | 나에게 | 예시",
+    "translation": "예시를 하나 주세요."
+  },
+  {
+    "word": "gold",
+    "sentence": "This ring is made of gold.",
+    "orderHint": "이 | 반지는 | 이다 | 만들어진 | ~으로 | 금",
+    "translation": "이 반지는 금으로 만들어졌어요."
+  },
+  {
+    "word": "internet",
+    "sentence": "I use the internet.",
+    "orderHint": "나는 | 사용한다 | 그 | 인터넷",
+    "translation": "나는 인터넷을 사용해요."
+  },
+  {
+    "word": "meat",
+    "sentence": "I like to eat meat.",
+    "orderHint": "나는 | 좋아한다 | ~하는 것을 | 먹다 | 고기",
+    "translation": "나는 고기 먹는 것을 좋아해요."
+  },
+  {
+    "word": "pants",
+    "sentence": "My new pants are blue.",
+    "orderHint": "나의 | 새 | 바지는 | 이다 | 파란색",
+    "translation": "내 새 바지는 파란색이야."
+  },
+  {
+    "word": "spring",
+    "sentence": "Flowers bloom in spring.",
+    "orderHint": "꽃들은 | 핀다 | ~안에 | 봄",
+    "translation": "꽃들은 봄에 피어요."
+  },
+  {
+    "word": "toy",
+    "sentence": "This is my favorite toy.",
+    "orderHint": "이것은 | 이다 | 나의 | 가장 좋아하는 | 장난감",
+    "translation": "이것은 내가 가장 좋아하는 장난감이야."
+  },
+  {
+    "word": "wine",
+    "sentence": "My parents drink wine.",
+    "orderHint": "나의 | 부모님은 | 마신다 | 와인",
+    "translation": "우리 부모님은 와인을 마셔요."
+  },
+  {
+    "word": "away",
+    "sentence": "Go away, please.",
+    "orderHint": "가라 | 떨어져서 | 제발",
+    "translation": "저리 가세요."
+  },
+  {
+    "word": "busy",
+    "sentence": "I am busy today.",
+    "orderHint": "나는 | 이다 | 바쁜 | 오늘",
+    "translation": "나는 오늘 바빠요."
+  },
+  {
+    "word": "couple",
+    "sentence": "They are a happy couple.",
+    "orderHint": "그들은 | 이다 | 행복한 | 커플",
+    "translation": "그들은 행복한 커플이에요."
+  },
+  {
+    "word": "exercise",
+    "sentence": "I like to exercise.",
+    "orderHint": "나는 | 좋아한다 | ~하는 것을 | 운동하다",
+    "translation": "나는 운동하는 것을 좋아해요."
+  },
+  {
+    "word": "good",
+    "sentence": "This food is good.",
+    "orderHint": "이 | 음식은 | 이다 | 좋은",
+    "translation": "이 음식은 맛있어요."
+  },
+  {
+    "word": "into",
+    "sentence": "Come into the house.",
+    "orderHint": "와라 | ~안으로 | 그 | 집",
+    "translation": "집 안으로 들어와."
+  },
+  {
+    "word": "medal",
+    "sentence": "He won a gold medal.",
+    "orderHint": "그는 | 땄다 | 금 | 메달",
+    "translation": "그는 금메달을 땄어요."
+  },
+  {
+    "word": "paper",
+    "sentence": "I draw on paper.",
+    "orderHint": "나는 | 그린다 | 위에 | 종이",
+    "translation": "나는 종이에 그림을 그려요."
+  },
+  {
+    "word": "sad",
+    "sentence": "He is sad today.",
+    "orderHint": "그는 | 이다 | 슬픈 | 오늘",
+    "translation": "그는 오늘 슬퍼요."
+  },
+  {
+    "word": "staff",
+    "sentence": "The staff helps us.",
+    "orderHint": "그 직원 | 돕는다 | 우리를",
+    "translation": "직원이 우리를 도와줘요."
+  },
+  {
+    "word": "track",
+    "sentence": "Run fast on the track.",
+    "orderHint": "달려라 | 빠르게 | 위에 | 그 트랙",
+    "translation": "트랙 위에서 빨리 달려요."
+  },
+  {
+    "word": "winter",
+    "sentence": "I like winter snow.",
+    "orderHint": "나는 | 좋아한다 | 겨울 | 눈",
+    "translation": "나는 겨울 눈을 좋아해요."
+  },
+  {
+    "word": "but",
+    "sentence": "I like apples, but not pears.",
+    "orderHint": "나는 | 좋아한다 | 사과, | 하지만 | 아니다 | 배",
+    "translation": "나는 사과를 좋아하지만 배는 아니에요."
+  },
+  {
+    "word": "course",
+    "sentence": "This is a fun course.",
+    "orderHint": "이것은 | 이다 | 하나의 | 재미있는 | 강좌",
+    "translation": "이것은 재미있는 강좌예요."
+  },
+  {
+    "word": "eye",
+    "sentence": "Close one eye.",
+    "orderHint": "감아라 | 한쪽 눈을",
+    "translation": "한쪽 눈을 감아라."
+  },
+  {
+    "word": "goodbye",
+    "sentence": "Say goodbye to your friend.",
+    "orderHint": "말해라 | 안녕 | 에게 | 너의 | 친구",
+    "translation": "친구에게 안녕이라고 말해."
+  },
+  {
+    "word": "introduce",
+    "sentence": "Let me introduce my friend.",
+    "orderHint": "하게 해줘 | 나를 | 소개하다 | 나의 | 친구",
+    "translation": "내 친구를 소개해 줄게."
+  },
+  {
+    "word": "meet",
+    "sentence": "Let's meet at the park.",
+    "orderHint": "하자 | 만나다 | 에서 | 그 공원",
+    "translation": "공원에서 만나요."
+  },
+  {
+    "word": "parents",
+    "sentence": "My parents love me.",
+    "orderHint": "나의 | 부모님 | 사랑한다 | 나를",
+    "translation": "우리 부모님은 나를 사랑해요."
+  },
+  {
+    "word": "safe",
+    "sentence": "Stay safe at home.",
+    "orderHint": "머물러라 | 안전한 | 에서 | 집",
+    "translation": "집에서 안전하게 지내세요."
+  },
+  {
+    "word": "stand",
+    "sentence": "Please stand up now.",
+    "orderHint": "제발 | 서라 | 위로 | 지금",
+    "translation": "지금 일어나세요."
+  },
+  {
+    "word": "train",
+    "sentence": "The train is fast.",
+    "orderHint": "그 기차 | 이다 | 빠른",
+    "translation": "기차는 빨라요."
+  },
+  {
+    "word": "wish",
+    "sentence": "I wish for a toy.",
+    "orderHint": "나는 | 바란다 | 위한 | 하나의 | 장난감",
+    "translation": "나는 장난감을 바라요."
+  },
+  {
+    "word": "baby",
+    "sentence": "The baby is cute.",
+    "orderHint": "그 아기 | 이다 | 귀여운",
+    "translation": "아기가 귀여워요."
+  },
+  {
+    "word": "butter",
+    "sentence": "I like butter on toast.",
+    "orderHint": "나는 | 좋아한다 | 버터 | 위에 | 토스트",
+    "translation": "나는 토스트에 버터를 발라 먹는 것을 좋아해요."
+  },
+  {
+    "word": "court",
+    "sentence": "Let's play on the court.",
+    "orderHint": "하자 | 놀다 | 위에 | 그 코트",
+    "translation": "코트에서 놀자."
+  },
+  {
+    "word": "grandfather",
+    "sentence": "My grandfather tells stories.",
+    "orderHint": "나의 | 할아버지 | 말한다 | 이야기들",
+    "translation": "우리 할아버지는 이야기를 해주세요."
+  },
+  {
+    "word": "invite",
+    "sentence": "I invite you to my party.",
+    "orderHint": "나는 | 초대한다 | 너를 | 에 | 나의 | 파티",
+    "translation": "나는 너를 내 파티에 초대해."
+  },
+  {
+    "word": "member",
+    "sentence": "I am a club member.",
+    "orderHint": "나는 | 이다 | 하나의 | 클럽 | 멤버",
+    "translation": "나는 클럽 회원이에요."
+  },
+  {
+    "word": "park",
+    "sentence": "Let's play in the park.",
+    "orderHint": "하자 | 놀다 | 안에 | 그 공원",
+    "translation": "공원에서 놀자."
+  },
+  {
+    "word": "salad",
+    "sentence": "I like to eat salad.",
+    "orderHint": "나는 | 좋아한다 | ~하는 것을 | 먹다 | 샐러드",
+    "translation": "나는 샐러드 먹는 것을 좋아해요."
+  },
+  {
+    "word": "star",
+    "sentence": "Look at the bright star.",
+    "orderHint": "봐라 | 에 | 그 밝은 | 별",
+    "translation": "저 밝은 별을 봐."
+  },
+  {
+    "word": "travel",
+    "sentence": "I want to travel.",
+    "orderHint": "나는 | 원한다 | 여행하는 것을.",
+    "translation": "나는 여행하고 싶어."
+  },
+  {
+    "word": "with",
+    "sentence": "Play with me.",
+    "orderHint": "놀아라 | ~와 함께 | 나.",
+    "translation": "나랑 같이 놀자."
+  },
+  {
+    "word": "back",
+    "sentence": "My back hurts.",
+    "orderHint": "나의 | 등 | 아프다.",
+    "translation": "내 등이 아파."
+  },
+  {
+    "word": "button",
+    "sentence": "Push the button.",
+    "orderHint": "눌러라 | 그 | 버튼.",
+    "translation": "버튼을 눌러."
+  },
+  {
+    "word": "cousin",
+    "sentence": "My cousin is nice.",
+    "orderHint": "나의 | 사촌 | 이다 | 착한.",
+    "translation": "내 사촌은 착해."
+  },
+  {
+    "word": "face",
+    "sentence": "Wash your face.",
+    "orderHint": "씻어라 | 너의 | 얼굴.",
+    "translation": "얼굴 씻어."
+  },
+  {
+    "word": "grape",
+    "sentence": "I like grape juice.",
+    "orderHint": "나는 | 좋아한다 | 포도 | 주스.",
+    "translation": "나는 포도 주스를 좋아해."
+  },
+  {
+    "word": "issue",
+    "sentence": "This is a big issue.",
+    "orderHint": "이것은 | 이다 | 큰 | 문제.",
+    "translation": "이건 큰 문제야."
+  },
+  {
+    "word": "memory",
+    "sentence": "I have a good memory.",
+    "orderHint": "나는 | 가지고 있다 | 좋은 | 기억.",
+    "translation": "나는 기억력이 좋아."
+  },
+  {
+    "word": "part",
+    "sentence": "This is my favorite part.",
+    "orderHint": "이것은 | 이다 | 나의 | 가장 좋아하는 | 부분.",
+    "translation": "여기가 내가 가장 좋아하는 부분이야."
+  },
+  {
+    "word": "sale",
+    "sentence": "The shoes are on sale.",
+    "orderHint": "그 | 신발들은 | 이다 | 할인 중.",
+    "translation": "그 신발들은 할인 중이야."
+  },
+  {
+    "word": "start",
+    "sentence": "Let's start the game.",
+    "orderHint": "~하자 | 시작하다 | 그 | 게임.",
+    "translation": "게임을 시작하자."
+  },
+  {
+    "word": "tree",
+    "sentence": "Look at the big tree.",
+    "orderHint": "봐라 | ~을 | 그 | 큰 | 나무.",
+    "translation": "저 큰 나무를 봐."
+  },
+  {
+    "word": "woman",
+    "sentence": "She is a kind woman.",
+    "orderHint": "그녀는 | 이다 | 한 | 친절한 | 여자.",
+    "translation": "그녀는 친절한 여자야."
+  },
+  {
+    "word": "bad",
+    "sentence": "Don't be bad.",
+    "orderHint": "~하지 마라 | 이다 | 나쁜.",
+    "translation": "나쁘게 굴지 마."
+  },
+  {
+    "word": "buy",
+    "sentence": "I want to buy a toy.",
+    "orderHint": "나는 | 원한다 | 사다 | 한 | 장난감.",
+    "translation": "나는 장난감을 사고 싶어."
+  },
+  {
+    "word": "cover",
+    "sentence": "Cover your mouth.",
+    "orderHint": "덮어라 | 너의 | 입.",
+    "translation": "입을 가려."
+  },
+  {
+    "word": "fact",
+    "sentence": "It's a true fact.",
+    "orderHint": "그것은 | 이다 | 한 | 진짜 | 사실.",
+    "translation": "그건 진짜 사실이야."
+  },
+  {
+    "word": "grass",
+    "sentence": "The grass is green.",
+    "orderHint": "그 | 풀은 | 이다 | 초록색.",
+    "translation": "풀이 초록색이야."
+  },
+  {
+    "word": "it",
+    "sentence": "It is a cat.",
+    "orderHint": "그것은 | 이다 | 한 | 고양이.",
+    "translation": "그것은 고양이야."
+  },
+  {
+    "word": "middle",
+    "sentence": "Stand in the middle.",
+    "orderHint": "서라 | ~안에 | 그 | 가운데.",
+    "translation": "가운데 서."
+  },
+  {
+    "word": "partner",
+    "sentence": "You are my partner.",
+    "orderHint": "너는 | 이다 | 나의 | 파트너.",
+    "translation": "너는 내 파트너야."
+  },
+  {
+    "word": "salt",
+    "sentence": "Pass me the salt.",
+    "orderHint": "건네줘라 | 나에게 | 그 | 소금.",
+    "translation": "소금 좀 건네줘."
+  },
+  {
+    "word": "stay",
+    "sentence": "Please stay here.",
+    "orderHint": "제발 | 머물러라 | 여기.",
+    "translation": "여기 있어줘."
+  },
+  {
+    "word": "trip",
+    "sentence": "We went on a trip.",
+    "orderHint": "우리는 | 갔다 | ~위에 | 한 | 여행.",
+    "translation": "우리는 여행을 갔어."
+  },
+  {
+    "word": "wood",
+    "sentence": "This is a wood table.",
+    "orderHint": "이것은 | 이다 | 한 | 나무 | 테이블.",
+    "translation": "이것은 나무 탁자입니다."
+  },
+  {
+    "word": "badminton",
+    "sentence": "I play badminton.",
+    "orderHint": "나는 | 놀다 | 배드민턴.",
+    "translation": "나는 배드민턴을 쳐요."
+  },
+  {
+    "word": "by",
+    "sentence": "Sit by the tree.",
+    "orderHint": "앉아라 | ~옆에 | 그 | 나무.",
+    "translation": "나무 옆에 앉아."
+  },
+  {
+    "word": "cow",
+    "sentence": "A cow eats grass.",
+    "orderHint": "한 | 암소 | 먹는다 | 풀.",
+    "translation": "소가 풀을 먹어요."
+  },
+  {
+    "word": "fail",
+    "sentence": "Do not fail the test.",
+    "orderHint": "하지 마라 | 실패하다 | 그 | 시험.",
+    "translation": "시험에 떨어지지 마."
+  },
+  {
+    "word": "gray/grey",
+    "sentence": "The gray cat is sleeping.",
+    "orderHint": "그 회색 고양이는 | 자고 있다",
+    "translation": "회색 고양이가 자고 있다."
+  },
+  {
+    "word": "might",
+    "sentence": "It might rain today.",
+    "orderHint": "그것은 | ~일지도 모른다 | 비오다 | 오늘.",
+    "translation": "오늘 비가 올지도 몰라."
+  },
+  {
+    "word": "party",
+    "sentence": "Let's go to the party.",
+    "orderHint": "~하자 | 가다 | ~로 | 그 | 파티.",
+    "translation": "파티에 가자."
+  },
+  {
+    "word": "same",
+    "sentence": "We have the same toy.",
+    "orderHint": "우리는 | 가지고 있다 | 그 | 같은 | 장난감.",
+    "translation": "우리는 같은 장난감을 가지고 있어."
+  },
+  {
+    "word": "steak",
+    "sentence": "I like to eat steak.",
+    "orderHint": "나는 | 좋아한다 | ~하는 것을 | 먹다 | 스테이크.",
+    "translation": "나는 스테이크 먹는 것을 좋아해."
+  },
+  {
+    "word": "truck",
+    "sentence": "Look at the big truck.",
+    "orderHint": "봐라 | ~을 | 그 | 큰 | 트럭.",
+    "translation": "저 큰 트럭을 봐."
+  },
+  {
+    "word": "word",
+    "sentence": "Spell this word.",
+    "orderHint": "철자를 말해라 | 이 | 단어.",
+    "translation": "이 단어의 철자를 말해봐."
+  },
+  {
+    "word": "bag",
+    "sentence": "Put it in the bag.",
+    "orderHint": "넣어라 | 그것을 | ~안에 | 그 | 가방.",
+    "translation": "그것을 가방에 넣어."
+  },
+  {
+    "word": "crayon",
+    "sentence": "Draw with a crayon.",
+    "orderHint": "그려라 | ~으로 | 한 | 크레파스.",
+    "translation": "크레파스로 그려봐."
+  },
+  {
+    "word": "fall",
+    "sentence": "Leaves fall in autumn.",
+    "orderHint": "나뭇잎들이 | 떨어진다 | ~안에 | 가을.",
+    "translation": "가을에 나뭇잎이 떨어져요."
+  },
+  {
+    "word": "great",
+    "sentence": "You did a great job!",
+    "orderHint": "너는 | 했다 | 한 | 훌륭한 | 일!",
+    "translation": "정말 잘했어!"
+  },
+  {
+    "word": "jacket",
+    "sentence": "Wear your warm jacket.",
+    "orderHint": "입어라 | 너의 | 따뜻한 | 재킷.",
+    "translation": "따뜻한 재킷을 입어."
+  },
+  {
+    "word": "milk",
+    "sentence": "I drink milk every day.",
+    "orderHint": "나는 | 마신다 | 우유 | 매일.",
+    "translation": "나는 매일 우유를 마셔."
+  },
+  {
+    "word": "pass",
+    "sentence": "Please pass the ball.",
+    "orderHint": "제발 | 건네줘라 | 그 | 공.",
+    "translation": "공을 건네줘."
+  },
+  {
+    "word": "sand",
+    "sentence": "We play in the sand.",
+    "orderHint": "우리는 | 놀다 | ~안에서 | 그 | 모래.",
+    "translation": "우리는 모래에서 놀아."
+  },
+  {
+    "word": "stone",
+    "sentence": "Pick up a small stone.",
+    "orderHint": "주워라 | 한 | 작은 | 돌.",
+    "translation": "작은 돌멩이 하나 주워."
+  },
+  {
+    "word": "true",
+    "sentence": "This story is true.",
+    "orderHint": "이 | 이야기 | 이다 | 사실.",
+    "translation": "이 이야기는 사실이야."
+  },
+  {
+    "word": "work",
+    "sentence": "I work at school.",
+    "orderHint": "나는 | 일한다 | ~에서 | 학교.",
+    "translation": "나는 학교에서 일해."
+  },
+  {
+    "word": "bake",
+    "sentence": "Let's bake a cake.",
+    "orderHint": "~하자 | 굽다 | 한 | 케이크.",
+    "translation": "케이크를 굽자."
+  },
+  {
+    "word": "cake",
+    "sentence": "I like chocolate cake.",
+    "orderHint": "나는 | 좋아한다 | 초콜릿 | 케이크.",
+    "translation": "나는 초콜릿 케이크를 좋아해."
+  },
+  {
+    "word": "cream",
+    "sentence": "I like cream ice cream.",
+    "orderHint": "나는 좋아한다 | 크림 | 아이스크림을",
+    "translation": "나는 크림 아이스크림을 좋아해."
+  },
+  {
+    "word": "family",
+    "sentence": "My family is big.",
+    "orderHint": "나의 가족은 | 이다 | 크다",
+    "translation": "우리 가족은 커."
+  },
+  {
+    "word": "green",
+    "sentence": "I like green grass.",
+    "orderHint": "나는 좋아한다 | 초록색 | 풀을",
+    "translation": "나는 초록색 풀을 좋아해."
+  },
+  {
+    "word": "jam",
+    "sentence": "I eat bread with jam.",
+    "orderHint": "나는 먹는다 | 빵을 | ~와 함께 | 잼",
+    "translation": "나는 빵을 잼이랑 먹어."
+  },
+  {
+    "word": "mind",
+    "sentence": "Be kind in your mind.",
+    "orderHint": "되어라 | 친절하게 | ~안에 | 너의 마음",
+    "translation": "마음을 친절하게 가져."
+  },
+  {
+    "word": "pay",
+    "sentence": "I pay for my toy.",
+    "orderHint": "나는 지불한다 | ~을 위해 | 나의 장난감",
+    "translation": "나는 내 장난감 값을 지불해."
+  },
+  {
+    "word": "sandwich",
+    "sentence": "I eat a sandwich.",
+    "orderHint": "나는 먹는다 | 하나의 | 샌드위치",
+    "translation": "나는 샌드위치를 먹어."
+  },
+  {
+    "word": "stop",
+    "sentence": "Please stop the car.",
+    "orderHint": "부디 | 멈춰라 | 그 | 차를",
+    "translation": "차를 멈춰주세요."
+  },
+  {
+    "word": "try",
+    "sentence": "I will try my best.",
+    "orderHint": "나는 할 것이다 | 노력하다 | 나의 최선을",
+    "translation": "나는 최선을 다할 거야."
+  },
+  {
+    "word": "world",
+    "sentence": "The world is big.",
+    "orderHint": "그 | 세상은 | 이다 | 크다",
+    "translation": "세상은 넓어."
+  },
+  {
+    "word": "ball",
+    "sentence": "I play with a ball.",
+    "orderHint": "나는 논다 | ~와 함께 | 하나의 | 공",
+    "translation": "나는 공으로 놀아."
+  },
+  {
+    "word": "call",
+    "sentence": "I will call my mom.",
+    "orderHint": "나는 할 것이다 | 전화하다 | 나의 엄마에게",
+    "translation": "나는 엄마에게 전화할 거야."
+  },
+  {
+    "word": "cross",
+    "sentence": "Cross the street carefully.",
+    "orderHint": "건너라 | 그 | 길을 | 조심스럽게",
+    "translation": "길을 조심해서 건너."
+  },
+  {
+    "word": "fan",
+    "sentence": "Turn on the fan.",
+    "orderHint": "켜라 | 그 | 선풍기를",
+    "translation": "선풍기를 켜."
+  },
+  {
+    "word": "ground",
+    "sentence": "The ball is on the ground.",
+    "orderHint": "그 | 공은 | 이다 | ~위에 | 그 | 땅",
+    "translation": "공이 땅 위에 있어."
+  },
+  {
+    "word": "job",
+    "sentence": "My dad has a job.",
+    "orderHint": "나의 아빠는 | 가지고 있다 | 하나의 | 직업",
+    "translation": "우리 아빠는 직업이 있어."
+  },
+  {
+    "word": "miss",
+    "sentence": "I miss my friend.",
+    "orderHint": "나는 그리워한다 | 나의 친구를",
+    "translation": "나는 내 친구가 그리워."
+  },
+  {
+    "word": "pen",
+    "sentence": "I write with a pen.",
+    "orderHint": "나는 쓴다 | ~와 함께 | 하나의 | 펜",
+    "translation": "나는 펜으로 써."
+  },
+  {
+    "word": "save",
+    "sentence": "I save my money.",
+    "orderHint": "나는 저축한다 | 나의 돈을",
+    "translation": "나는 내 돈을 저축해."
+  },
+  {
+    "word": "store",
+    "sentence": "Let's go to the store.",
+    "orderHint": "가자 | ~로 | 그 | 가게",
+    "translation": "가게에 가자."
+  },
+  {
+    "word": "turn",
+    "sentence": "Turn left at the corner.",
+    "orderHint": "돌아라 | 왼쪽으로 | ~에서 | 그 | 모퉁이",
+    "translation": "모퉁이에서 왼쪽으로 돌아."
+  },
+  {
+    "word": "worry",
+    "sentence": "Don't worry, be happy.",
+    "orderHint": "하지 마라 | 걱정 | 되어라 | 행복하게",
+    "translation": "걱정하지 마, 행복해져."
+  },
+  {
+    "word": "banana",
+    "sentence": "I like to eat a banana.",
+    "orderHint": "나는 좋아한다 | ~하는 것을 | 먹다 | 하나의 | 바나나",
+    "translation": "나는 바나나 먹는 것을 좋아해."
+  },
+  {
+    "word": "camera",
+    "sentence": "Take a picture with my camera.",
+    "orderHint": "찍어라 | 하나의 | 사진을 | ~와 함께 | 나의 | 카메라",
+    "translation": "내 카메라로 사진을 찍어."
+  },
+  {
+    "word": "cry",
+    "sentence": "Don't cry, my baby.",
+    "orderHint": "하지 마라 | 울다 | 나의 | 아기",
+    "translation": "울지 마, 내 아가."
+  },
+  {
+    "word": "far",
+    "sentence": "The park is far from here.",
+    "orderHint": "그 공원 | 입니다 | 멀리 | ~로부터 | 여기",
+    "translation": "공원은 여기서 멀어요."
+  },
+  {
+    "word": "group",
+    "sentence": "We are a happy group.",
+    "orderHint": "우리 | 입니다 | 행복한 | 모둠",
+    "translation": "우리는 행복한 모둠이에요."
+  },
+  {
+    "word": "join",
+    "sentence": "Can I join your game?",
+    "orderHint": "할 수 있나요 | 나 | 가입하다 | 너의 | 게임",
+    "translation": "너의 게임에 참여해도 될까?"
+  },
+  {
+    "word": "model",
+    "sentence": "This is my toy model car.",
+    "orderHint": "이것 | 입니다 | 나의 | 장난감 | 모형 | 자동차",
+    "translation": "이것은 내 장난감 모형 자동차야."
+  },
+  {
+    "word": "pencil",
+    "sentence": "I have a yellow pencil.",
+    "orderHint": "나 | 가지고 있다 | 노란색 | 연필",
+    "translation": "나는 노란 연필이 있어요."
+  },
+  {
+    "word": "say",
+    "sentence": "Please say hello to him.",
+    "orderHint": "부디 | 말하다 | 안녕 | ~에게 | 그",
+    "translation": "그에게 안녕이라고 말해줘."
+  },
+  {
+    "word": "story",
+    "sentence": "Tell me a fun story.",
+    "orderHint": "말해줘 | 나에게 | 재미있는 | 이야기",
+    "translation": "나에게 재미있는 이야기를 해줘."
+  },
+  {
+    "word": "twelve",
+    "sentence": "I am twelve years old.",
+    "orderHint": "나 | 입니다 | 열두 | 살",
+    "translation": "나는 열두 살이에요."
+  },
+  {
+    "word": "write",
+    "sentence": "I can write my name.",
+    "orderHint": "나 | 할 수 있다 | 쓰다 | 나의 | 이름",
+    "translation": "나는 내 이름을 쓸 수 있어요."
+  },
+  {
+    "word": "bank",
+    "sentence": "The bank is near my house.",
+    "orderHint": "그 은행 | 입니다 | 가까이 | 나의 | 집",
+    "translation": "은행은 우리 집 근처에 있어요."
+  },
+  {
+    "word": "camp",
+    "sentence": "We will go to camp.",
+    "orderHint": "우리 | 할 것이다 | 가다 | ~로 | 캠프",
+    "translation": "우리는 캠프에 갈 거예요."
+  },
+  {
+    "word": "culture",
+    "sentence": "We learn about Korean culture.",
+    "orderHint": "우리 | 배운다 | ~에 대해 | 한국 | 문화",
+    "translation": "우리는 한국 문화에 대해 배워요."
+  },
+  {
+    "word": "farm",
+    "sentence": "My grandpa lives on a farm.",
+    "orderHint": "나의 | 할아버지 | 산다 | ~위에 | 농장",
+    "translation": "우리 할아버지는 농장에 사세요."
+  },
+  {
+    "word": "grow",
+    "sentence": "Plants grow in the garden.",
+    "orderHint": "식물들 | 자란다 | ~안에 | 그 | 정원",
+    "translation": "식물들은 정원에서 자라요."
+  },
+  {
+    "word": "juice",
+    "sentence": "I like apple juice.",
+    "orderHint": "나 | 좋아한다 | 사과 | 주스",
+    "translation": "나는 사과 주스를 좋아해요."
+  },
+  {
+    "word": "money",
+    "sentence": "I save my money.",
+    "orderHint": "나 | 저축한다 | 나의 | 돈",
+    "translation": "나는 내 돈을 저축해요."
+  },
+  {
+    "word": "people",
+    "sentence": "Many people are at the park.",
+    "orderHint": "많은 | 사람들 | 입니다 | ~에 | 그 | 공원",
+    "translation": "많은 사람들이 공원에 있어요."
+  },
+  {
+    "word": "school",
+    "sentence": "I go to school every day.",
+    "orderHint": "나 | 간다 | ~로 | 학교 | 매일",
+    "translation": "나는 매일 학교에 가요."
+  },
+  {
+    "word": "street",
+    "sentence": "The car is on the street.",
+    "orderHint": "그 자동차 | 입니다 | ~위에 | 그 | 거리",
+    "translation": "자동차가 길 위에 있어요."
+  },
+  {
+    "word": "twenty",
+    "sentence": "I have twenty toy cars.",
+    "orderHint": "나 | 가지고 있다 | 스물 | 장난감 | 자동차들",
+    "translation": "나는 스무 대의 장난감 자동차가 있어요."
+  },
+  {
+    "word": "wrong",
+    "sentence": "Your answer is wrong.",
+    "orderHint": "너의 | 대답 | 입니다 | 틀린",
+    "translation": "네 답은 틀렸어."
+  },
+  {
+    "word": "base",
+    "sentence": "The base of the tree is big.",
+    "orderHint": "그 맨 아랫부분 | ~의 | 그 나무 | 입니다 | 큰",
+    "translation": "나무의 밑동은 커요."
+  },
+  {
+    "word": "campaign",
+    "sentence": "We started a clean-up campaign.",
+    "orderHint": "우리 | 시작했다 | 청소 | 캠페인",
+    "translation": "우리는 청소 캠페인을 시작했어요."
+  },
+  {
+    "word": "cup",
+    "sentence": "Drink water from your cup.",
+    "orderHint": "마셔라 | 물 | ~로부터 | 너의 | 컵",
+    "translation": "네 컵으로 물을 마셔."
+  },
+  {
+    "word": "fast",
+    "sentence": "A rabbit runs very fast.",
+    "orderHint": "토끼 | 달린다 | 매우 | 빠르게",
+    "translation": "토끼는 매우 빠르게 달려요."
+  },
+  {
+    "word": "guess",
+    "sentence": "Can you guess my age?",
+    "orderHint": "너는 | 추측할 수 있니 | 나의 나이를?",
+    "translation": "내 나이를 맞춰볼 수 있니?"
+  },
+  {
+    "word": "jump",
+    "sentence": "Let's jump high!",
+    "orderHint": "우리 | 높이 | 점프하자!",
+    "translation": "높이 점프하자!"
+  },
+  {
+    "word": "monkey",
+    "sentence": "The monkey likes bananas.",
+    "orderHint": "그 원숭이는 | 좋아한다 | 바나나를.",
+    "translation": "원숭이는 바나나를 좋아해."
+  },
+  {
+    "word": "piano",
+    "sentence": "I play the piano.",
+    "orderHint": "나는 | 연주한다 | 피아노를.",
+    "translation": "나는 피아노를 쳐."
+  },
+  {
+    "word": "science",
+    "sentence": "Science is fun.",
+    "orderHint": "과학은 | 재미있다.",
+    "translation": "과학은 재미있어."
+  },
+  {
+    "word": "strong",
+    "sentence": "My dad is strong.",
+    "orderHint": "나의 아빠는 | 강하다.",
+    "translation": "우리 아빠는 힘세."
+  },
+  {
+    "word": "twenty-first",
+    "sentence": "Today is the twenty-first.",
+    "orderHint": "오늘은 | 21번째 날이다.",
+    "translation": "오늘은 21일이야."
+  },
+  {
+    "word": "baseball",
+    "sentence": "I like baseball.",
+    "orderHint": "나는 | 좋아한다 | 야구를.",
+    "translation": "나는 야구를 좋아해."
+  },
+  {
+    "word": "can",
+    "sentence": "I can swim fast.",
+    "orderHint": "나는 | 할 수 있다 | 수영을 | 빠르게.",
+    "translation": "나는 빠르게 수영할 수 있어."
+  },
+  {
+    "word": "curtain",
+    "sentence": "Open the curtain, please.",
+    "orderHint": "열어라 | 그 커튼을 | 부탁해.",
+    "translation": "커튼을 열어줘."
+  },
+  {
+    "word": "fat",
+    "sentence": "The cat is fat.",
+    "orderHint": "그 고양이는 | 뚱뚱하다.",
+    "translation": "그 고양이는 뚱뚱해."
+  },
+  {
+    "word": "guitar",
+    "sentence": "He plays the guitar.",
+    "orderHint": "그는 | 연주한다 | 기타를.",
+    "translation": "그는 기타를 쳐."
+  },
+  {
+    "word": "just",
+    "sentence": "I just woke up.",
+    "orderHint": "나는 | 방금 | 일어났다.",
+    "translation": "나는 방금 일어났어."
+  },
+  {
+    "word": "month",
+    "sentence": "This month is July.",
+    "orderHint": "이번 달은 | 7월이다.",
+    "translation": "이번 달은 7월이야."
+  },
+  {
+    "word": "pick",
+    "sentence": "Pick a red apple.",
+    "orderHint": "골라라 | 빨간 사과를.",
+    "translation": "빨간 사과를 골라."
+  },
+  {
+    "word": "scissors",
+    "sentence": "I need scissors.",
+    "orderHint": "나는 | 필요하다 | 가위가.",
+    "translation": "나는 가위가 필요해."
+  },
+  {
+    "word": "study",
+    "sentence": "Let's study English.",
+    "orderHint": "우리 | 공부하자 | 영어를.",
+    "translation": "우리 영어 공부하자."
+  },
+  {
+    "word": "twenty-second",
+    "sentence": "My birthday is the twenty-second.",
+    "orderHint": "나의 생일은 | 22번째 날이다.",
+    "translation": "내 생일은 22일이야."
+  },
+  {
+    "word": "year",
+    "sentence": "Happy New Year!",
+    "orderHint": "행복한 | 새 | 해!",
+    "translation": "새해 복 많이 받으세요!"
+  },
+  {
+    "word": "basket",
+    "sentence": "Put it in the basket.",
+    "orderHint": "넣어라 | 그것을 | 그 바구니 안에.",
+    "translation": "그것을 바구니에 넣어."
+  },
+  {
+    "word": "candy",
+    "sentence": "I like candy.",
+    "orderHint": "나는 | 좋아한다 | 사탕을.",
+    "translation": "나는 사탕을 좋아해."
+  },
+  {
+    "word": "customer",
+    "sentence": "The customer is happy.",
+    "orderHint": "그 손님은 | 행복하다.",
+    "translation": "손님이 행복해."
+  },
+  {
+    "word": "father/dad",
+    "sentence": "My father reads a book.",
+    "orderHint": "나의 아버지는 | 읽는다 | 책 한 권을",
+    "translation": "나의 아버지는 책을 읽는다."
+  },
+  {
+    "word": "gum",
+    "sentence": "I like bubble gum.",
+    "orderHint": "나는 | 좋아한다 | 풍선껌을.",
+    "translation": "나는 풍선껌을 좋아해."
+  },
+  {
+    "word": "moon",
+    "sentence": "The moon is bright.",
+    "orderHint": "그 달은 | 밝다.",
+    "translation": "달이 밝아."
+  },
+  {
+    "word": "picture",
+    "sentence": "I like this picture.",
+    "orderHint": "I like | this picture.",
+    "translation": "나는 이 그림이 좋아."
+  },
+  {
+    "word": "score",
+    "sentence": "What is the score?",
+    "orderHint": "What is | the score?",
+    "translation": "점수가 몇 점이야?"
+  },
+  {
+    "word": "style",
+    "sentence": "I like your style.",
+    "orderHint": "I like | your style.",
+    "translation": "나는 네 스타일이 좋아."
+  },
+  {
+    "word": "twenty-third",
+    "sentence": "This is the twenty-third book.",
+    "orderHint": "This is | the twenty-third book.",
+    "translation": "이것은 23번째 책이야."
+  },
+  {
+    "word": "yellow",
+    "sentence": "I like yellow.",
+    "orderHint": "I like | yellow.",
+    "translation": "나는 노란색을 좋아해."
+  },
+  {
+    "word": "basketball",
+    "sentence": "I play basketball.",
+    "orderHint": "I play | basketball.",
+    "translation": "나는 농구를 해."
+  },
+  {
+    "word": "cap",
+    "sentence": "I wear a cap.",
+    "orderHint": "I wear | a cap.",
+    "translation": "나는 모자를 써."
+  },
+  {
+    "word": "cut",
+    "sentence": "Please cut the paper.",
+    "orderHint": "Please cut | the paper.",
+    "translation": "종이를 잘라주세요."
+  },
+  {
+    "word": "favorite",
+    "sentence": "This is my favorite toy.",
+    "orderHint": "This is | my favorite toy.",
+    "translation": "이것은 내가 가장 좋아하는 장난감이야."
+  },
+  {
+    "word": "guy",
+    "sentence": "He is a nice guy.",
+    "orderHint": "He is | a nice guy.",
+    "translation": "그는 좋은 사람이야."
+  },
+  {
+    "word": "keep",
+    "sentence": "Please keep it safe.",
+    "orderHint": "Please keep | it safe.",
+    "translation": "그것을 안전하게 보관해 줘."
+  },
+  {
+    "word": "morning",
+    "sentence": "Good morning!",
+    "orderHint": "Good morning!",
+    "translation": "좋은 아침!"
+  },
+  {
+    "word": "pig",
+    "sentence": "Look at the pig.",
+    "orderHint": "Look at | the pig.",
+    "translation": "저 돼지를 봐."
+  },
+  {
+    "word": "sea",
+    "sentence": "I like the sea.",
+    "orderHint": "I like | the sea.",
+    "translation": "나는 바다를 좋아해."
+  },
+  {
+    "word": "subway",
+    "sentence": "I take the subway.",
+    "orderHint": "I take | the subway.",
+    "translation": "나는 지하철을 타."
+  },
+  {
+    "word": "twice",
+    "sentence": "I eat twice a day.",
+    "orderHint": "I eat | twice | a day.",
+    "translation": "나는 하루에 두 번 먹어."
+  },
+  {
+    "word": "yes/yep",
+    "sentence": "I said yes with a smile.",
+    "orderHint": "나는 | 말했다 | 네라고 | 미소를 지으며",
+    "translation": "나는 미소를 지으며 네라고 말했다."
+  },
+  {
+    "word": "bat",
+    "sentence": "A bat flies at night.",
+    "orderHint": "A bat | flies | at night.",
+    "translation": "박쥐는 밤에 날아다녀."
+  },
+  {
+    "word": "car",
+    "sentence": "I like my red car.",
+    "orderHint": "I like | my red car.",
+    "translation": "나는 내 빨간 차가 좋아."
+  },
+  {
+    "word": "feel",
+    "sentence": "I feel happy.",
+    "orderHint": "I feel | happy.",
+    "translation": "나는 행복해."
+  },
+  {
+    "word": "key",
+    "sentence": "Where is my key?",
+    "orderHint": "Where is | my key?",
+    "translation": "내 열쇠는 어디에 있어?"
+  },
+  {
+    "word": "mother/mom",
+    "sentence": "My mother makes dinner.",
+    "orderHint": "나의 어머니는 | 만든다 | 저녁 식사를",
+    "translation": "나의 어머니는 저녁 식사를 만든다."
+  },
+  {
+    "word": "pilot",
+    "sentence": "I want to be a pilot.",
+    "orderHint": "I want | to be | a pilot.",
+    "translation": "나는 조종사가 되고 싶어."
+  },
+  {
+    "word": "season",
+    "sentence": "What is your favorite season?",
+    "orderHint": "What is | your favorite season?",
+    "translation": "네가 가장 좋아하는 계절은 뭐야?"
+  },
+  {
+    "word": "sugar",
+    "sentence": "I like sugar.",
+    "orderHint": "I like | sugar.",
+    "translation": "나는 설탕을 좋아해."
+  },
+  {
+    "word": "two",
+    "sentence": "I have two apples.",
+    "orderHint": "나는 | 가지고 있어 | 두 개의 | 사과를.",
+    "translation": "나는 사과 두 개가 있어."
+  },
+  {
+    "word": "yesterday",
+    "sentence": "I played yesterday.",
+    "orderHint": "나는 | 놀았어 | 어제.",
+    "translation": "나는 어제 놀았어."
+  },
+  {
+    "word": "bath",
+    "sentence": "I like a warm bath.",
+    "orderHint": "나는 | 좋아해 | 따뜻한 | 목욕을.",
+    "translation": "나는 따뜻한 목욕을 좋아해."
+  },
+  {
+    "word": "card",
+    "sentence": "This is my card.",
+    "orderHint": "이것은 | 이다 | 나의 | 카드.",
+    "translation": "이것은 내 카드야."
+  },
+  {
+    "word": "dance",
+    "sentence": "Let's dance together.",
+    "orderHint": "하자 | 춤 | 함께.",
+    "translation": "함께 춤추자."
+  },
+  {
+    "word": "festival",
+    "sentence": "The festival is fun.",
+    "orderHint": "그 축제는 | 이다 | 재미있는.",
+    "translation": "그 축제는 재미있어."
+  },
+  {
+    "word": "habit",
+    "sentence": "Reading is a good habit.",
+    "orderHint": "독서는 | 이다 | 좋은 | 습관.",
+    "translation": "독서는 좋은 습관이야."
+  },
+  {
+    "word": "kick",
+    "sentence": "I can kick the ball.",
+    "orderHint": "나는 | 할 수 있어 | 차다 | 그 공을.",
+    "translation": "나는 공을 찰 수 있어."
+  },
+  {
+    "word": "mountain",
+    "sentence": "The mountain is big.",
+    "orderHint": "그 산은 | 이다 | 큰.",
+    "translation": "그 산은 커."
+  },
+  {
+    "word": "pink",
+    "sentence": "I like pink shoes.",
+    "orderHint": "나는 | 좋아해 | 분홍색 | 신발을.",
+    "translation": "나는 분홍색 신발을 좋아해."
+  },
+  {
+    "word": "second",
+    "sentence": "This is my second toy.",
+    "orderHint": "이것은 | 이다 | 나의 | 두 번째 | 장난감.",
+    "translation": "이것은 나의 두 번째 장난감이야."
+  },
+  {
+    "word": "summer",
+    "sentence": "I like summer.",
+    "orderHint": "나는 | 좋아해 | 여름을.",
+    "translation": "나는 여름을 좋아해."
+  },
+  {
+    "word": "type",
+    "sentence": "What type of fruit?",
+    "orderHint": "무슨 | 종류의 | 과일?",
+    "translation": "무슨 종류의 과일?"
+  },
+  {
+    "word": "you",
+    "sentence": "How are you?",
+    "orderHint": "어떻게 | 이다 | 너?",
+    "translation": "잘 지내니?"
+  },
+  {
+    "word": "be",
+    "sentence": "I want to be happy.",
+    "orderHint": "나는 | 원해 | ~이기를 | 행복한.",
+    "translation": "나는 행복하고 싶어."
+  },
+  {
+    "word": "care",
+    "sentence": "I care for my dog.",
+    "orderHint": "나는 | 돌봐 | 나의 | 개를.",
+    "translation": "나는 내 개를 돌봐."
+  },
+  {
+    "word": "danger",
+    "sentence": "Look out for danger!",
+    "orderHint": "조심해 | ~을 위해 | 위험!",
+    "translation": "위험을 조심해!"
+  },
+  {
+    "word": "field",
+    "sentence": "We play in the field.",
+    "orderHint": "우리는 | 놀아 | ~안에서 | 그 들판.",
+    "translation": "우리는 들판에서 놀아."
+  },
+  {
+    "word": "hair",
+    "sentence": "My hair is long.",
+    "orderHint": "나의 | 머리카락은 | 이다 | 긴.",
+    "translation": "내 머리카락은 길어."
+  },
+  {
+    "word": "kid",
+    "sentence": "I am a happy kid.",
+    "orderHint": "나는 | 이다 | 행복한 | 아이.",
+    "translation": "나는 행복한 아이야."
+  },
+  {
+    "word": "mouse",
+    "sentence": "The mouse is small.",
+    "orderHint": "그 생쥐는 | 이다 | 작은.",
+    "translation": "그 생쥐는 작아."
+  },
+  {
+    "word": "pizza",
+    "sentence": "I like pizza.",
+    "orderHint": "나는 | 좋아해 | 피자를.",
+    "translation": "나는 피자를 좋아해."
+  },
+  {
+    "word": "see",
+    "sentence": "I can see you.",
+    "orderHint": "나는 | 할 수 있어 | 보다 | 너를.",
+    "translation": "나는 너를 볼 수 있어."
+  },
+  {
+    "word": "sun",
+    "sentence": "The sun is bright.",
+    "orderHint": "그 태양은 | 이다 | 밝은.",
+    "translation": "태양은 밝아."
+  },
+  {
+    "word": "young",
+    "sentence": "She is very young.",
+    "orderHint": "그녀는 | 이다 | 매우 | 어린.",
+    "translation": "그녀는 매우 어려."
+  },
+  {
+    "word": "beach",
+    "sentence": "Let's go to the beach.",
+    "orderHint": "우리 | 가자 | 그 | 해변으로",
+    "translation": "해변에 가자."
+  },
+  {
+    "word": "carrot",
+    "sentence": "The rabbit eats a carrot.",
+    "orderHint": "그 토끼는 | 먹는다 | 당근 하나를",
+    "translation": "그 토끼는 당근 하나를 먹는다."
+  },
+  {
+    "word": "dark",
+    "sentence": "It is dark outside now.",
+    "orderHint": "그것은 | 어둡다 | 밖에 | 지금",
+    "translation": "지금 밖이 어두워."
+  },
+  {
+    "word": "fight",
+    "sentence": "Don't fight with your friends.",
+    "orderHint": "싸우지 마 | 너의 | 친구들과",
+    "translation": "친구들과 싸우지 마."
+  },
+  {
+    "word": "hamburger",
+    "sentence": "I want a big hamburger.",
+    "orderHint": "나는 | 원해 | 큰 | 햄버거를",
+    "translation": "나는 큰 햄버거를 원해."
+  },
+  {
+    "word": "kill",
+    "sentence": "Please kill the lights.",
+    "orderHint": "제발 | 꺼줘 | 그 | 불을",
+    "translation": "불 좀 꺼줘."
+  },
+  {
+    "word": "mouth",
+    "sentence": "Open your mouth wide.",
+    "orderHint": "열어라 | 너의 | 입을 | 크게",
+    "translation": "입을 크게 벌려."
+  },
+  {
+    "word": "place",
+    "sentence": "Please place the book here.",
+    "orderHint": "제발 | 놓아줘 | 그 | 책을 | 여기에",
+    "translation": "책을 여기에 놓아줘."
+  },
+  {
+    "word": "sell",
+    "sentence": "They sell fresh fruit here.",
+    "orderHint": "그들은 | 판다 | 신선한 | 과일을 | 여기에",
+    "translation": "그들은 여기서 신선한 과일을 팔아."
+  },
+  {
+    "word": "sure",
+    "sentence": "Are you sure about that?",
+    "orderHint": "이니 | 너는 | 확신하니 | 그것에 대해",
+    "translation": "그것에 대해 확신하니?"
+  },
+  {
+    "word": "ugly",
+    "sentence": "That ugly monster is scary.",
+    "orderHint": "저 | 못생긴 | 괴물은 | 무서워",
+    "translation": "저 못생긴 괴물은 무서워."
+  },
+  {
+    "word": "bear",
+    "sentence": "I saw a big bear.",
+    "orderHint": "나는 | 봤어 | 큰 | 곰을",
+    "translation": "나는 큰 곰을 봤어."
+  },
+  {
+    "word": "carry",
+    "sentence": "Can you carry this bag?",
+    "orderHint": "할 수 있니 | 너는 | 나를 수 있니 | 이 | 가방을",
+    "translation": "이 가방을 나를 수 있니?"
+  },
+  {
+    "word": "date",
+    "sentence": "What is today's date?",
+    "orderHint": "무엇이니 | 오늘의 | 날짜는",
+    "translation": "오늘 날짜가 언제니?"
+  },
+  {
+    "word": "file",
+    "sentence": "Save this file on the computer.",
+    "orderHint": "저장해라 | 이 | 파일을 | 그 | 컴퓨터에",
+    "translation": "이 파일을 컴퓨터에 저장해."
+  },
+  {
+    "word": "hand",
+    "sentence": "Please give me your hand.",
+    "orderHint": "제발 | 줘 | 나에게 | 너의 | 손을",
+    "translation": "네 손을 줘."
+  },
+  {
+    "word": "kind",
+    "sentence": "She is a very kind person.",
+    "orderHint": "그녀는 | 이다 | 매우 | 친절한 | 사람",
+    "translation": "그녀는 매우 친절한 사람이야."
+  },
+  {
+    "word": "move",
+    "sentence": "Don't move from your seat.",
+    "orderHint": "움직이지 마 | 너의 | 자리에서",
+    "translation": "자리에서 움직이지 마."
+  },
+  {
+    "word": "plan",
+    "sentence": "What is your plan for today?",
+    "orderHint": "무엇이니 | 너의 | 계획은 | 오늘을 위한",
+    "translation": "오늘 너의 계획은 무엇이니?"
+  },
+  {
+    "word": "send",
+    "sentence": "I will send you a letter.",
+    "orderHint": "나는 | 보낼 거야 | 너에게 | 편지를",
+    "translation": "내가 너에게 편지를 보낼게."
+  },
+  {
+    "word": "swim",
+    "sentence": "I like to swim in the pool.",
+    "orderHint": "나는 | 좋아해 | 수영하는 것을 | 그 | 수영장에서",
+    "translation": "나는 수영장에서 수영하는 것을 좋아해."
+  },
+  {
+    "word": "umbrella",
+    "sentence": "Take your umbrella, it will rain.",
+    "orderHint": "가져가라 | 너의 | 우산을 | 비가 올 거야",
+    "translation": "우산 가져가, 비 올 거야."
+  },
+  {
+    "word": "zoo",
+    "sentence": "Let's go to the zoo.",
+    "orderHint": "우리 | 가자 | 그 | 동물원에",
+    "translation": "동물원에 가자."
+  },
+  {
+    "word": "beauty",
+    "sentence": "The flower has great beauty.",
+    "orderHint": "그 | 꽃은 | 가지고 있다 | 큰 | 아름다움을",
+    "translation": "그 꽃은 정말 아름다워."
+  },
+  {
+    "word": "case",
+    "sentence": "Put your books in the case.",
+    "orderHint": "넣어라 | 너의 | 책들을 | 그 | 상자에",
+    "translation": "책들을 상자에 넣어."
+  },
+  {
+    "word": "daughter",
+    "sentence": "My daughter is happy.",
+    "orderHint": "나의 딸 | 입니다 | 행복한.",
+    "translation": "내 딸은 행복해요."
+  },
+  {
+    "word": "fill",
+    "sentence": "Please fill my cup.",
+    "orderHint": "부디 채워주세요 | 나의 컵을.",
+    "translation": "내 컵을 채워주세요."
+  },
+  {
+    "word": "hang",
+    "sentence": "Hang your coat here.",
+    "orderHint": "걸어라 | 너의 코트를 | 여기에.",
+    "translation": "여기에 코트를 걸어."
+  },
+  {
+    "word": "king",
+    "sentence": "The king wears a crown.",
+    "orderHint": "그 왕은 | 입습니다 | 하나의 왕관을.",
+    "translation": "왕은 왕관을 써요."
+  },
+  {
+    "word": "movie",
+    "sentence": "Let's watch a movie.",
+    "orderHint": "우리 보자 | 하나의 영화를.",
+    "translation": "영화 보자."
+  },
+  {
+    "word": "plastic",
+    "sentence": "This is a plastic cup.",
+    "orderHint": "이것은 | 입니다 | 하나의 플라스틱 컵.",
+    "translation": "이것은 플라스틱 컵이에요."
+  },
+  {
+    "word": "service",
+    "sentence": "Good service makes me happy.",
+    "orderHint": "좋은 서비스는 | 만듭니다 | 나를 | 행복하게.",
+    "translation": "좋은 서비스는 나를 행복하게 해요."
+  },
+  {
+    "word": "uncle",
+    "sentence": "My uncle is very kind.",
+    "orderHint": "나의 삼촌은 | 입니다 | 매우 친절한.",
+    "translation": "우리 삼촌은 아주 친절해요."
+  },
+  {
+    "word": "because",
+    "sentence": "I am happy because of you.",
+    "orderHint": "나는 입니다 | 행복한 | ~때문에 | 너.",
+    "translation": "나는 너 때문에 행복해."
+  },
+  {
+    "word": "cash",
+    "sentence": "I pay with cash.",
+    "orderHint": "나는 지불합니다 | 현금으로.",
+    "translation": "나는 현금으로 지불해요."
+  },
+  {
+    "word": "day",
+    "sentence": "Have a good day!",
+    "orderHint": "가져라 | 하나의 좋은 날을!",
+    "translation": "좋은 하루 보내세요!"
+  },
+  {
+    "word": "film",
+    "sentence": "Let's watch a film.",
+    "orderHint": "우리 보자 | 하나의 영화를.",
+    "translation": "영화 보자."
+  },
+  {
+    "word": "happy",
+    "sentence": "I am very happy.",
+    "orderHint": "나는 입니다 | 매우 행복한.",
+    "translation": "나는 아주 행복해요."
+  },
+  {
+    "word": "kiss",
+    "sentence": "Give me a kiss.",
+    "orderHint": "줘라 | 나에게 | 하나의 키스를.",
+    "translation": "나에게 뽀뽀해 줘."
+  },
+  {
+    "word": "much",
+    "sentence": "I like it very much.",
+    "orderHint": "나는 좋아합니다 | 그것을 | 매우 많이.",
+    "translation": "나는 그것을 아주 많이 좋아해요."
+  },
+  {
+    "word": "play",
+    "sentence": "Let's play outside.",
+    "orderHint": "우리 놀자 | 밖에서.",
+    "translation": "밖에서 놀자."
+  },
+  {
+    "word": "set",
+    "sentence": "Please set the table.",
+    "orderHint": "부디 놓아라 | 그 테이블을.",
+    "translation": "테이블을 차려주세요."
+  },
+  {
+    "word": "table",
+    "sentence": "The book is on the table.",
+    "orderHint": "그 책은 | 입니다 | 위에 | 그 테이블.",
+    "translation": "책이 테이블 위에 있어요."
+  },
+  {
+    "word": "under",
+    "sentence": "The cat is under the bed.",
+    "orderHint": "그 고양이는 | 입니다 | 아래에 | 그 침대.",
+    "translation": "고양이가 침대 아래에 있어요."
+  },
+  {
+    "word": "become",
+    "sentence": "I want to become a doctor.",
+    "orderHint": "나는 원합니다 | ~이 되는 것을 | 하나의 의사.",
+    "translation": "나는 의사가 되고 싶어요."
+  },
+  {
+    "word": "cat",
+    "sentence": "My cat is cute.",
+    "orderHint": "나의 고양이는 | 입니다 | 귀여운.",
+    "translation": "내 고양이는 귀여워요."
+  },
+  {
+    "word": "dead",
+    "sentence": "The plant is dead.",
+    "orderHint": "그 식물은 | 입니다 | 죽은.",
+    "translation": "그 식물은 죽었어요."
+  },
+  {
+    "word": "find",
+    "sentence": "I can find my toy.",
+    "orderHint": "나는 할 수 있습니다 | 찾다 | 나의 장난감을.",
+    "translation": "나는 내 장난감을 찾을 수 있어요."
+  },
+  {
+    "word": "hard",
+    "sentence": "This math is hard.",
+    "orderHint": "이 수학은 | 입니다 | 어려운.",
+    "translation": "이 수학은 어려워요."
+  },
+  {
+    "word": "kitchen",
+    "sentence": "Mom is in the kitchen.",
+    "orderHint": "엄마는 | 입니다 | 안에 | 그 부엌.",
+    "translation": "엄마는 부엌에 계세요."
+  },
+  {
+    "word": "music",
+    "sentence": "I like music.",
+    "orderHint": "나는 | 좋아해 | 음악을.",
+    "translation": "나는 음악을 좋아해."
+  },
+  {
+    "word": "please",
+    "sentence": "Please help me.",
+    "orderHint": "부디 | 도와줘 | 나를.",
+    "translation": "나를 도와줘."
+  },
+  {
+    "word": "seven",
+    "sentence": "I have seven apples.",
+    "orderHint": "나는 | 가지고 있어 | 일곱 개의 | 사과를.",
+    "translation": "나는 사과 일곱 개를 가지고 있어."
+  },
+  {
+    "word": "tail",
+    "sentence": "The dog has a tail.",
+    "orderHint": "그 개는 | 가지고 있어 | 꼬리를.",
+    "translation": "그 개는 꼬리가 있어."
+  },
+  {
+    "word": "understand",
+    "sentence": "I understand you.",
+    "orderHint": "나는 | 이해해 | 너를.",
+    "translation": "나는 너를 이해해."
+  }
+]
