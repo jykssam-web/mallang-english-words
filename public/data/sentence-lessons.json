@@ -20,7 +20,7 @@
   {
     "word": "fine",
     "sentence": "I am fine today, thank you.",
-    "orderHint": "나는 | 괜찮아요 | 오늘 | 고마워요",
+    "orderHint": "나는 | ~한 상태예요 | 괜찮은 | 오늘 | 고마워요",
     "translation": "저는 오늘 괜찮아요, 고마워요."
   },
   {
@@ -32,7 +32,7 @@
   {
     "word": "knife",
     "sentence": "The knife is on the table.",
-    "orderHint": "그 칼은 | 있다 | 탁자 위에",
+    "orderHint": "그 칼은 | ~에 있어요 | 탁자 위에",
     "translation": "그 칼은 탁자 위에 있어요."
   },
   {
@@ -74,7 +74,7 @@
   {
     "word": "bee",
     "sentence": "A bee is on the yellow flower.",
-    "orderHint": "한 벌이 | 있다 | ~위에 | 그 노란 꽃",
+    "orderHint": "벌 한 마리는 | ~에 있어요 | 그 노란 꽃 위에",
     "translation": "벌 한 마리가 노란 꽃 위에 있어요."
   },
   {
@@ -146,13 +146,13 @@
   {
     "word": "certain",
     "sentence": "Are you certain about the answer?",
-    "orderHint": "당신은 | 확실한가요 | 그 답에 대해",
+    "orderHint": "당신은 | ~한 상태인가요 | 확실한 | 그 답에 대해",
     "translation": "그 정답이 확실한가요?"
   },
   {
     "word": "deep",
     "sentence": "The water is very deep.",
-    "orderHint": "그 물은 | 이다 | 매우 깊은.",
+    "orderHint": "그 물은 | ~한 상태예요 | 매우 깊은",
     "translation": "그 물은 매우 깊어요."
   },
   {
@@ -170,13 +170,13 @@
   {
     "word": "name",
     "sentence": "My name is Sam.",
-    "orderHint": "나의 이름은 | 이다 | 샘.",
+    "orderHint": "나의 이름은 | ~입니다 | 샘",
     "translation": "내 이름은 샘이야."
   },
   {
     "word": "poor",
     "sentence": "They are a poor family.",
-    "orderHint": "그들은 | 이다 | 하나의 가난한 가족.",
+    "orderHint": "그들은 | ~입니다 | 가난한 가족",
     "translation": "그들은 가난한 가족이에요."
   },
   {
@@ -188,13 +188,13 @@
   {
     "word": "tall",
     "sentence": "My brother is very tall.",
-    "orderHint": "나의 형은 | 이다 | 매우 키가 큰.",
+    "orderHint": "나의 형은 | ~한 상태예요 | 매우 키가 큰",
     "translation": "내 형은 키가 매우 크다."
   },
   {
     "word": "above",
     "sentence": "The sun is above the clouds.",
-    "orderHint": "해는 | 있다 | 위에 | 구름들.",
+    "orderHint": "해는 | ~에 있어요 | 구름들 위에",
     "translation": "해는 구름 위에 있어요."
   },
   {
@@ -212,7 +212,7 @@
   {
     "word": "delicious",
     "sentence": "This pizza is very delicious.",
-    "orderHint": "이 피자는 | 이다 | 매우 | 맛있는.",
+    "orderHint": "이 피자는 | ~한 상태예요 | 매우 맛있는",
     "translation": "이 피자는 정말 맛있어요."
   },
   {
@@ -224,7 +224,7 @@
   {
     "word": "he",
     "sentence": "He is my best friend.",
-    "orderHint": "그는 | 이다 | 나의 | 최고의 | 친구.",
+    "orderHint": "그는 | ~입니다 | 나의 가장 친한 친구",
     "translation": "그는 나의 제일 가까운 친구예요."
   },
   {
@@ -236,7 +236,7 @@
   {
     "word": "nation",
     "sentence": "Korea is a beautiful nation.",
-    "orderHint": "한국은 | 이다 | 하나의 | 아름다운 | 나라.",
+    "orderHint": "한국은 | ~입니다 | 아름다운 나라",
     "translation": "한국은 아름다운 나라예요."
   },
   {
@@ -266,7 +266,7 @@
   {
     "word": "across",
     "sentence": "The park is across the street.",
-    "orderHint": "그 공원은 | 있어요 | 건너편에 | 그 길의",
+    "orderHint": "그 공원은 | ~에 있어요 | 그 길 건너편에",
     "translation": "그 공원은 길 건너편에 있어요."
   },
   {
@@ -332,7 +332,7 @@
   {
     "word": "very",
     "sentence": "This dog is very cute.",
-    "orderHint": "이 개는 | 이다 | 매우 | 귀여운.",
+    "orderHint": "이 개는 | ~한 상태예요 | 매우 귀여운",
     "translation": "이 개는 매우 귀여워요."
   },
   {
@@ -344,7 +344,7 @@
   {
     "word": "behind",
     "sentence": "The cat is behind the door.",
-    "orderHint": "그 고양이는 | 있다 | ~뒤에 | 그 문.",
+    "orderHint": "그 고양이는 | ~에 있어요 | 그 문 뒤에",
     "translation": "고양이는 문 뒤에 있어요."
   },
   {
@@ -356,7 +356,7 @@
   {
     "word": "desk",
     "sentence": "My book is on the desk.",
-    "orderHint": "내 책은 | 있다 | ~위에 | 그 책상.",
+    "orderHint": "내 책은 | ~에 있어요 | 그 책상 위에",
     "translation": "내 책은 책상 위에 있어요."
   },
   {
@@ -380,7 +380,7 @@
   {
     "word": "near",
     "sentence": "My school is near my house.",
-    "orderHint": "내 학교는 | 있어요 | 가까이에 | 우리 집",
+    "orderHint": "내 학교는 | ~에 있어요 | 우리 집 가까이에",
     "translation": "우리 학교는 우리 집 근처에 있어요."
   },
   {
@@ -392,7 +392,7 @@
   {
     "word": "short",
     "sentence": "My pencil is very short.",
-    "orderHint": "내 연필은 | 이다 | 매우 짧은",
+    "orderHint": "내 연필은 | ~한 상태예요 | 매우 짧은",
     "translation": "내 연필은 매우 짧아요."
   },
   {
@@ -422,7 +422,7 @@
   {
     "word": "cheap",
     "sentence": "This pencil is very cheap.",
-    "orderHint": "이 연필은 | 이다 | 매우 저렴한.",
+    "orderHint": "이 연필은 | ~한 상태예요 | 매우 저렴한",
     "translation": "이 연필은 매우 싸요."
   },
   {
@@ -512,7 +512,7 @@
   {
     "word": "heavy",
     "sentence": "This bag is very heavy.",
-    "orderHint": "이 가방은 | 이다 | 매우 | 무거운",
+    "orderHint": "이 가방은 | ~한 상태예요 | 매우 무거운",
     "translation": "이 가방은 매우 무거워요."
   },
   {
@@ -572,13 +572,13 @@
   {
     "word": "difficult",
     "sentence": "This game is very difficult.",
-    "orderHint": "이 게임은 | 이다 | 매우 어려운.",
+    "orderHint": "이 게임은 | ~한 상태예요 | 매우 어려운",
     "translation": "이 게임은 매우 어렵습니다."
   },
   {
     "word": "floor",
     "sentence": "He is sitting on the floor.",
-    "orderHint": "그는 | 이다 앉아있는 | 바닥 위에.",
+    "orderHint": "그는 | 앉아 있어요 | 바닥 위에",
     "translation": "그는 바닥에 앉아 있습니다."
   },
   {
@@ -608,13 +608,13 @@
   {
     "word": "shy",
     "sentence": "The new student is very shy.",
-    "orderHint": "그 새 학생은 | 이다 | 매우 수줍어하는",
+    "orderHint": "그 새 학생은 | ~한 상태예요 | 매우 수줍어하는",
     "translation": "그 전학생은 매우 수줍어한다."
   },
   {
     "word": "telephone/phone",
     "sentence": "The telephone is ringing.",
-    "orderHint": "그 전화기는 | 울리고 있다",
+    "orderHint": "그 전화기는 | 울리고 있어요",
     "translation": "전화기가 울리고 있다."
   },
   {
@@ -626,7 +626,7 @@
   {
     "word": "afraid",
     "sentence": "He is afraid of the dark.",
-    "orderHint": "그는 | 이다 | 두려워하는 | 어둠을",
+    "orderHint": "그는 | ~한 상태예요 | 두려워하는 | 어둠을",
     "translation": "그는 어둠을 두려워한다."
   },
   {
@@ -680,7 +680,7 @@
   {
     "word": "sick",
     "sentence": "My little sister is sick today.",
-    "orderHint": "나의 여동생은 | 아프다 | 오늘",
+    "orderHint": "나의 여동생은 | ~한 상태예요 | 아픈 | 오늘",
     "translation": "내 여동생은 오늘 아파요."
   },
   {
@@ -728,7 +728,7 @@
   {
     "word": "lazy",
     "sentence": "The lazy cat is sleeping on the bed.",
-    "orderHint": "그 게으른 고양이는 | 자고 있다 | 침대 위에서",
+    "orderHint": "그 게으른 고양이는 | 자고 있어요 | 침대 위에서",
     "translation": "게으른 고양이가 침대 위에서 자고 있어요."
   },
   {
@@ -740,7 +740,7 @@
   {
     "word": "program",
     "sentence": "This is a fun TV program.",
-    "orderHint": "이것은 | 이다 | 재미있는 TV 프로그램",
+    "orderHint": "이것은 | ~입니다 | 재미있는 텔레비전 프로그램",
     "translation": "이것은 재미있는 TV 프로그램이에요."
   },
   {
@@ -794,7 +794,7 @@
   {
     "word": "here",
     "sentence": "Your new book is here.",
-    "orderHint": "너의 새 책은 | 있다 | 여기에",
+    "orderHint": "너의 새 책은 | 있어요 | 여기에",
     "translation": "너의 새 책이 여기에 있어."
   },
   {
@@ -854,7 +854,7 @@
   {
     "word": "doctor",
     "sentence": "My mother is a good doctor.",
-    "orderHint": "나의 엄마는 | 이다 | 좋은 의사",
+    "orderHint": "나의 엄마는 | ~입니다 | 좋은 의사",
     "translation": "우리 엄마는 좋은 의사예요."
   },
   {
@@ -866,7 +866,7 @@
   {
     "word": "hero",
     "sentence": "My dad is my hero.",
-    "orderHint": "나의 아빠는 | 이다 | 나의 영웅",
+    "orderHint": "나의 아빠는 | ~입니다 | 나의 영웅",
     "translation": "우리 아빠는 나의 영웅이에요."
   },
   {
@@ -878,7 +878,7 @@
   {
     "word": "next",
     "sentence": "My house is next to the park.",
-    "orderHint": "나의 집은 | 있다 | 옆에 | 그 공원의",
+    "orderHint": "나의 집은 | ~에 있어요 | 그 공원 옆에",
     "translation": "우리 집은 공원 옆에 있어요."
   },
   {
@@ -950,7 +950,7 @@
   {
     "word": "nice",
     "sentence": "She is very nice to everyone.",
-    "orderHint": "그녀는 | 이다 | 매우 친절한 | 모두에게",
+    "orderHint": "그녀는 | ~한 상태예요 | 매우 친절한 | 모두에게",
     "translation": "그녀는 모두에게 매우 친절해요."
   },
   {
@@ -974,13 +974,13 @@
   {
     "word": "wall",
     "sentence": "A big clock is on the wall.",
-    "orderHint": "큰 시계가 | 있다 | 벽에",
+    "orderHint": "큰 시계가 | 있어요 | 벽에",
     "translation": "벽에 큰 시계가 걸려 있어요."
   },
   {
     "word": "age",
     "sentence": "What is your age?",
-    "orderHint": "무엇이니 | 너의 나이는",
+    "orderHint": "무엇 | ~인가요 | 너의 나이는",
     "translation": "너는 몇 살이니?"
   },
   {
@@ -1058,7 +1058,7 @@
   {
     "word": "bird",
     "sentence": "A blue bird is in the tree.",
-    "orderHint": "파란 새가 | 있다 | 나무 안에",
+    "orderHint": "파란 새가 | 있어요 | 나무 안에",
     "translation": "파란 새가 나무에 있다."
   },
   {
@@ -1100,7 +1100,7 @@
   {
     "word": "size",
     "sentence": "This shirt is the right size.",
-    "orderHint": "이 셔츠는 | 이다 | 알맞은 크기",
+    "orderHint": "이 셔츠는 | ~입니다 | 알맞은 크기",
     "translation": "이 셔츠는 알맞은 크기입니다."
   },
   {
@@ -1160,7 +1160,7 @@
   {
     "word": "no",
     "sentence": "There is no juice in the box.",
-    "orderHint": "~이 없다 | 주스가 | 상자 안에",
+    "orderHint": "주스가 | 없어요 | 상자 안에",
     "translation": "상자 안에는 주스가 없다."
   },
   {
@@ -1178,7 +1178,7 @@
   {
     "word": "than",
     "sentence": "My brother is taller than me.",
-    "orderHint": "나의 형은 | ~이다 더 키가 큰 | 나보다",
+    "orderHint": "나의 형은 | ~한 상태예요 | 더 키가 큰 | 나보다",
     "translation": "우리 형은 나보다 키가 더 크다."
   },
   {
@@ -1274,7 +1274,7 @@
   {
     "word": "clear",
     "sentence": "The sky is very clear today.",
-    "orderHint": "하늘이 | 이다 | 매우 맑은 | 오늘",
+    "orderHint": "하늘이 | ~한 상태예요 | 매우 맑은 | 오늘",
     "translation": "오늘 하늘이 아주 맑아요."
   },
   {
@@ -1292,13 +1292,13 @@
   {
     "word": "hobby",
     "sentence": "My hobby is reading books.",
-    "orderHint": "My hobby | is | reading books.",
+    "orderHint": "내 취미는 | ~입니다 | 책 읽는 것",
     "translation": "제 취미는 책 읽기입니다."
   },
   {
     "word": "life",
     "sentence": "Life is beautiful.",
-    "orderHint": "Life | is | beautiful.",
+    "orderHint": "인생은 | ~한 상태예요 | 아름다운",
     "translation": "인생은 아름다워요."
   },
   {
@@ -1316,7 +1316,7 @@
   {
     "word": "skin",
     "sentence": "My skin is soft.",
-    "orderHint": "My skin | is | soft.",
+    "orderHint": "내 피부는 | ~한 상태예요 | 부드러운",
     "translation": "제 피부는 부드러워요."
   },
   {
@@ -1334,7 +1334,7 @@
   {
     "word": "airplane/plane",
     "sentence": "The airplane is in the sky.",
-    "orderHint": "그 비행기는 | 있다 | 하늘에",
+    "orderHint": "그 비행기는 | ~에 있어요 | 하늘에",
     "translation": "비행기가 하늘에 있다."
   },
   {
@@ -1346,7 +1346,7 @@
   {
     "word": "clever",
     "sentence": "You are very clever.",
-    "orderHint": "너는 | 이다 | 매우 | 똑똑한",
+    "orderHint": "너는 | ~한 상태예요 | 매우 똑똑한",
     "translation": "너는 아주 똑똑해."
   },
   {
@@ -1376,7 +1376,7 @@
   {
     "word": "not",
     "sentence": "I am not sad.",
-    "orderHint": "나는 | 이다 | 아니다 | 슬픈",
+    "orderHint": "나는 | ~한 상태가 아니에요 | 슬픈",
     "translation": "나는 슬프지 않아."
   },
   {
@@ -1412,7 +1412,7 @@
   {
     "word": "blue",
     "sentence": "The sky is blue.",
-    "orderHint": "그 | 하늘은 | 이다 | 파란색",
+    "orderHint": "그 하늘은 | ~한 상태예요 | 파란",
     "translation": "하늘은 파란색이다."
   },
   {
@@ -1436,7 +1436,7 @@
   {
     "word": "holiday",
     "sentence": "Today is a holiday.",
-    "orderHint": "오늘은 | 이다 | 휴일",
+    "orderHint": "오늘은 | ~입니다 | 휴일",
     "translation": "오늘은 휴일이다."
   },
   {
@@ -1460,7 +1460,7 @@
   {
     "word": "sky",
     "sentence": "The sky is blue.",
-    "orderHint": "그 | 하늘은 | 이다 | 파란색",
+    "orderHint": "그 하늘은 | ~한 상태예요 | 파란",
     "translation": "하늘은 파란색이다."
   },
   {
@@ -1478,7 +1478,7 @@
   {
     "word": "all",
     "sentence": "We are all friends.",
-    "orderHint": "우리 | 입니다 | 모두 | 친구들.",
+    "orderHint": "우리는 | ~입니다 | 모두 친구들",
     "translation": "우리는 모두 친구예요."
   },
   {
@@ -1532,13 +1532,13 @@
   {
     "word": "they",
     "sentence": "They are my friends.",
-    "orderHint": "그들은 | 입니다 | 나의 | 친구들.",
+    "orderHint": "그들은 | ~입니다 | 내 친구들",
     "translation": "그들은 내 친구들이야."
   },
   {
     "word": "way",
     "sentence": "This is the way.",
-    "orderHint": "이것은 | 입니다 | 그 | 길.",
+    "orderHint": "이것은 | ~입니다 | 그 길",
     "translation": "이것이 그 길이야."
   },
   {
@@ -1568,7 +1568,7 @@
   {
     "word": "fox",
     "sentence": "The fox is fast.",
-    "orderHint": "그 | 여우는 | 입니다 | 빠른.",
+    "orderHint": "그 여우는 | ~한 상태예요 | 빠른",
     "translation": "여우는 빨라."
   },
   {
@@ -1580,7 +1580,7 @@
   {
     "word": "lion",
     "sentence": "The lion is big.",
-    "orderHint": "그 | 사자는 | 입니다 | 큰.",
+    "orderHint": "그 사자는 | ~한 상태예요 | 큰",
     "translation": "사자는 커."
   },
   {
@@ -1592,19 +1592,19 @@
   {
     "word": "rabbit",
     "sentence": "The rabbit is cute.",
-    "orderHint": "그 | 토끼는 | 입니다 | 귀여운.",
+    "orderHint": "그 토끼는 | ~한 상태예요 | 귀여운",
     "translation": "토끼는 귀여워."
   },
   {
     "word": "slow",
     "sentence": "The turtle is slow.",
-    "orderHint": "그 | 거북이는 | 입니다 | 느린.",
+    "orderHint": "그 거북이는 | ~한 상태예요 | 느린",
     "translation": "거북이는 느려."
   },
   {
     "word": "thing",
     "sentence": "What is that thing?",
-    "orderHint": "무엇 | 입니다 | 저 | 것?",
+    "orderHint": "무엇 | ~인가요 | 저것은",
     "translation": "저것은 무엇이니?"
   },
   {
@@ -1616,13 +1616,13 @@
   {
     "word": "alone",
     "sentence": "I am not alone.",
-    "orderHint": "나 | 입니다 | 아니다 | 혼자.",
+    "orderHint": "나는 | ~한 상태가 아니에요 | 혼자인",
     "translation": "나는 혼자가 아니야."
   },
   {
     "word": "body",
     "sentence": "My body is strong.",
-    "orderHint": "나의 몸 | 이다 | 강한",
+    "orderHint": "내 몸은 | ~한 상태예요 | 튼튼한",
     "translation": "내 몸은 튼튼해."
   },
   {
@@ -1640,7 +1640,7 @@
   {
     "word": "free",
     "sentence": "This toy is free.",
-    "orderHint": "이 장난감은 | 이다 | 무료인",
+    "orderHint": "이 장난감은 | ~한 상태예요 | 무료인",
     "translation": "이 장난감은 공짜야."
   },
   {
@@ -1652,7 +1652,7 @@
   {
     "word": "lip",
     "sentence": "My lip is dry.",
-    "orderHint": "나의 입술은 | 이다 | 마른",
+    "orderHint": "나의 입술은 | ~한 상태예요 | 마른",
     "translation": "내 입술이 말랐어."
   },
   {
@@ -1670,7 +1670,7 @@
   {
     "word": "small",
     "sentence": "This cat is small.",
-    "orderHint": "이 고양이는 | 이다 | 작은",
+    "orderHint": "이 고양이는 | ~한 상태예요 | 작은",
     "translation": "이 고양이는 작아."
   },
   {
@@ -1712,7 +1712,7 @@
   {
     "word": "fresh",
     "sentence": "This fruit is fresh.",
-    "orderHint": "이 과일은 | 이다 | 신선한",
+    "orderHint": "이 과일은 | ~한 상태예요 | 신선한",
     "translation": "이 과일은 신선해."
   },
   {
@@ -1730,7 +1730,7 @@
   {
     "word": "number",
     "sentence": "What is your number?",
-    "orderHint": "무엇이니 | 이다 | 너의 숫자",
+    "orderHint": "무엇 | ~인가요 | 너의 숫자",
     "translation": "네 번호가 뭐야?"
   },
   {
@@ -1748,13 +1748,13 @@
   {
     "word": "third",
     "sentence": "I am third in line.",
-    "orderHint": "나는 이다 | 세 번째 | 줄에서",
+    "orderHint": "나는 | ~입니다 | 세 번째 | 줄에서",
     "translation": "나는 줄에서 세 번째야."
   },
   {
     "word": "weather",
     "sentence": "The weather is nice today.",
-    "orderHint": "그 날씨는 | 이다 | 좋은 | 오늘",
+    "orderHint": "그 날씨는 | ~한 상태예요 | 좋은 | 오늘",
     "translation": "오늘 날씨가 좋아."
   },
   {
@@ -1784,7 +1784,7 @@
   {
     "word": "friend",
     "sentence": "She is my best friend.",
-    "orderHint": "그녀는 이다 | 나의 가장 친한 친구.",
+    "orderHint": "그녀는 | ~입니다 | 나의 가장 친한 친구",
     "translation": "그녀는 나의 가장 친한 친구야."
   },
   {
@@ -1802,7 +1802,7 @@
   {
     "word": "nurse",
     "sentence": "My mom is a nurse.",
-    "orderHint": "나의 엄마는 이다 | 간호사.",
+    "orderHint": "나의 엄마는 | ~입니다 | 간호사",
     "translation": "우리 엄마는 간호사야."
   },
   {
@@ -1820,7 +1820,7 @@
   {
     "word": "thirsty",
     "sentence": "I am thirsty. I need water.",
-    "orderHint": "나는 이다 | 목마른. | 나는 필요하다 | 물.",
+    "orderHint": "나는 | ~한 상태예요 | 목마른 | 나는 필요해요 | 물",
     "translation": "목말라. 물이 필요해."
   },
   {
@@ -1832,7 +1832,7 @@
   {
     "word": "alright",
     "sentence": "Are you alright? I am fine.",
-    "orderHint": "너는 이니 | 괜찮은? | 나는 이다 | 괜찮은.",
+    "orderHint": "너는 | ~한 상태인가요 | 괜찮은 | 나는 | ~한 상태예요 | 괜찮은",
     "translation": "괜찮니? 나는 괜찮아."
   },
   {
@@ -1856,7 +1856,7 @@
   {
     "word": "from",
     "sentence": "I am from Korea.",
-    "orderHint": "나는 이다 | ~로부터 | 한국.",
+    "orderHint": "나는 | ~출신입니다 | 한국",
     "translation": "나는 한국에서 왔어."
   },
   {
@@ -1886,13 +1886,13 @@
   {
     "word": "thirteen",
     "sentence": "I am thirteen years old.",
-    "orderHint": "나는 이다 | 열세 살.",
+    "orderHint": "나는 | ~입니다 | 열세 살",
     "translation": "나는 열세 살이야."
   },
   {
     "word": "wedding",
     "sentence": "My aunt's wedding was fun.",
-    "orderHint": "나의 이모의 결혼식은 이었다 | 재미있는.",
+    "orderHint": "나의 이모의 결혼식은 | ~한 상태였어요 | 재미있는",
     "translation": "우리 이모 결혼식은 재미있었어."
   },
   {
@@ -1922,43 +1922,43 @@
   {
     "word": "front",
     "sentence": "The car is in front.",
-    "orderHint": "그 차 | ~이다 | ~안에 | 앞.",
+    "orderHint": "그 차는 | ~에 있어요 | 앞에",
     "translation": "차가 앞에 있어요."
   },
   {
     "word": "hot",
     "sentence": "This soup is hot.",
-    "orderHint": "이 수프 | ~이다 | 뜨거운.",
+    "orderHint": "이 수프는 | ~한 상태예요 | 뜨거운",
     "translation": "이 수프는 뜨거워요."
   },
   {
     "word": "long",
     "sentence": "My hair is long.",
-    "orderHint": "내 머리카락 | ~이다 | 긴.",
+    "orderHint": "내 머리카락은 | ~한 상태예요 | 긴",
     "translation": "내 머리카락은 길어요."
   },
   {
     "word": "of",
     "sentence": "This is a cup of milk.",
-    "orderHint": "이것 | ~이다 | 한 컵 | ~의 | 우유.",
+    "orderHint": "이것은 | ~입니다 | 한 컵의 우유",
     "translation": "이것은 우유 한 잔이에요."
   },
   {
     "word": "ready",
     "sentence": "Are you ready to go?",
-    "orderHint": "~이니 | 너 | 준비된 | ~하기 위해 | 가다?",
+    "orderHint": "너는 | ~한 상태인가요 | 준비된 | ~하기 위해 | 가다",
     "translation": "갈 준비 됐니?"
   },
   {
     "word": "so",
     "sentence": "I am so happy.",
-    "orderHint": "나 | ~이다 | 매우 | 행복한.",
+    "orderHint": "나는 | ~한 상태예요 | 매우 | 행복한",
     "translation": "나는 정말 행복해요."
   },
   {
     "word": "thirty",
     "sentence": "I am thirty years old.",
-    "orderHint": "나 | ~이다 | 서른 | 살 | 나이.",
+    "orderHint": "나는 | ~입니다 | 서른 살",
     "translation": "저는 서른 살이에요."
   },
   {
@@ -1982,7 +1982,7 @@
   {
     "word": "cold",
     "sentence": "It is cold outside.",
-    "orderHint": "그것 | ~이다 | 추운 | 밖에.",
+    "orderHint": "밖은 | ~한 상태예요 | 추운",
     "translation": "밖이 추워요."
   },
   {
@@ -2030,7 +2030,7 @@
   {
     "word": "this",
     "sentence": "This is my book.",
-    "orderHint": "이것 | ~이다 | 나의 | 책.",
+    "orderHint": "이것 | ~입니다 | 나의 | 책",
     "translation": "이것은 내 책이야."
   },
   {
@@ -2048,7 +2048,7 @@
   {
     "word": "bottom",
     "sentence": "The ball is at the bottom.",
-    "orderHint": "그 공 | ~이다 | ~에 | 그 맨 아래.",
+    "orderHint": "그 공 | ~에 있어요 | 그 맨 아래",
     "translation": "공이 맨 아래에 있어요."
   },
   {
@@ -2060,13 +2060,13 @@
   {
     "word": "full",
     "sentence": "My tummy is full.",
-    "orderHint": "나의 | 배 | ~이다 | 가득 찬.",
+    "orderHint": "나의 | 배 | ~한 상태예요 | 가득 찬",
     "translation": "내 배는 불러요."
   },
   {
     "word": "house",
     "sentence": "This is my house.",
-    "orderHint": "이것 | ~이다 | 나의 | 집.",
+    "orderHint": "이것 | ~입니다 | 나의 | 집",
     "translation": "이곳은 우리 집이에요."
   },
   {
@@ -2078,13 +2078,13 @@
   {
     "word": "office",
     "sentence": "My dad is at the office.",
-    "orderHint": "나의 아빠는 | ~에 있어 | 그 사무실",
+    "orderHint": "나의 아빠 | ~에 있어요 | 그 사무실",
     "translation": "우리 아빠는 사무실에 계셔."
   },
   {
     "word": "red",
     "sentence": "This is a red apple.",
-    "orderHint": "이것은 | ~이다 | 빨간 사과",
+    "orderHint": "이것 | ~입니다 | 빨간 사과",
     "translation": "이것은 빨간 사과야."
   },
   {
@@ -2102,13 +2102,13 @@
   {
     "word": "weight",
     "sentence": "What is your weight?",
-    "orderHint": "무엇이니 | 너의 체중은",
+    "orderHint": "무엇 | ~인가요 | 너의 체중",
     "translation": "네 몸무게는 얼마니?"
   },
   {
     "word": "animal",
     "sentence": "A dog is an animal.",
-    "orderHint": "개는 | ~이다 | 한 동물",
+    "orderHint": "개 | ~입니다 | 한 동물",
     "translation": "개는 동물이야."
   },
   {
@@ -2126,25 +2126,25 @@
   {
     "word": "ear",
     "sentence": "My ear is small.",
-    "orderHint": "나의 귀는 | ~한 상태이다 | 작은",
+    "orderHint": "나의 귀 | ~한 상태예요 | 작은",
     "translation": "나의 귀는 작다."
   },
   {
     "word": "fun",
     "sentence": "This game is fun.",
-    "orderHint": "이 게임은 | ~이다 | 재미있는",
+    "orderHint": "이 게임 | ~한 상태예요 | 재미있는",
     "translation": "이 게임은 재미있어."
   },
   {
     "word": "how",
     "sentence": "How are you?",
-    "orderHint": "어떻게 | ~이니 | 너는",
+    "orderHint": "어떻게 | 지내나요 | 너는",
     "translation": "어떻게 지내니?"
   },
   {
     "word": "low",
     "sentence": "The ball is low.",
-    "orderHint": "그 공은 | ~이다 | 낮은",
+    "orderHint": "그 공 | ~한 상태예요 | 낮은",
     "translation": "공이 낮아."
   },
   {
@@ -2162,7 +2162,7 @@
   {
     "word": "soft",
     "sentence": "This blanket is soft.",
-    "orderHint": "이 담요는 | ~이다 | 부드러운",
+    "orderHint": "이 담요 | ~한 상태예요 | 부드러운",
     "translation": "이 담요는 부드러워."
   },
   {
@@ -2186,13 +2186,13 @@
   {
     "word": "boy",
     "sentence": "He is a good boy.",
-    "orderHint": "그는 | ~이다 | 좋은 소년",
+    "orderHint": "그는 | ~입니다 | 좋은 소년",
     "translation": "그는 좋은 소년이야."
   },
   {
     "word": "color",
     "sentence": "What is your favorite color?",
-    "orderHint": "무엇이니 | 너의 가장 좋아하는 색깔은",
+    "orderHint": "무엇 | ~인가요 | 너의 가장 좋아하는 색깔",
     "translation": "네가 가장 좋아하는 색깔은 뭐니?"
   },
   {
@@ -2240,7 +2240,7 @@
   {
     "word": "tiger",
     "sentence": "The tiger is a big cat.",
-    "orderHint": "그 호랑이 | ~이다 | 큰 고양이",
+    "orderHint": "그 호랑이 | ~입니다 | 큰 고양이",
     "translation": "호랑이는 큰 고양이에요."
   },
   {
@@ -2258,7 +2258,7 @@
   {
     "word": "brave",
     "sentence": "He is a brave boy.",
-    "orderHint": "그는 | ~이다 | 용감한 소년",
+    "orderHint": "그는 | ~입니다 | 용감한 소년",
     "translation": "그는 용감한 소년이에요."
   },
   {
@@ -2270,7 +2270,7 @@
   {
     "word": "earth",
     "sentence": "The Earth is our home.",
-    "orderHint": "그 지구 | ~이다 | 우리의 집",
+    "orderHint": "그 지구 | ~입니다 | 우리의 집",
     "translation": "지구는 우리의 집이에요."
   },
   {
@@ -2288,13 +2288,13 @@
   {
     "word": "okay",
     "sentence": "Are you okay?",
-    "orderHint": "~이니 | 너 | 괜찮은",
+    "orderHint": "~한 상태인가요 | 너 | 괜찮은",
     "translation": "괜찮아요?"
   },
   {
     "word": "restroom",
     "sentence": "Where is the restroom?",
-    "orderHint": "어디 | ~이다 | 그 화장실",
+    "orderHint": "어디에 | 있어요 | 그 화장실이",
     "translation": "화장실이 어디예요?"
   },
   {
@@ -2306,7 +2306,7 @@
   {
     "word": "time",
     "sentence": "What time is it?",
-    "orderHint": "무슨 시간 | ~이다 | 그것",
+    "orderHint": "무슨 시간 | ~인가요 | 그것이",
     "translation": "몇 시예요?"
   },
   {
@@ -2330,7 +2330,7 @@
   {
     "word": "comic",
     "sentence": "This comic book is funny.",
-    "orderHint": "이 만화책 | ~이다 | 웃긴",
+    "orderHint": "이 만화책은 | ~한 상태예요 | 웃긴",
     "translation": "이 만화책은 웃겨요."
   },
   {
@@ -2354,7 +2354,7 @@
   {
     "word": "old",
     "sentence": "My grandpa is very old.",
-    "orderHint": "나의 할아버지 | ~이다 | 아주 늙은",
+    "orderHint": "나의 할아버지는 | ~한 상태예요 | 아주 늙은",
     "translation": "우리 할아버지는 아주 늙으셨어요."
   },
   {
@@ -2366,19 +2366,19 @@
   {
     "word": "son",
     "sentence": "My son is a good boy.",
-    "orderHint": "나의 아들 | ~이다 | 좋은 소년",
+    "orderHint": "나의 아들은 | ~입니다 | 좋은 소년",
     "translation": "제 아들은 착한 소년이에요."
   },
   {
     "word": "tired",
     "sentence": "I am tired today.",
-    "orderHint": "나는 | 피곤하다 | 오늘.",
+    "orderHint": "나는 | ~한 상태예요 | 피곤한 | 오늘",
     "translation": "나는 오늘 피곤해."
   },
   {
     "word": "wet",
     "sentence": "My shoes are wet.",
-    "orderHint": "내 신발은 | 젖었다.",
+    "orderHint": "내 신발은 | ~한 상태예요 | 젖은",
     "translation": "내 신발이 젖었어."
   },
   {
@@ -2426,7 +2426,7 @@
   {
     "word": "on",
     "sentence": "The book is on the table.",
-    "orderHint": "그 책은 | 있다 | ~위에 | 그 테이블.",
+    "orderHint": "그 책은 | 있어요 | ~위에 | 그 테이블",
     "translation": "책이 테이블 위에 있어."
   },
   {
@@ -2450,7 +2450,7 @@
   {
     "word": "what",
     "sentence": "What is your name?",
-    "orderHint": "무엇 | 이다 | 너의 이름?",
+    "orderHint": "무엇 | ~인가요 | 너의 이름이",
     "translation": "네 이름이 뭐니?"
   },
   {
@@ -2504,31 +2504,31 @@
   {
     "word": "rich",
     "sentence": "He is a rich man.",
-    "orderHint": "그는 | 이다 | 부유한 남자.",
+    "orderHint": "그는 | ~입니다 | 부유한 남자",
     "translation": "그는 부자 남자야."
   },
   {
     "word": "sorry",
     "sentence": "I am sorry.",
-    "orderHint": "나는 | 미안하다.",
+    "orderHint": "나는 | ~한 상태예요 | 미안한",
     "translation": "미안해."
   },
   {
     "word": "today",
     "sentence": "Today is a good day.",
-    "orderHint": "오늘은 | 이다 | 좋은 날.",
+    "orderHint": "오늘은 | ~입니다 | 좋은 날",
     "translation": "오늘은 좋은 날이야."
   },
   {
     "word": "when",
     "sentence": "When is your birthday?",
-    "orderHint": "언제 | 이니 | 너의 | 생일?",
+    "orderHint": "언제 | ~인가요 | 너의 생일이",
     "translation": "너의 생일은 언제니?"
   },
   {
     "word": "area",
     "sentence": "This is a safe area.",
-    "orderHint": "이것은 | 이다 | 안전한 | 지역.",
+    "orderHint": "이것은 | ~입니다 | 안전한 지역",
     "translation": "이곳은 안전한 지역이야."
   },
   {
@@ -2540,7 +2540,7 @@
   {
     "word": "condition",
     "sentence": "What is the weather condition?",
-    "orderHint": "무엇 | 이니 | 그 | 날씨 | 상태?",
+    "orderHint": "무엇 | ~인가요 | 그 날씨 상태가",
     "translation": "날씨 상태가 어때?"
   },
   {
@@ -2552,7 +2552,7 @@
   {
     "word": "gentleman",
     "sentence": "He is a kind gentleman.",
-    "orderHint": "그는 | 이다 | 친절한 | 신사.",
+    "orderHint": "그는 | ~입니다 | 친절한 신사",
     "translation": "그는 친절한 신사야."
   },
   {
@@ -2594,7 +2594,7 @@
   {
     "word": "where",
     "sentence": "Where is my book?",
-    "orderHint": "어디에 | 이니 | 나의 | 책?",
+    "orderHint": "어디에 | 있어요 | 나의 책이",
     "translation": "내 책은 어디에 있어?"
   },
   {
@@ -2606,7 +2606,7 @@
   {
     "word": "bright",
     "sentence": "The sun is very bright.",
-    "orderHint": "그 | 해는 | 이다 | 매우 | 밝은.",
+    "orderHint": "그 해는 | ~한 상태예요 | 매우 밝은",
     "translation": "해가 아주 밝아."
   },
   {
@@ -2630,7 +2630,7 @@
   {
     "word": "man",
     "sentence": "That man is my dad.",
-    "orderHint": "저 | 남자는 | 이다 | 나의 | 아빠.",
+    "orderHint": "저 남자는 | ~입니다 | 나의 아빠",
     "translation": "저 남자는 우리 아빠야."
   },
   {
@@ -2654,13 +2654,13 @@
   {
     "word": "tomato",
     "sentence": "This tomato is red.",
-    "orderHint": "이 | 토마토는 | 이다 | 빨간색.",
+    "orderHint": "이 토마토는 | ~한 상태예요 | 빨간",
     "translation": "이 토마토는 빨개."
   },
   {
     "word": "white",
     "sentence": "The snow is white.",
-    "orderHint": "그 | 눈은 | 이다 | 흰색.",
+    "orderHint": "그 | 눈은 | ~한 상태예요 | 하얀",
     "translation": "눈은 하얘."
   },
   {
@@ -2684,13 +2684,13 @@
   {
     "word": "eleven",
     "sentence": "I am eleven years old.",
-    "orderHint": "나는 | 이다 | 열한 | 살",
+    "orderHint": "나는 | ~입니다 | 열한 살",
     "translation": "나는 열한 살이야."
   },
   {
     "word": "girl",
     "sentence": "She is a nice girl.",
-    "orderHint": "그녀는 | 이다 | 한 | 좋은 | 소녀",
+    "orderHint": "그녀는 | ~입니다 | 한 | 좋은 | 소녀",
     "translation": "그녀는 좋은 소녀예요."
   },
   {
@@ -2714,7 +2714,7 @@
   {
     "word": "river",
     "sentence": "The river is very long.",
-    "orderHint": "그 | 강은 | 이다 | 매우 | 긴",
+    "orderHint": "그 | 강은 | ~한 상태예요 | 매우 | 긴",
     "translation": "그 강은 매우 길어요."
   },
   {
@@ -2732,7 +2732,7 @@
   {
     "word": "who",
     "sentence": "Who is your friend?",
-    "orderHint": "누가 | 이다 | 너의 | 친구",
+    "orderHint": "누가 | ~인가요 | 너의 | 친구",
     "translation": "누가 너의 친구니?"
   },
   {
@@ -2744,7 +2744,7 @@
   {
     "word": "brother",
     "sentence": "My brother is tall.",
-    "orderHint": "나의 | 형제는 | 이다 | 키 큰",
+    "orderHint": "나의 | 형제는 | ~한 상태예요 | 키 큰",
     "translation": "내 형제는 키가 커."
   },
   {
@@ -2756,7 +2756,7 @@
   {
     "word": "end",
     "sentence": "This is the end.",
-    "orderHint": "이것은 | 이다 | 그 | 끝",
+    "orderHint": "이것은 | ~입니다 | 그 | 끝",
     "translation": "이것이 끝이야."
   },
   {
@@ -2786,7 +2786,7 @@
   {
     "word": "road",
     "sentence": "The road is long.",
-    "orderHint": "그 | 길은 | 이다 | 긴",
+    "orderHint": "그 | 길은 | ~한 상태예요 | 긴",
     "translation": "그 길은 길어요."
   },
   {
@@ -2804,7 +2804,7 @@
   {
     "word": "why",
     "sentence": "Why are you sad?",
-    "orderHint": "왜 | 이니 | 너는 | 슬픈",
+    "orderHint": "왜 | ~한 상태인가요 | 너는 | 슬픈",
     "translation": "왜 슬프니?"
   },
   {
@@ -2816,7 +2816,7 @@
   {
     "word": "brown",
     "sentence": "My dog is brown.",
-    "orderHint": "나의 | 개는 | 이다 | 갈색",
+    "orderHint": "나의 | 개는 | ~한 상태예요 | 갈색의",
     "translation": "내 강아지는 갈색이야."
   },
   {
@@ -2834,13 +2834,13 @@
   {
     "word": "glad",
     "sentence": "I am glad to see you.",
-    "orderHint": "나는 | 기뻐 | 보게 되어 | 너를.",
+    "orderHint": "나는 | ~한 상태예요 | 기쁜 | 보게 되어 | 너를",
     "translation": "너를 만나서 기뻐."
   },
   {
     "word": "idea",
     "sentence": "That is a good idea.",
-    "orderHint": "그것은 | ~이다 | 좋은 | 아이디어.",
+    "orderHint": "그것은 | ~입니다 | 좋은 | 생각",
     "translation": "그것은 좋은 생각이야."
   },
   {
@@ -2894,7 +2894,7 @@
   {
     "word": "cool",
     "sentence": "This ice cream is cool.",
-    "orderHint": "이 | 아이스크림은 | ~이다 | 시원해.",
+    "orderHint": "이 | 아이스크림은 | ~한 상태예요 | 시원한",
     "translation": "이 아이스크림은 시원해."
   },
   {
@@ -2930,7 +2930,7 @@
   {
     "word": "rock",
     "sentence": "This is a big rock.",
-    "orderHint": "이것은 | ~이다 | 큰 | 바위.",
+    "orderHint": "이것은 | ~입니다 | 큰 | 바위",
     "translation": "이것은 큰 바위야."
   },
   {
@@ -2966,7 +2966,7 @@
   {
     "word": "corner",
     "sentence": "The ball is in the corner.",
-    "orderHint": "그 | 공은 | ~이다 | ~안에 | 그 | 모퉁이.",
+    "orderHint": "그 | 공은 | ~에 있어요 | 그 | 모퉁이 | 안에",
     "translation": "공이 모퉁이에 있어."
   },
   {
@@ -2984,7 +2984,7 @@
   {
     "word": "image",
     "sentence": "This image is pretty.",
-    "orderHint": "이 | 이미지는 | 예뻐요.",
+    "orderHint": "이 | 그림은 | ~한 상태예요 | 예쁜",
     "translation": "이 이미지는 예뻐요."
   },
   {
@@ -2996,7 +2996,7 @@
   {
     "word": "room",
     "sentence": "This is my room.",
-    "orderHint": "이것은 | 내 방이야.",
+    "orderHint": "이것은 | ~입니다 | 나의 | 방",
     "translation": "여기는 내 방이야."
   },
   {
@@ -3050,7 +3050,7 @@
   {
     "word": "in",
     "sentence": "The cat is in the box.",
-    "orderHint": "그 고양이는 | 있다 | ~안에 | 그 상자.",
+    "orderHint": "그 | 고양이는 | ~에 있어요 | 그 | 상자 | 안에",
     "translation": "고양이가 상자 안에 있어."
   },
   {
@@ -3068,7 +3068,7 @@
   {
     "word": "rose",
     "sentence": "This rose is red.",
-    "orderHint": "이 장미는 | 빨갛다.",
+    "orderHint": "이 | 장미는 | ~한 상태예요 | 빨간",
     "translation": "이 장미는 빨개."
   },
   {
@@ -3086,13 +3086,13 @@
   {
     "word": "wind",
     "sentence": "The wind is strong.",
-    "orderHint": "그 바람은 | 강하다.",
+    "orderHint": "그 | 바람은 | ~한 상태예요 | 강한",
     "translation": "바람이 강해."
   },
   {
     "word": "aunt",
     "sentence": "My aunt is kind.",
-    "orderHint": "내 고모는 | 친절하다.",
+    "orderHint": "내 고모는 | ~한 상태예요 | 친절한",
     "translation": "우리 고모는 친절해."
   },
   {
@@ -3110,7 +3110,7 @@
   {
     "word": "every",
     "sentence": "Every day is fun.",
-    "orderHint": "모든 날은 | 재미있다.",
+    "orderHint": "모든 날은 | ~한 상태예요 | 재미있는",
     "translation": "매일이 즐거워."
   },
   {
@@ -3146,7 +3146,7 @@
   {
     "word": "sport",
     "sentence": "My favorite sport is soccer.",
-    "orderHint": "나의 | 가장 좋아하는 | 운동은 | 이다 | 축구",
+    "orderHint": "나의 | 가장 좋아하는 | 운동은 | ~입니다 | 축구",
     "translation": "내가 가장 좋아하는 운동은 축구야."
   },
   {
@@ -3164,7 +3164,7 @@
   {
     "word": "autumn",
     "sentence": "Autumn leaves are pretty.",
-    "orderHint": "가을 | 잎들은 | 이다 | 예쁜",
+    "orderHint": "가을 | 잎들은 | ~한 상태예요 | 예쁜",
     "translation": "가을 잎들은 예뻐요."
   },
   {
@@ -3188,7 +3188,7 @@
   {
     "word": "gold",
     "sentence": "This ring is made of gold.",
-    "orderHint": "이 | 반지는 | 이다 | 만들어진 | ~으로 | 금",
+    "orderHint": "이 | 반지는 | ~된 상태예요 | 만들어진 | ~으로 | 금",
     "translation": "이 반지는 금으로 만들어졌어요."
   },
   {
@@ -3206,7 +3206,7 @@
   {
     "word": "pants",
     "sentence": "My new pants are blue.",
-    "orderHint": "나의 | 새 | 바지는 | 이다 | 파란색",
+    "orderHint": "나의 | 새 | 바지는 | ~한 상태예요 | 파란",
     "translation": "내 새 바지는 파란색이야."
   },
   {
@@ -3218,7 +3218,7 @@
   {
     "word": "toy",
     "sentence": "This is my favorite toy.",
-    "orderHint": "이것은 | 이다 | 나의 | 가장 좋아하는 | 장난감",
+    "orderHint": "이것은 | ~입니다 | 나의 | 가장 좋아하는 | 장난감",
     "translation": "이것은 내가 가장 좋아하는 장난감이야."
   },
   {
@@ -3236,13 +3236,13 @@
   {
     "word": "busy",
     "sentence": "I am busy today.",
-    "orderHint": "나는 | 이다 | 바쁜 | 오늘",
+    "orderHint": "나는 | ~한 상태예요 | 바쁜 | 오늘",
     "translation": "나는 오늘 바빠요."
   },
   {
     "word": "couple",
     "sentence": "They are a happy couple.",
-    "orderHint": "그들은 | 이다 | 행복한 | 커플",
+    "orderHint": "그들은 | ~입니다 | 행복한 | 커플",
     "translation": "그들은 행복한 커플이에요."
   },
   {
@@ -3254,7 +3254,7 @@
   {
     "word": "good",
     "sentence": "This food is good.",
-    "orderHint": "이 | 음식은 | 이다 | 좋은",
+    "orderHint": "이 | 음식은 | ~한 상태예요 | 좋은",
     "translation": "이 음식은 맛있어요."
   },
   {
@@ -3278,7 +3278,7 @@
   {
     "word": "sad",
     "sentence": "He is sad today.",
-    "orderHint": "그는 | 이다 | 슬픈 | 오늘",
+    "orderHint": "그는 | ~한 상태예요 | 슬픈 | 오늘",
     "translation": "그는 오늘 슬퍼요."
   },
   {
@@ -3308,7 +3308,7 @@
   {
     "word": "course",
     "sentence": "This is a fun course.",
-    "orderHint": "이것은 | 이다 | 하나의 | 재미있는 | 강좌",
+    "orderHint": "이것은 | ~입니다 | 하나의 | 재미있는 | 강좌",
     "translation": "이것은 재미있는 강좌예요."
   },
   {
@@ -3356,7 +3356,7 @@
   {
     "word": "train",
     "sentence": "The train is fast.",
-    "orderHint": "그 기차 | 이다 | 빠른",
+    "orderHint": "그 기차는 | ~한 상태예요 | 빠른",
     "translation": "기차는 빨라요."
   },
   {
@@ -3368,7 +3368,7 @@
   {
     "word": "baby",
     "sentence": "The baby is cute.",
-    "orderHint": "그 아기 | 이다 | 귀여운",
+    "orderHint": "그 아기는 | ~한 상태예요 | 귀여운",
     "translation": "아기가 귀여워요."
   },
   {
@@ -3398,7 +3398,7 @@
   {
     "word": "member",
     "sentence": "I am a club member.",
-    "orderHint": "나는 | 이다 | 하나의 | 클럽 | 멤버",
+    "orderHint": "나는 | ~입니다 | 하나의 | 클럽 | 멤버",
     "translation": "나는 클럽 회원이에요."
   },
   {
@@ -3446,7 +3446,7 @@
   {
     "word": "cousin",
     "sentence": "My cousin is nice.",
-    "orderHint": "나의 | 사촌 | 이다 | 착한.",
+    "orderHint": "나의 | 사촌은 | ~한 상태예요 | 착한",
     "translation": "내 사촌은 착해."
   },
   {
@@ -3464,7 +3464,7 @@
   {
     "word": "issue",
     "sentence": "This is a big issue.",
-    "orderHint": "이것은 | 이다 | 큰 | 문제.",
+    "orderHint": "이것은 | ~입니다 | 큰 | 문제",
     "translation": "이건 큰 문제야."
   },
   {
@@ -3476,13 +3476,13 @@
   {
     "word": "part",
     "sentence": "This is my favorite part.",
-    "orderHint": "이것은 | 이다 | 나의 | 가장 좋아하는 | 부분.",
+    "orderHint": "이것은 | ~입니다 | 나의 | 가장 좋아하는 | 부분",
     "translation": "여기가 내가 가장 좋아하는 부분이야."
   },
   {
     "word": "sale",
     "sentence": "The shoes are on sale.",
-    "orderHint": "그 | 신발들은 | 이다 | 할인 중.",
+    "orderHint": "그 | 신발들은 | ~한 상태예요 | 할인 중인",
     "translation": "그 신발들은 할인 중이야."
   },
   {
@@ -3500,7 +3500,7 @@
   {
     "word": "woman",
     "sentence": "She is a kind woman.",
-    "orderHint": "그녀는 | 이다 | 한 | 친절한 | 여자.",
+    "orderHint": "그녀는 | ~입니다 | 한 | 친절한 | 여자",
     "translation": "그녀는 친절한 여자야."
   },
   {
@@ -3530,13 +3530,13 @@
   {
     "word": "grass",
     "sentence": "The grass is green.",
-    "orderHint": "그 | 풀은 | 이다 | 초록색.",
+    "orderHint": "그 풀은 | ~한 상태예요 | 초록색인",
     "translation": "풀이 초록색이야."
   },
   {
     "word": "it",
     "sentence": "It is a cat.",
-    "orderHint": "그것은 | 이다 | 한 | 고양이.",
+    "orderHint": "그것은 | ~입니다 | 한 | 고양이",
     "translation": "그것은 고양이야."
   },
   {
@@ -3548,7 +3548,7 @@
   {
     "word": "partner",
     "sentence": "You are my partner.",
-    "orderHint": "너는 | 이다 | 나의 | 파트너.",
+    "orderHint": "너는 | ~입니다 | 나의 | 파트너",
     "translation": "너는 내 파트너야."
   },
   {
@@ -3572,7 +3572,7 @@
   {
     "word": "wood",
     "sentence": "This is a wood table.",
-    "orderHint": "이것은 | 이다 | 한 | 나무 | 테이블.",
+    "orderHint": "이것은 | ~입니다 | 한 | 나무 | 탁자",
     "translation": "이것은 나무 탁자입니다."
   },
   {
@@ -3602,7 +3602,7 @@
   {
     "word": "gray/grey",
     "sentence": "The gray cat is sleeping.",
-    "orderHint": "그 회색 고양이는 | 자고 있다",
+    "orderHint": "그 회색 고양이는 | 자고 있어요",
     "translation": "회색 고양이가 자고 있다."
   },
   {
@@ -3698,7 +3698,7 @@
   {
     "word": "true",
     "sentence": "This story is true.",
-    "orderHint": "이 | 이야기 | 이다 | 사실.",
+    "orderHint": "이 이야기는 | ~한 상태예요 | 사실인",
     "translation": "이 이야기는 사실이야."
   },
   {
@@ -3728,7 +3728,7 @@
   {
     "word": "family",
     "sentence": "My family is big.",
-    "orderHint": "나의 가족은 | 이다 | 크다",
+    "orderHint": "나의 가족은 | ~한 상태예요 | 큰",
     "translation": "우리 가족은 커."
   },
   {
@@ -3776,7 +3776,7 @@
   {
     "word": "world",
     "sentence": "The world is big.",
-    "orderHint": "그 | 세상은 | 이다 | 크다",
+    "orderHint": "그 세상은 | ~한 상태예요 | 큰",
     "translation": "세상은 넓어."
   },
   {
@@ -3806,7 +3806,7 @@
   {
     "word": "ground",
     "sentence": "The ball is on the ground.",
-    "orderHint": "그 | 공은 | 이다 | ~위에 | 그 | 땅",
+    "orderHint": "그 공은 | ~에 있어요 | 그 땅 위에",
     "translation": "공이 땅 위에 있어."
   },
   {
@@ -3872,13 +3872,13 @@
   {
     "word": "far",
     "sentence": "The park is far from here.",
-    "orderHint": "그 공원 | 입니다 | 멀리 | ~로부터 | 여기",
+    "orderHint": "그 공원은 | ~한 상태예요 | 먼 | 여기로부터",
     "translation": "공원은 여기서 멀어요."
   },
   {
     "word": "group",
     "sentence": "We are a happy group.",
-    "orderHint": "우리 | 입니다 | 행복한 | 모둠",
+    "orderHint": "우리는 | ~입니다 | 행복한 | 모둠",
     "translation": "우리는 행복한 모둠이에요."
   },
   {
@@ -3890,7 +3890,7 @@
   {
     "word": "model",
     "sentence": "This is my toy model car.",
-    "orderHint": "이것 | 입니다 | 나의 | 장난감 | 모형 | 자동차",
+    "orderHint": "이것은 | ~입니다 | 나의 | 장난감 | 모형 | 자동차",
     "translation": "이것은 내 장난감 모형 자동차야."
   },
   {
@@ -3914,7 +3914,7 @@
   {
     "word": "twelve",
     "sentence": "I am twelve years old.",
-    "orderHint": "나 | 입니다 | 열두 | 살",
+    "orderHint": "나는 | ~입니다 | 열두 | 살",
     "translation": "나는 열두 살이에요."
   },
   {
@@ -3926,7 +3926,7 @@
   {
     "word": "bank",
     "sentence": "The bank is near my house.",
-    "orderHint": "그 은행 | 입니다 | 가까이 | 나의 | 집",
+    "orderHint": "그 은행은 | ~에 있어요 | 나의 집 가까이에",
     "translation": "은행은 우리 집 근처에 있어요."
   },
   {
@@ -3968,7 +3968,7 @@
   {
     "word": "people",
     "sentence": "Many people are at the park.",
-    "orderHint": "많은 | 사람들 | 입니다 | ~에 | 그 | 공원",
+    "orderHint": "많은 사람들은 | ~에 있어요 | 그 공원에",
     "translation": "많은 사람들이 공원에 있어요."
   },
   {
@@ -3980,7 +3980,7 @@
   {
     "word": "street",
     "sentence": "The car is on the street.",
-    "orderHint": "그 자동차 | 입니다 | ~위에 | 그 | 거리",
+    "orderHint": "그 자동차는 | ~에 있어요 | 그 거리 위에",
     "translation": "자동차가 길 위에 있어요."
   },
   {
@@ -3992,13 +3992,13 @@
   {
     "word": "wrong",
     "sentence": "Your answer is wrong.",
-    "orderHint": "너의 | 대답 | 입니다 | 틀린",
+    "orderHint": "너의 대답은 | ~한 상태예요 | 틀린",
     "translation": "네 답은 틀렸어."
   },
   {
     "word": "base",
     "sentence": "The base of the tree is big.",
-    "orderHint": "그 맨 아랫부분 | ~의 | 그 나무 | 입니다 | 큰",
+    "orderHint": "그 나무의 맨 아랫부분은 | ~한 상태예요 | 큰",
     "translation": "나무의 밑동은 커요."
   },
   {
@@ -4046,19 +4046,19 @@
   {
     "word": "science",
     "sentence": "Science is fun.",
-    "orderHint": "과학은 | 재미있다.",
+    "orderHint": "과학은 | ~한 상태예요 | 재미있는",
     "translation": "과학은 재미있어."
   },
   {
     "word": "strong",
     "sentence": "My dad is strong.",
-    "orderHint": "나의 아빠는 | 강하다.",
+    "orderHint": "나의 아빠는 | ~한 상태예요 | 강한",
     "translation": "우리 아빠는 힘세."
   },
   {
     "word": "twenty-first",
     "sentence": "Today is the twenty-first.",
-    "orderHint": "오늘은 | 21번째 날이다.",
+    "orderHint": "오늘은 | ~입니다 | 21일",
     "translation": "오늘은 21일이야."
   },
   {
@@ -4082,7 +4082,7 @@
   {
     "word": "fat",
     "sentence": "The cat is fat.",
-    "orderHint": "그 고양이는 | 뚱뚱하다.",
+    "orderHint": "그 고양이는 | ~한 상태예요 | 뚱뚱한",
     "translation": "그 고양이는 뚱뚱해."
   },
   {
@@ -4100,7 +4100,7 @@
   {
     "word": "month",
     "sentence": "This month is July.",
-    "orderHint": "이번 달은 | 7월이다.",
+    "orderHint": "이번 달은 | ~입니다 | 7월",
     "translation": "이번 달은 7월이야."
   },
   {
@@ -4124,7 +4124,7 @@
   {
     "word": "twenty-second",
     "sentence": "My birthday is the twenty-second.",
-    "orderHint": "나의 생일은 | 22번째 날이다.",
+    "orderHint": "나의 생일은 | ~입니다 | 22일",
     "translation": "내 생일은 22일이야."
   },
   {
@@ -4148,7 +4148,7 @@
   {
     "word": "customer",
     "sentence": "The customer is happy.",
-    "orderHint": "그 손님은 | 행복하다.",
+    "orderHint": "그 손님은 | ~한 상태예요 | 행복한",
     "translation": "손님이 행복해."
   },
   {
@@ -4166,7 +4166,7 @@
   {
     "word": "moon",
     "sentence": "The moon is bright.",
-    "orderHint": "그 달은 | 밝다.",
+    "orderHint": "그 달은 | ~한 상태예요 | 밝은",
     "translation": "달이 밝아."
   },
   {
@@ -4178,7 +4178,7 @@
   {
     "word": "score",
     "sentence": "What is the score?",
-    "orderHint": "What is | the score?",
+    "orderHint": "무엇 | ~인가요 | 그 점수는",
     "translation": "점수가 몇 점이야?"
   },
   {
@@ -4190,7 +4190,7 @@
   {
     "word": "twenty-third",
     "sentence": "This is the twenty-third book.",
-    "orderHint": "This is | the twenty-third book.",
+    "orderHint": "이것은 | ~입니다 | 23번째 책",
     "translation": "이것은 23번째 책이야."
   },
   {
@@ -4220,13 +4220,13 @@
   {
     "word": "favorite",
     "sentence": "This is my favorite toy.",
-    "orderHint": "This is | my favorite toy.",
+    "orderHint": "이것은 | ~입니다 | 나의 가장 좋아하는 장난감",
     "translation": "이것은 내가 가장 좋아하는 장난감이야."
   },
   {
     "word": "guy",
     "sentence": "He is a nice guy.",
-    "orderHint": "He is | a nice guy.",
+    "orderHint": "그는 | ~입니다 | 좋은 사람",
     "translation": "그는 좋은 사람이야."
   },
   {
@@ -4292,7 +4292,7 @@
   {
     "word": "key",
     "sentence": "Where is my key?",
-    "orderHint": "Where is | my key?",
+    "orderHint": "어디에 | ~있나요 | 나의 열쇠는",
     "translation": "내 열쇠는 어디에 있어?"
   },
   {
@@ -4310,7 +4310,7 @@
   {
     "word": "season",
     "sentence": "What is your favorite season?",
-    "orderHint": "What is | your favorite season?",
+    "orderHint": "무엇 | ~인가요 | 너의 가장 좋아하는 계절은",
     "translation": "네가 가장 좋아하는 계절은 뭐야?"
   },
   {
@@ -4340,7 +4340,7 @@
   {
     "word": "card",
     "sentence": "This is my card.",
-    "orderHint": "이것은 | 이다 | 나의 | 카드.",
+    "orderHint": "이것은 | ~입니다 | 나의 카드",
     "translation": "이것은 내 카드야."
   },
   {
@@ -4352,13 +4352,13 @@
   {
     "word": "festival",
     "sentence": "The festival is fun.",
-    "orderHint": "그 축제는 | 이다 | 재미있는.",
+    "orderHint": "그 축제는 | ~한 상태예요 | 재미있는",
     "translation": "그 축제는 재미있어."
   },
   {
     "word": "habit",
     "sentence": "Reading is a good habit.",
-    "orderHint": "독서는 | 이다 | 좋은 | 습관.",
+    "orderHint": "독서는 | ~입니다 | 좋은 습관",
     "translation": "독서는 좋은 습관이야."
   },
   {
@@ -4370,7 +4370,7 @@
   {
     "word": "mountain",
     "sentence": "The mountain is big.",
-    "orderHint": "그 산은 | 이다 | 큰.",
+    "orderHint": "그 산은 | ~한 상태예요 | 큰",
     "translation": "그 산은 커."
   },
   {
@@ -4382,7 +4382,7 @@
   {
     "word": "second",
     "sentence": "This is my second toy.",
-    "orderHint": "이것은 | 이다 | 나의 | 두 번째 | 장난감.",
+    "orderHint": "이것은 | ~입니다 | 나의 두 번째 장난감",
     "translation": "이것은 나의 두 번째 장난감이야."
   },
   {
@@ -4400,7 +4400,7 @@
   {
     "word": "you",
     "sentence": "How are you?",
-    "orderHint": "어떻게 | 이다 | 너?",
+    "orderHint": "어떻게 | 지내나요 | 당신은",
     "translation": "잘 지내니?"
   },
   {
@@ -4430,19 +4430,19 @@
   {
     "word": "hair",
     "sentence": "My hair is long.",
-    "orderHint": "나의 | 머리카락은 | 이다 | 긴.",
+    "orderHint": "나의 머리카락은 | ~한 상태예요 | 긴",
     "translation": "내 머리카락은 길어."
   },
   {
     "word": "kid",
     "sentence": "I am a happy kid.",
-    "orderHint": "나는 | 이다 | 행복한 | 아이.",
+    "orderHint": "나는 | ~입니다 | 행복한 아이",
     "translation": "나는 행복한 아이야."
   },
   {
     "word": "mouse",
     "sentence": "The mouse is small.",
-    "orderHint": "그 생쥐는 | 이다 | 작은.",
+    "orderHint": "그 생쥐는 | ~한 상태예요 | 작은",
     "translation": "그 생쥐는 작아."
   },
   {
@@ -4460,13 +4460,13 @@
   {
     "word": "sun",
     "sentence": "The sun is bright.",
-    "orderHint": "그 태양은 | 이다 | 밝은.",
+    "orderHint": "그 태양은 | ~한 상태예요 | 밝은",
     "translation": "태양은 밝아."
   },
   {
     "word": "young",
     "sentence": "She is very young.",
-    "orderHint": "그녀는 | 이다 | 매우 | 어린.",
+    "orderHint": "그녀는 | ~한 상태예요 | 매우 | 어린",
     "translation": "그녀는 매우 어려."
   },
   {
@@ -4484,7 +4484,7 @@
   {
     "word": "dark",
     "sentence": "It is dark outside now.",
-    "orderHint": "그것은 | 어둡다 | 밖에 | 지금",
+    "orderHint": "밖은 | ~한 상태예요 | 어두운 | 지금",
     "translation": "지금 밖이 어두워."
   },
   {
@@ -4526,13 +4526,13 @@
   {
     "word": "sure",
     "sentence": "Are you sure about that?",
-    "orderHint": "이니 | 너는 | 확신하니 | 그것에 대해",
+    "orderHint": "~한 상태인가요 | 당신은 | 확신하는 | 그것에 대해",
     "translation": "그것에 대해 확신하니?"
   },
   {
     "word": "ugly",
     "sentence": "That ugly monster is scary.",
-    "orderHint": "저 | 못생긴 | 괴물은 | 무서워",
+    "orderHint": "저 | 못생긴 | 괴물은 | ~한 상태예요 | 무서운",
     "translation": "저 못생긴 괴물은 무서워."
   },
   {
@@ -4550,7 +4550,7 @@
   {
     "word": "date",
     "sentence": "What is today's date?",
-    "orderHint": "무엇이니 | 오늘의 | 날짜는",
+    "orderHint": "무엇이 | ~인가요 | 오늘의 | 날짜",
     "translation": "오늘 날짜가 언제니?"
   },
   {
@@ -4568,7 +4568,7 @@
   {
     "word": "kind",
     "sentence": "She is a very kind person.",
-    "orderHint": "그녀는 | 이다 | 매우 | 친절한 | 사람",
+    "orderHint": "그녀는 | ~입니다 | 매우 | 친절한 | 사람",
     "translation": "그녀는 매우 친절한 사람이야."
   },
   {
@@ -4580,7 +4580,7 @@
   {
     "word": "plan",
     "sentence": "What is your plan for today?",
-    "orderHint": "무엇이니 | 너의 | 계획은 | 오늘을 위한",
+    "orderHint": "무엇이 | ~인가요 | 당신의 | 계획 | 오늘을 위한",
     "translation": "오늘 너의 계획은 무엇이니?"
   },
   {
@@ -4622,7 +4622,7 @@
   {
     "word": "daughter",
     "sentence": "My daughter is happy.",
-    "orderHint": "나의 딸 | 입니다 | 행복한.",
+    "orderHint": "나의 딸은 | ~한 상태예요 | 행복한",
     "translation": "내 딸은 행복해요."
   },
   {
@@ -4652,7 +4652,7 @@
   {
     "word": "plastic",
     "sentence": "This is a plastic cup.",
-    "orderHint": "이것은 | 입니다 | 하나의 플라스틱 컵.",
+    "orderHint": "이것은 | ~입니다 | 플라스틱 | 컵",
     "translation": "이것은 플라스틱 컵이에요."
   },
   {
@@ -4664,13 +4664,13 @@
   {
     "word": "uncle",
     "sentence": "My uncle is very kind.",
-    "orderHint": "나의 삼촌은 | 입니다 | 매우 친절한.",
+    "orderHint": "나의 삼촌은 | ~한 상태예요 | 매우 | 친절한",
     "translation": "우리 삼촌은 아주 친절해요."
   },
   {
     "word": "because",
     "sentence": "I am happy because of you.",
-    "orderHint": "나는 입니다 | 행복한 | ~때문에 | 너.",
+    "orderHint": "나는 | ~한 상태예요 | 행복한 | ~때문에 | 당신",
     "translation": "나는 너 때문에 행복해."
   },
   {
@@ -4694,7 +4694,7 @@
   {
     "word": "happy",
     "sentence": "I am very happy.",
-    "orderHint": "나는 입니다 | 매우 행복한.",
+    "orderHint": "나는 | ~한 상태예요 | 매우 | 행복한",
     "translation": "나는 아주 행복해요."
   },
   {
@@ -4724,13 +4724,13 @@
   {
     "word": "table",
     "sentence": "The book is on the table.",
-    "orderHint": "그 책은 | 입니다 | 위에 | 그 테이블.",
+    "orderHint": "그 책은 | ~에 있어요 | 위에 | 그 테이블",
     "translation": "책이 테이블 위에 있어요."
   },
   {
     "word": "under",
     "sentence": "The cat is under the bed.",
-    "orderHint": "그 고양이는 | 입니다 | 아래에 | 그 침대.",
+    "orderHint": "그 고양이는 | ~에 있어요 | 아래에 | 그 침대",
     "translation": "고양이가 침대 아래에 있어요."
   },
   {
@@ -4742,13 +4742,13 @@
   {
     "word": "cat",
     "sentence": "My cat is cute.",
-    "orderHint": "나의 고양이는 | 입니다 | 귀여운.",
+    "orderHint": "나의 고양이는 | ~한 상태예요 | 귀여운",
     "translation": "내 고양이는 귀여워요."
   },
   {
     "word": "dead",
     "sentence": "The plant is dead.",
-    "orderHint": "그 식물은 | 입니다 | 죽은.",
+    "orderHint": "그 식물은 | ~한 상태예요 | 죽은",
     "translation": "그 식물은 죽었어요."
   },
   {
@@ -4760,13 +4760,13 @@
   {
     "word": "hard",
     "sentence": "This math is hard.",
-    "orderHint": "이 수학은 | 입니다 | 어려운.",
+    "orderHint": "이 수학은 | ~한 상태예요 | 어려운",
     "translation": "이 수학은 어려워요."
   },
   {
     "word": "kitchen",
     "sentence": "Mom is in the kitchen.",
-    "orderHint": "엄마는 | 입니다 | 안에 | 그 부엌.",
+    "orderHint": "엄마는 | ~에 있어요 | 안에 | 그 부엌",
     "translation": "엄마는 부엌에 계세요."
   },
   {
